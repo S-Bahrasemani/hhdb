@@ -1,0 +1,112 @@
+gg:
+    name: gghtautau
+    latex: '$ggH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'ggH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowPyth8_AU2CT10_ggH100_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH105_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH110_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH115_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH120_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH125_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH130_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH135_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH140_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH145_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_ggH150_tautauhh.mc12a'
+gg_bch:
+    name: gghtautau_bch
+    latex: '$ggH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'ggH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowPyth8_AU2CT10_ggH125_tautauhh_BCH.mc12b'
+gg_nompi:
+    name: gghtautau_nompi
+    latex: '$ggH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'ggH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowPyth8_AU2CT10_ggH125_tautauhh_noMPI.mc12b'
+
+gg_herwigps:
+    name: gghtautau_herwigps
+    latex: '$ggH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'ggH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowJim_AUET2CT10_ggH125_tautauInc.mc12a'
+
+gg_mcatnlo:
+    name: gg_mcatnlo
+    latex: '$ggH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'ggH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'McAtNloJim_ggH125_tautauInc.mc12a'
+
+vbf:
+    name: vbfhtautau
+    latex: 'VBF $H\rightarrow\tau_{h}\tau_{h}$'
+    root: 'VBF H#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowPyth8_AU2CT10_VBFH100_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH105_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH110_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH115_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH120_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH125_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH130_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH135_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH140_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH145_tautauhh.mc12a'
+        - 'PowPyth8_AU2CT10_VBFH150_tautauhh.mc12a'
+vbf_bch:
+    name: vbfhtautau_bch
+    latex: 'VBF $H\rightarrow\tau_{h}\tau_{h}$'
+    root: 'VBF H#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowPyth8_AU2CT10_VBFH125_tautauhh_BCH.mc12b'
+vbf_nompi:
+    name: vbfhtautau_nompi
+    latex: 'VBF $H\rightarrow\tau_{h}\tau_{h}$'
+    root: 'VBF H#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowPyth8_AU2CT10_VBFH125_tautauhh_noMPI.mc12b'
+
+vbf_herwigps:
+    name: vbfhtautau_herwigps
+    latex: '$VBF H\rightarrow\tau_{h}\tau_{h}$'
+    root: 'VBF H#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowJim_AUET2CT10_VBFH125_tautauInc.mc12b'
+
+
+wh:
+    name: whtautau
+    latex: '$WH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'WH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'Pyth8_AU2CTEQ6L1_WH100_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH105_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH110_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH115_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH120_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH125_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH130_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH135_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH140_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH145_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_WH150_tautauhh.mc12a'
+zh:
+    name: zhtautau
+    latex: '$ZH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'ZH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'Pyth8_AU2CTEQ6L1_ZH100_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH105_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH110_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH115_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH120_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH125_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH130_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH135_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH140_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH145_tautauhh.mc12a'
+        - 'Pyth8_AU2CTEQ6L1_ZH150_tautauhh.mc12a'

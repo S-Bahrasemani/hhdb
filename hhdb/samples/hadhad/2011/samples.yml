@@ -1,0 +1,186 @@
+embedded:
+    systematics:
+        - TES_TRUE_FINAL_UP
+        - TES_TRUE_FINAL_DOWN
+
+        - TES_FAKE_FINAL_UP
+        - TES_FAKE_FINAL_DOWN
+    samples:
+        - 'embed11-hh-isol-mfsim'
+    systematics_samples:
+        'embed11-hh-isol-mfsim':
+            'embed11-hh-isol-mfsup': MFS_UP
+            'embed11-hh-isol-mfsdn': MFS_DOWN
+            'embed11-hh-noisol-mfsim': ISOL_DOWN
+            'embed11-hh-tightisol-mfsim': ISOL_UP
+mc:
+    systematics:
+        - TES_TRUE_FINAL_UP
+        - TES_TRUE_FINAL_DOWN
+
+        - TES_FAKE_FINAL_UP
+        - TES_FAKE_FINAL_DOWN
+
+        #- JES_Statistical_UP
+        #- JES_Statistical_DOWN
+        - JES_Modelling_UP
+        - JES_Modelling_DOWN
+        - JES_Detector_UP
+        - JES_Detector_DOWN
+        #- JES_Mixed_UP
+        #- JES_Mixed_DOWN
+        - JES_EtaModelling_UP
+        - JES_EtaModelling_DOWN
+        
+        # NOT FOR 7TeV???
+        #- JES_EtaMethod_UP
+        #- JES_EtaMethod_DOWN
+        #- JES_PURho_UP
+        #- JES_PURho_DOWN
+
+        #- JES_PUPt_UP
+        #- JES_PUPt_DOWN
+        #- JES_PUNPV_UP
+        #- JES_PUNPV_DOWN
+        #- JES_PUMu_UP
+        #- JES_PUMu_DOWN
+        - JES_FlavComp_UP
+        - JES_FlavComp_DOWN
+        - JES_FlavResp_UP
+        - JES_FlavResp_DOWN
+        #- JES_BJet_UP
+        #- JES_BJet_DOWN
+        #- JES_NonClosure_UP
+        #- JES_NonClosure_DOWN
+
+        - JER_UP
+        
+        - MET_RESOSOFTTERMS_UP
+        - MET_RESOSOFTTERMS_DOWN
+        - MET_SCALESOFTTERMS_UP
+        - MET_SCALESOFTTERMS_DOWN
+    samples:
+        - 'AlpJimZtautauNp0_pt20.mc11c'
+        - 'AlpJimZtautauNp1_pt20.mc11c'
+        - 'AlpJimZtautauNp2_pt20.mc11c'
+        - 'AlpJimZtautauNp3_pt20.mc11c'
+        - 'AlpJimZtautauNp4_pt20.mc11c'
+        - 'AlpJimZtautauNp5_pt20.mc11c'
+        - 'AlpJimZtautauNp0_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp1_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp2_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp3_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp4_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp5_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp0_pt20.mc11c'
+        - 'AlpJimZmumuNp1_pt20.mc11c'
+        - 'AlpJimZmumuNp2_pt20.mc11c'
+        - 'AlpJimZmumuNp3_pt20.mc11c'
+        - 'AlpJimZmumuNp4_pt20.mc11c'
+        - 'AlpJimZmumuNp5_pt20.mc11c'
+        - 'AlpJimZmumuNp0_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp1_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp2_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp3_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp4_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp5_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp0_pt20.mc11c'
+        - 'AlpJimZeeNp1_pt20.mc11c'
+        - 'AlpJimZeeNp2_pt20.mc11c'
+        - 'AlpJimZeeNp3_pt20.mc11c'
+        - 'AlpJimZeeNp4_pt20.mc11c'
+        - 'AlpJimZeeNp5_pt20.mc11c'
+        - 'AlpJimZeeNp0_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp1_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp2_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp3_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp4_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp5_Mll10to40_pt20.mc11c'
+        - 'AlpJimWtaunuNp0_pt20.mc11c'
+        - 'AlpJimWtaunuNp1_pt20.mc11c'
+        - 'AlpJimWtaunuNp2_pt20.mc11c'
+        - 'AlpJimWtaunuNp3_pt20.mc11c'
+        - 'AlpJimWtaunuNp4_pt20.mc11c'
+        - 'AlpJimWtaunuNp5_pt20.mc11c'
+        - 'AlpJimWmunuNp0_pt20.mc11c'
+        - 'AlpJimWmunuNp1_pt20.mc11c'
+        - 'AlpJimWmunuNp2_pt20.mc11c'
+        - 'AlpJimWmunuNp3_pt20.mc11c'
+        - 'AlpJimWmunuNp4_pt20.mc11c'
+        - 'AlpJimWmunuNp5_pt20.mc11c'
+        - 'AlpJimWenuNp0_pt20.mc11c'
+        - 'AlpJimWenuNp1_pt20.mc11c'
+        - 'AlpJimWenuNp2_pt20.mc11c'
+        - 'AlpJimWenuNp3_pt20.mc11c'
+        - 'AlpJimWenuNp4_pt20.mc11c'
+        - 'AlpJimWenuNp5_pt20.mc11c'
+        
+        - 'TTbar_Pow_Pyth_P2011C.mc11c'
+        - 'TTbar_FullHad_Pow_Pyth_P2011C.mc11c'
+        - 'st_schan_Pow_Pyth_P2011C.mc11c'
+        - 'st_tchan_enu_AcerMC.mc11c'
+        - 'st_tchan_munu_AcerMC.mc11c'
+        - 'st_tchan_taunu_AcerMC.mc11c'
+        - 'st_Wtchan_incl_DR_Pow_Pyth_P2011C.mc11c'
+        
+        - 'ZZ_Her.mc11c'
+        - 'WZ_Her.mc11c'
+        - 'WW_Her.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmenuenu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmenumunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmenutaunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmmunumunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmmunuenu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmmunutaunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmtaunutaunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmtaunuenu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmtaunumunu.mc11c'
+
+        - 'Sherpa_CT10_Ztoee.mc11c'
+        - 'Sherpa_CT10_Ztomm.mc11c'
+        - 'Sherpa_CT10_Ztott2JetsEW_Mll40_NoYtau.mc11c'
+        
+        - 'PowPyth_ggH100_tautauhh.mc11c'
+        - 'PowPyth_ggH105_tautauhh.mc11c'
+        - 'PowPyth_ggH110_tautauhh.mc11c'
+        - 'PowPyth_ggH115_tautauhh.mc11c'
+        - 'PowPyth_ggH120_tautauhh.mc11c'
+        - 'PowPyth_ggH125_tautauhh.mc11c'
+        - 'PowPyth_ggH130_tautauhh.mc11c'
+        - 'PowPyth_ggH135_tautauhh.mc11c'
+        - 'PowPyth_ggH140_tautauhh.mc11c'
+        - 'PowPyth_ggH145_tautauhh.mc11c'
+        - 'PowPyth_ggH150_tautauhh.mc11c'
+        - 'PowPyth_VBFH100_tautauhh.mc11c'
+        - 'PowPyth_VBFH105_tautauhh.mc11c'
+        - 'PowPyth_VBFH110_tautauhh.mc11c'
+        - 'PowPyth_VBFH115_tautauhh.mc11c'
+        - 'PowPyth_VBFH120_tautauhh.mc11c'
+        - 'PowPyth_VBFH125_tautauhh.mc11c'
+        - 'PowPyth_VBFH130_tautauhh.mc11c'
+        - 'PowPyth_VBFH135_tautauhh.mc11c'
+        - 'PowPyth_VBFH140_tautauhh.mc11c'
+        - 'PowPyth_VBFH145_tautauhh.mc11c'
+        - 'PowPyth_VBFH150_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH100_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH105_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH110_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH115_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH120_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH125_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH130_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH135_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH140_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH145_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_WH150_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH100_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH105_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH110_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH115_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH120_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH125_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH130_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH135_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH140_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH145_tautauhh.mc11c'
+        - 'Pyth8_AU2CTEQ6L1_ZH150_tautauhh.mc11c'

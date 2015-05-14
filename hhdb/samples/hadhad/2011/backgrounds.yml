@@ -1,0 +1,190 @@
+mc_ztautau:
+    name: Ztautau
+    latex: '$Z\rightarrow\tau\tau$'
+    root: '#font[52]{Z}#rightarrow#tau#tau'
+    samples:
+        - 'AlpJimZtautauNp0_pt20.mc11c'
+        - 'AlpJimZtautauNp1_pt20.mc11c'
+        - 'AlpJimZtautauNp2_pt20.mc11c'
+        - 'AlpJimZtautauNp3_pt20.mc11c'
+        - 'AlpJimZtautauNp4_pt20.mc11c'
+        - 'AlpJimZtautauNp5_pt20.mc11c'
+
+        - 'AlpJimZtautauNp0_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp1_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp2_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp3_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp4_Mll10to40_pt20.mc11c'
+        - 'AlpJimZtautauNp5_Mll10to40_pt20.mc11c'
+embedded_ztautau:
+    name: Ztautau
+    latex: '$Z\rightarrow\tau\tau$'
+    root: '#font[52]{Z}#rightarrow#tau#tau'
+    samples:
+        - 'embed11-hh-isol-mfsim'
+ewk:
+    name: EW
+    latex: EW
+    root: EW
+    samples:
+        - 'AlpJimZmumuNp0_pt20.mc11c'
+        - 'AlpJimZmumuNp1_pt20.mc11c'
+        - 'AlpJimZmumuNp2_pt20.mc11c'
+        - 'AlpJimZmumuNp3_pt20.mc11c'
+        - 'AlpJimZmumuNp4_pt20.mc11c'
+        - 'AlpJimZmumuNp5_pt20.mc11c'
+
+        - 'AlpJimZmumuNp0_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp1_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp2_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp3_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp4_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp5_Mll10to40_pt20.mc11c'
+
+        - 'AlpJimZeeNp0_pt20.mc11c'
+        - 'AlpJimZeeNp1_pt20.mc11c'
+        - 'AlpJimZeeNp2_pt20.mc11c'
+        - 'AlpJimZeeNp3_pt20.mc11c'
+        - 'AlpJimZeeNp4_pt20.mc11c'
+        - 'AlpJimZeeNp5_pt20.mc11c'
+
+        - 'AlpJimZeeNp0_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp1_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp2_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp3_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp4_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp5_Mll10to40_pt20.mc11c'
+
+        - 'AlpJimWtaunuNp0_pt20.mc11c'
+        - 'AlpJimWtaunuNp1_pt20.mc11c'
+        - 'AlpJimWtaunuNp2_pt20.mc11c'
+        - 'AlpJimWtaunuNp3_pt20.mc11c'
+        - 'AlpJimWtaunuNp4_pt20.mc11c'
+        - 'AlpJimWtaunuNp5_pt20.mc11c'
+
+        - 'AlpJimWmunuNp0_pt20.mc11c'
+        - 'AlpJimWmunuNp1_pt20.mc11c'
+        - 'AlpJimWmunuNp2_pt20.mc11c'
+        - 'AlpJimWmunuNp3_pt20.mc11c'
+        - 'AlpJimWmunuNp4_pt20.mc11c'
+        - 'AlpJimWmunuNp5_pt20.mc11c'
+
+        - 'AlpJimWenuNp0_pt20.mc11c'
+        - 'AlpJimWenuNp1_pt20.mc11c'
+        - 'AlpJimWenuNp2_pt20.mc11c'
+        - 'AlpJimWenuNp3_pt20.mc11c'
+        - 'AlpJimWenuNp4_pt20.mc11c'
+        - 'AlpJimWenuNp5_pt20.mc11c'
+
+        - 'Sherpa_CT10_Ztoee.mc11c'
+        - 'Sherpa_CT10_Ztomm.mc11c'
+        - 'Sherpa_CT10_Ztott2JetsEW_Mll40_NoYtau.mc11c'
+top:
+    name: Top
+    latex: Top
+    root: Top
+    samples:
+        - 'st_schan_Pow_Pyth_P2011C.mc11c'
+        - 'st_tchan_enu_AcerMC.mc11c'
+        - 'st_tchan_munu_AcerMC.mc11c'
+        - 'st_tchan_taunu_AcerMC.mc11c'
+        - 'TTbar_Pow_Pyth_P2011C.mc11c'
+        - 'TTbar_FullHad_Pow_Pyth_P2011C.mc11c'
+        - 'st_Wtchan_incl_DR_Pow_Pyth_P2011C.mc11c'
+diboson:
+    name: Diboson
+    latex: Diboson
+    root: Diboson
+    samples:
+        - 'ZZ_Her.mc11c'
+        - 'WZ_Her.mc11c'
+        - 'WW_Her.mc11c'
+        
+        - 'gg2wwJim_AUET2CT10_WpWmenuenu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmenumunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmenutaunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmmunumunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmmunuenu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmmunutaunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmtaunutaunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmtaunuenu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmtaunumunu.mc11c'
+others:
+    name: Others
+    latex: Others
+    root: Others
+    samples:
+        - 'AlpJimZmumuNp0_pt20.mc11c'
+        - 'AlpJimZmumuNp1_pt20.mc11c'
+        - 'AlpJimZmumuNp2_pt20.mc11c'
+        - 'AlpJimZmumuNp3_pt20.mc11c'
+        - 'AlpJimZmumuNp4_pt20.mc11c'
+        - 'AlpJimZmumuNp5_pt20.mc11c'
+
+        - 'AlpJimZmumuNp0_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp1_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp2_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp3_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp4_Mll10to40_pt20.mc11c'
+        - 'AlpJimZmumuNp5_Mll10to40_pt20.mc11c'
+
+        - 'AlpJimZeeNp0_pt20.mc11c'
+        - 'AlpJimZeeNp1_pt20.mc11c'
+        - 'AlpJimZeeNp2_pt20.mc11c'
+        - 'AlpJimZeeNp3_pt20.mc11c'
+        - 'AlpJimZeeNp4_pt20.mc11c'
+        - 'AlpJimZeeNp5_pt20.mc11c'
+
+        - 'AlpJimZeeNp0_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp1_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp2_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp3_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp4_Mll10to40_pt20.mc11c'
+        - 'AlpJimZeeNp5_Mll10to40_pt20.mc11c'
+
+        - 'AlpJimWtaunuNp0_pt20.mc11c'
+        - 'AlpJimWtaunuNp1_pt20.mc11c'
+        - 'AlpJimWtaunuNp2_pt20.mc11c'
+        - 'AlpJimWtaunuNp3_pt20.mc11c'
+        - 'AlpJimWtaunuNp4_pt20.mc11c'
+        - 'AlpJimWtaunuNp5_pt20.mc11c'
+
+        - 'AlpJimWmunuNp0_pt20.mc11c'
+        - 'AlpJimWmunuNp1_pt20.mc11c'
+        - 'AlpJimWmunuNp2_pt20.mc11c'
+        - 'AlpJimWmunuNp3_pt20.mc11c'
+        - 'AlpJimWmunuNp4_pt20.mc11c'
+        - 'AlpJimWmunuNp5_pt20.mc11c'
+
+        - 'AlpJimWenuNp0_pt20.mc11c'
+        - 'AlpJimWenuNp1_pt20.mc11c'
+        - 'AlpJimWenuNp2_pt20.mc11c'
+        - 'AlpJimWenuNp3_pt20.mc11c'
+        - 'AlpJimWenuNp4_pt20.mc11c'
+        - 'AlpJimWenuNp5_pt20.mc11c'
+        
+        - 'TTbar_Pow_Pyth_P2011C.mc11c'
+        - 'TTbar_FullHad_Pow_Pyth_P2011C.mc11c'
+        - 'st_schan_Pow_Pyth_P2011C.mc11c'
+        - 'st_tchan_enu_AcerMC.mc11c'
+        - 'st_tchan_munu_AcerMC.mc11c'
+        - 'st_tchan_taunu_AcerMC.mc11c'
+        - 'st_Wtchan_incl_DR_Pow_Pyth_P2011C.mc11c'
+        
+        - 'ZZ_Her.mc11c'
+        - 'WZ_Her.mc11c'
+        - 'WW_Her.mc11c'
+
+        - 'gg2wwJim_AUET2CT10_WpWmenuenu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmenumunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmenutaunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmmunumunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmmunuenu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmmunutaunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmtaunutaunu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmtaunuenu.mc11c'
+        - 'gg2wwJim_AUET2CT10_WpWmtaunumunu.mc11c'
+
+        - 'Sherpa_CT10_Ztoee.mc11c'
+        - 'Sherpa_CT10_Ztomm.mc11c'
+        - 'Sherpa_CT10_Ztott2JetsEW_Mll40_NoYtau.mc11c'
