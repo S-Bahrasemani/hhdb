@@ -97,3 +97,14 @@
 147044   4985k   147.64*1.15*1.0     29.3    mc12_8TeV.147044.AlpgenPythia_Auto_P2011C_WtaunuNp3.merge.AOD.e1881_s1581_s1586_r3658_r3549/
 147045   2555k   37.738*1.15*1.0     58.8    mc12_8TeV.147045.AlpgenPythia_Auto_P2011C_WtaunuNp4.merge.AOD.e1881_s1581_s1586_r3658_r3549/
 147046   795k    11.905*1.15*1.0     58.0    mc12_8TeV.147046.AlpgenPythia_Auto_P2011C_WtaunuNp5incl.merge.AOD.e1881_s1581_s1586_r3658_r3549/
+
+
+## MC14 lephad samples
+# Z + jets
+167755   899k    1110*1.0*0.0279     29     mc14_8TeV.167755.Sherpa_CT10_ZtautauMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625
+167756   228k    1110*1.0*0.2833     0.7    mc14_8TeV.167756.Sherpa_CT10_ZtautauMassiveCBPt0_CFilterBVeto.merge.AOD.e1587_s1933_s1911_r5591_r5625
+167757   230k    1110*1.0*0.68893    0.3    mc14_8TeV.167757.Sherpa_CT10_ZtautauMassiveCBPt0_CVetoBVeto.merge.AOD.e1587_s1933_s1911_r5591_r5625
+167803   600k    29.5*1.0*0.0825     246.5  mc14_8TeV.167803.Sherpa_CT10_ZtautauMassiveCBPt70_140_BFilter.merge.AOD.e1714_s1933_s1911_r5591_r5625
+167804   152k    29.5*1.0*0.35       147    mc14_8TeV.167804.Sherpa_CT10_ZtautauMassiveCBPt70_140_CFilterBVeto.merge.AOD.e1714_s1933_s1911_r5591_r5625
+# W + jets
+180541   751k    652*1.0*0.170       6.77   mc14_8TeV.180541.Sherpa_CT10_WtaunuMassiveCBPt40_70_CJetFilterBVeto.merge.AOD.e1867_s1933_s1911_r5591_r5625
