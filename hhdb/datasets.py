@@ -209,6 +209,15 @@ CN_EMBED_PATTERN12 = re.compile(
     '(-(?P<version3>\d+))?'
     '\.(?P<suffix>\S+)$')
 
+LH_CLARA_MC_PATTERN = re.compile(
+    '^(?P<prefix>\S+\.)?'
+    'mc14_13TeV\.'
+    '(?P<id>\d+)'
+    '\.(?P<name>\w+)'
+    '((\.hsm_lephad)?)'
+    '\.(?P<tag>\w+)'
+    '\.(?P<suffix>\S+)$')
+
 # MC[11|12][a|b|c|...] categories are defined here
 # Each MC dataset is automatically classified
 # acccording to these categories by matching the reco
@@ -392,7 +401,6 @@ class Database(dict):
                     mc_dirs = glob.glob(os.path.join(mc_path, mc_prefix) + '*')
                 else:
                     mc_dirs = glob.glob(os.path.join(mc_path, '*'))
-
             for dir in mc_dirs:
                 dirname, basename = os.path.split(dir)
                 if mc_sampletype == 'standard':
@@ -511,6 +519,40 @@ class Database(dict):
                         version_1 = match.group('version1')
                         version_2 = match.group('version2')
                         version = int(version_1)*1000 + int(version_2)*10
+
+                        dataset = self.get(name, None)
+                        if dataset is not None and version == dataset.version:
+                            if dir not in dataset.dirs:
+                                dataset.dirs.append(dir)
+                        else:
+
+                            log.info('\'%s\',' % name)
+                            self[name] = Dataset(
+                                name=name,
+                                datatype=MC,
+                                treename=mc_treename,
+                                ds=name,
+                                id=int(match.group('id')),
+                                category=cat,
+                                version=version,
+                                tag_pattern=None,
+                                tag=tag,
+                                dirs=[dir],
+                                file_pattern=mc_pattern,
+                                year=year)
+                elif mc_sampletype == 'lh_clara':
+                    match  = re.match(LH_CLARA_MC_PATTERN, basename)
+                    if match:
+                        name = match.group('name')
+                        cat = 'mc14'
+                        tag = match.group('tag')
+                        year = 2014
+
+                        ## Calculate a version int
+                        # version_1 = 1 
+                        # version_2 = 2 
+                        # version = int(version_1)*1000 + int(version_2)*10
+                        version = 0
 
                         dataset = self.get(name, None)
                         if dataset is not None and version == dataset.version:
