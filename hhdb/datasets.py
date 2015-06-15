@@ -1180,6 +1180,11 @@ class Dataset(Serializable):
                         self.file_pattern, self.grl, self.year, self.stream)
 
     @cached_property
+    def nevents(self):
+        year = self.year % 1E3
+        return xsec.nevts(year, self.id)
+
+    @cached_property
     def xsec_kfact_effic(self):
         global XSEC_CACHE_MODIFIED
         year = self.year % 1E3
