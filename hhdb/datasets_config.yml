@@ -77,7 +77,7 @@
         mc_treename: 'tau'
         mc_sampletype: 'standard'
     lh:
-        mc_path: '/afs/cern.ch/user/q/qbuat/work/lephad_test_datasets'
+        mc_path: '/afs/cern.ch/user/q/qbuat/work/public/lephad_test_datasets'
         mc_prefix: 'user.cnellist'
         mc_pattern: '*hist-output.root*'
         mc_treename: 'NOMINAL'
