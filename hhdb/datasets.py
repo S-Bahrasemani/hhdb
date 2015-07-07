@@ -211,12 +211,19 @@ CN_EMBED_PATTERN12 = re.compile(
 
 LH_CLARA_MC_PATTERN = re.compile(
     '^(?P<prefix>\S+\.)?'
-    'mc14_13TeV\.'
     '(?P<id>\d+)'
     '\.(?P<name>\w+)'
-    '((\.hsm_lephad)?)'
-    '\.(?P<tag>\w+)'
-    '\.(?P<suffix>\S+)$')
+    '\.(?P<project>hsm_lephad.MC\d+)_'
+    '(?P<tag>\w+)'
+    '\_(?P<suffix>\S+)$')
+
+LH_CLARA_DATA_PATTERN = re.compile(
+    '^(?P<prefix>\S+\.)?'
+    '(?P<run>\d+)'
+    '\.(?P<stream>physics_Main)'
+    '\.((?P<project>hsm_lephad.Data\d+)_?)'
+    '(?P<tag>\w+)'
+    '\_(?P<suffix>\S+)$')
 
 # MC[11|12][a|b|c|...] categories are defined here
 # Each MC dataset is automatically classified
@@ -544,15 +551,15 @@ class Database(dict):
                     match  = re.match(LH_CLARA_MC_PATTERN, basename)
                     if match:
                         name = match.group('name')
-                        cat = 'mc14'
+                        cat = 'mc15'
                         tag = match.group('tag')
-                        year = 2014
-
+                        log.info((name, cat, tag, match.group('suffix')))
+                        year = 2015
                         ## Calculate a version int
                         # version_1 = 1 
                         # version_2 = 2 
                         # version = int(version_1)*1000 + int(version_2)*10
-                        version = 0
+                        version = 1
 
                         dataset = self.get(name, None)
                         if dataset is not None and version == dataset.version:
@@ -1047,6 +1054,85 @@ class Database(dict):
                                     stream=stream,
                                     file_pattern=data_pattern,
                                     year=year)
+
+            elif data_sampletype == 'lh_clara':
+                # classify dir by stream
+                streams = {}
+                for dir in data_dirs:
+                    dirname, basename = os.path.split(dir)
+                    match = re.match(LH_CLARA_DATA_PATTERN, basename)
+                    if match:
+                        # if int(match.group('year')) != (year % 1E3):
+                        #     continue
+                        # if match.group('type') != 'data':
+                        #     continue
+                        stream = match.group('stream').split('_')[-1]
+                        log.info(stream)
+                        if stream not in streams:
+                            streams[stream] = []
+                        streams[stream].append(dir)
+                    elif self.verbose:
+                        log.warning(
+                            "not a valid data dataset name: %s" % basename)
+
+                for stream, dirs in streams.items():
+                    name = 'data%d-%s' % (year % 1000, stream)
+                    self[name] = Dataset(
+                        name=name,
+                        datatype=DATA,
+                        treename=data_treename,
+                        ds=name,
+                        id=-1,
+                        # The GRL is the same for both lephad and hadhad analyses
+                        grl=data_grl,
+                        dirs=dirs,
+                        stream=stream,
+                        file_pattern=data_pattern,
+                        year=year)
+
+                    if data_period_containers:
+                        # in each stream create a separate dataset for each run
+                        pass
+                    else:
+                        # in each stream create a separate dataset for each run
+                        runs = {}
+                        for dir in dirs:
+                            dirname, basename = os.path.split(dir)
+                            match = re.match(LH_CLARA_DATA_PATTERN, basename)
+                            if match:
+                                run = int(match.group('run'))
+                                
+                                tag = match.group('tag')
+                                if run not in runs:
+                                    runs[run] = {
+                                        'tag': tag,
+                                        'dirs': [dir],
+                                        'ds': ''}#Database.match_to_ds(match)}
+                                else:
+                                    runs[run]['dirs'].append(dir)
+                                    if tag != runs[run]['tag']:
+                                        log.warning(
+                                            'multiple copies of run with different '
+                                            'tags: %s' % runs[run]['dirs'])
+                            elif self.verbose:
+                                log.warning(
+                                    "not a valid data dataset name: %s" % basename)
+                        log.info(runs)
+                        # need to use the actual ds name for ds for validation
+                        for run, info in runs.items():
+                            name = 'data%d-%s-run%d' % (year % 1000, stream, run)
+                            self[name] = Dataset(
+                                name=name,
+                                datatype=DATA,
+                                treename=data_treename,
+                                ds=name,
+                                id=run,
+                                grl=data_grl,
+                                dirs=info['dirs'],
+                                stream=stream,
+                                file_pattern=data_pattern,
+                                year=year)
+
 
             elif data_sampletype == 'lhCN':
                 year = 2012
