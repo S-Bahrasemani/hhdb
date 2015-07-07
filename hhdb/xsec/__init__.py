@@ -7,7 +7,7 @@ __HERE = os.path.dirname(os.path.abspath(__file__))
 
 SAMPLES = {}
 
-for year, energy in ((11, 7), (12, 8), (14, 13)):
+for year, energy in ((11, 7), (12, 8), (14, 13), (15, 13)):
     SAMPLES[year] = {}
     with open(os.path.join(__HERE, '%dTeV.txt' % energy)) as f:
         for line in f.readlines():
