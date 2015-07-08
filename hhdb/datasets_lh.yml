@@ -628,7 +628,7 @@ PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1500M1750: !Dataset
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Zll_p2352
+  tag: Ztt_p2352
   grl: null
   year: 2015
   stream: null
@@ -989,7 +989,8 @@ PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad: !Dataset
   datatype: 1
   treename: NOMINAL
   ds: PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.410000.PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad.hsm_lephad.MC15_top_p2352_hist-output.root.33885033]
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.410000.PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad.hsm_lephad.MC15_top_p2352_hist-output.root.33885033,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.410000.PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad.hsm_lephad.MC15_top_p2352_hist-output.root.34000784]
   file_pattern: '*hist-output.root*'
   id: 410000
   category: mc15
@@ -1190,220 +1191,6 @@ data15-Main: !Dataset
     /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267638.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33892077]
   file_pattern: '*hist-output.root*'
   id: -1
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run266904: !Dataset
-  name: data15-Main-run266904
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run266904
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00266904.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33881447]
-  file_pattern: '*hist-output.root*'
-  id: 266904
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run266919: !Dataset
-  name: data15-Main-run266919
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run266919
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00266919.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33884236]
-  file_pattern: '*hist-output.root*'
-  id: 266919
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267073: !Dataset
-  name: data15-Main-run267073
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267073
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267073.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879177]
-  file_pattern: '*hist-output.root*'
-  id: 267073
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267148: !Dataset
-  name: data15-Main-run267148
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267148
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267148.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33878790]
-  file_pattern: '*hist-output.root*'
-  id: 267148
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267152: !Dataset
-  name: data15-Main-run267152
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267152
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267152.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33882640,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267152.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33889871]
-  file_pattern: '*hist-output.root*'
-  id: 267152
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267162: !Dataset
-  name: data15-Main-run267162
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267162
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267162.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879251,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267162.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33884221]
-  file_pattern: '*hist-output.root*'
-  id: 267162
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267167: !Dataset
-  name: data15-Main-run267167
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267167
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267167.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879507,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267167.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33929617]
-  file_pattern: '*hist-output.root*'
-  id: 267167
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267358: !Dataset
-  name: data15-Main-run267358
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267358
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267358.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33882769]
-  file_pattern: '*hist-output.root*'
-  id: 267358
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267359: !Dataset
-  name: data15-Main-run267359
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267359
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267359.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879202]
-  file_pattern: '*hist-output.root*'
-  id: 267359
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267360: !Dataset
-  name: data15-Main-run267360
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267360
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267360.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33884110]
-  file_pattern: '*hist-output.root*'
-  id: 267360
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267367: !Dataset
-  name: data15-Main-run267367
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267367
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267367.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879098]
-  file_pattern: '*hist-output.root*'
-  id: 267367
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267385: !Dataset
-  name: data15-Main-run267385
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267385
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267385.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879163]
-  file_pattern: '*hist-output.root*'
-  id: 267385
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267599: !Dataset
-  name: data15-Main-run267599
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267599
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267599.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33880083]
-  file_pattern: '*hist-output.root*'
-  id: 267599
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267638: !Dataset
-  name: data15-Main-run267638
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267638
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267638.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33886444,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267638.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33892077]
-  file_pattern: '*hist-output.root*'
-  id: 267638
   category: null
   version: null
   tag_pattern: null

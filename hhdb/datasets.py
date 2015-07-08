@@ -1117,21 +1117,21 @@ class Database(dict):
                             elif self.verbose:
                                 log.warning(
                                     "not a valid data dataset name: %s" % basename)
-                        log.info(runs)
+                        # log.info(runs)
                         # need to use the actual ds name for ds for validation
-                        for run, info in runs.items():
-                            name = 'data%d-%s-run%d' % (year % 1000, stream, run)
-                            self[name] = Dataset(
-                                name=name,
-                                datatype=DATA,
-                                treename=data_treename,
-                                ds=name,
-                                id=run,
-                                grl=data_grl,
-                                dirs=info['dirs'],
-                                stream=stream,
-                                file_pattern=data_pattern,
-                                year=year)
+                        # for run, info in runs.items():
+                        #     name = 'data%d-%s-run%d' % (year % 1000, stream, run)
+                        #     self[name] = Dataset(
+                        #         name=name,
+                        #         datatype=DATA,
+                        #         treename=data_treename,
+                        #         ds=name,
+                        #         id=run,
+                        #         grl=data_grl,
+                        #         dirs=info['dirs'],
+                        #         stream=stream,
+                        #         file_pattern=data_pattern,
+                        #         year=year)
 
 
             elif data_sampletype == 'lhCN':
