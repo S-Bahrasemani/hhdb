@@ -16,7 +16,7 @@ for year, energy in ((11, 7), (12, 8), (14, 13), (15, 13)):
                 continue
             line = line.split()
             sampleid = int(line[0])
-            if year == 14:
+            if year == 14 or year == 15:
                 nevt = int(line[1])
             else:
                 nevt = -9999

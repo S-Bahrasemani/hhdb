@@ -60,7 +60,7 @@ mc_wmunu:
         - 'Sherpa_CT10_Wmunu_Pt280_500_CVetoBVeto'
         - 'Sherpa_CT10_Wmunu_Pt280_500_CFilterBVeto'
 
-mc_wmenu:
+mc_wenu:
     name: Wenu
     latex: '$W\rightarrow\e\nu$'
     root: '#font[52]{W}#rightarrow#e#nu'
@@ -68,7 +68,7 @@ mc_wmenu:
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu'
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu'
 
-dy_ztautau:
+mc_ztautau_dy:
     name: DYztautau
     latex: '$DY Z\rightarrow\tau\tau$'
     root: '#font[52]{DY Z}#rightarrow#tau#tau'
@@ -93,7 +93,7 @@ dy_ztautau:
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2000M2250'
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3500M4000'
 
-dy_zmumu:
+mc_zmumu_dy:
     name: DYzmumu
     latex: '$DY Z\rightarrow\mu\mu$'
     root: '#font[52]{DY Z}#rightarrow#mu#mu'
@@ -118,7 +118,7 @@ dy_zmumu:
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2250M2500'
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_3000M3500'
 
-dy_zee:
+mc_zee_dy:
     name: DYzee
     latex: '$DY Z\rightarrow ee$'
     root: '#font[52]{DY Z}#rightarrow ee'
@@ -181,23 +181,44 @@ pythia_zee:
    samples:
        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee'
 
-# ewk:
-#     name: EW
-#     latex: EW
-#     root: EW
-#     samples:
-#         - 'Sherpa_CT10_ZtautauMassiveCBPt0_BFilter.mc14'
-#         - 'Sherpa_CT10_ZtautauMassiveCBPt0_CFilterBVeto.mc14'
-#         - 'Sherpa_CT10_ZtautauMassiveCBPt0_CVetoBVeto.mc14'
-#         - 'Sherpa_CT10_ZtautauMassiveCBPt70_140_BFilter'
-#         - 'Sherpa_CT10_ZtautauMassiveCBPt70_140_CFilterBVeto'
-#         - 'Sherpa_CT10_WtaunuMassiveCBPt40_70_CJetFilterBVeto'
-
-
-
-
-
-
+ewk:
+    name: EW
+    latex: EW
+    root: EW
+    samples:
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt40_70_BFilter'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt280_500_CJetFilterBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt140_280_CJetVetoBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt500_CJetVetoBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt140_280_BFilter'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt140_280_CJetFilterBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt280_500_CJetVetoBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt70_140_CJetVetoBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt70_140_CJetFilterBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt500_BFilter'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt40_70_CJetFilterBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt0_CJetFilterBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt280_500_BFilter'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt0_BFilter'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt0_CJetVetoBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt40_70_CJetVetoBVeto'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt70_140_BFilter'
+        # - 'Sherpa_CT10_WtaunuMassiveCBPt500_CJetFilterBVeto'
+        - 'Sherpa_CT10_Wmunu_Pt140_280_CVetoBVeto'
+        - 'Sherpa_CT10_Wmunu_Pt500_700_BFilter'
+        - 'Sherpa_CT10_Wmunu_Pt500_700_CVetoBVeto'
+        - 'Sherpa_CT10_Wmunu_Pt500_700_CFilterBVeto'
+        - 'Sherpa_CT10_Wmunu_Pt70_140_CFilterBVeto'
+        - 'Sherpa_CT10_Wmunu_Pt0_70_CVetoBVeto'
+        - 'Sherpa_CT10_Wmunu_Pt700_1000_CVetoBVeto'
+        - 'Sherpa_CT10_Wmunu_Pt70_140_CVetoBVeto'
+        - 'Sherpa_CT10_Wmunu_Pt140_280_BFilter'
+        - 'Sherpa_CT10_Wmunu_Pt280_500_CVetoBVeto'
+        - 'Sherpa_CT10_Wmunu_Pt280_500_CFilterBVeto'
+        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu'
+        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu'
+        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu'
+        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee'
 
 top:
     name: Top
