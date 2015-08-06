@@ -76,6 +76,21 @@
         mc_pattern: '*hadhad*.root*'
         mc_treename: 'tau'
         mc_sampletype: 'standard'
+
+2015:
+    common:
+        grl: 'grl/2012/current.xml'
+    hh_c:
+       mc_path: '/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1'
+       mc_prefix: 'user.cgrefe'
+       mc_pattern: '*hist-output.root*'
+       mc_treename: 'NOMINAL'
+       mc_sampletype: 'hh_christian'
+       data_path: '/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1'
+       data_prefix: 'user.cgrefe'
+       data_pattern: '*hist-output.root*'
+       data_treename: 'NOMINAL'
+       data_sampletype: 'hh_christian'
     lh:
         mc_path: '/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1'
         mc_prefix: 'user.cnellist'
