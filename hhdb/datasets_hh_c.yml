@@ -1,0 +1,302 @@
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.301041.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.301041.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250.hcp_hadhad.2015-08-02_hist-output.root.37879124]
+  file_pattern: '*hist-output.root*'
+  id: 301041
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.301042.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.301042.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400.hcp_hadhad.2015-08-02_hist-output.root.37913604]
+  file_pattern: '*hist-output.root*'
+  id: 301042
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.hcp_hadhad.2015-08-02_hist-output.root.37849696,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.hcp_hadhad.2015-08-02_hist-output.root.37855231,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.hcp_hadhad.2015-08-02_hist-output.root.37858362]
+  file_pattern: '*hist-output.root*'
+  id: 361103
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.hcp_hadhad.2015-08-02_hist-output.root.37852560,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.hcp_hadhad.2015-08-02_hist-output.root.37854494,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.hcp_hadhad.2015-08-02_hist-output.root.37854733,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.hcp_hadhad.2015-08-02_hist-output.root.37854754,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.hcp_hadhad.2015-08-02_hist-output.root.37855001,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.hcp_hadhad.2015-08-02_hist-output.root.37855178]
+  file_pattern: '*hist-output.root*'
+  id: 361104
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361105.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361105.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu.hcp_hadhad.2015-08-02_hist-output.root.37848793,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361105.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu.hcp_hadhad.2015-08-02_hist-output.root.37849913]
+  file_pattern: '*hist-output.root*'
+  id: 361105
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hcp_hadhad.2015-08-02_hist-output.root.37849888,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hcp_hadhad.2015-08-02_hist-output.root.37916909,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hcp_hadhad.2015-08-02_hist-output.root.37917548,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hcp_hadhad.2015-08-02_hist-output.root.37919310,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hcp_hadhad.2015-08-02_hist-output.root.37920222]
+  file_pattern: '*hist-output.root*'
+  id: 361100
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.hcp_hadhad.2015-08-02_hist-output.root.37853722,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.hcp_hadhad.2015-08-02_hist-output.root.37854836,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.hcp_hadhad.2015-08-02_hist-output.root.37855525,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.hcp_hadhad.2015-08-02_hist-output.root.37855729,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.hcp_hadhad.2015-08-02_hist-output.root.37855736,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.hcp_hadhad.2015-08-02_hist-output.root.37879689]
+  file_pattern: '*hist-output.root*'
+  id: 361101
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361102.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361102.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu.hcp_hadhad.2015-08-02_hist-output.root.37852327,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361102.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu.hcp_hadhad.2015-08-02_hist-output.root.37853626,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361102.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu.hcp_hadhad.2015-08-02_hist-output.root.37882903]
+  file_pattern: '*hist-output.root*'
+  id: 361102
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hcp_hadhad.2015-08-02_hist-output.root.37850811,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hcp_hadhad.2015-08-02_hist-output.root.37894110,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hcp_hadhad.2015-08-02_hist-output.root.37906928,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hcp_hadhad.2015-08-02_hist-output.root.37906938,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hcp_hadhad.2015-08-02_hist-output.root.37912415,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hcp_hadhad.2015-08-02_hist-output.root.38000475]
+  file_pattern: '*hist-output.root*'
+  id: 361106
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.hcp_hadhad.2015-08-02_hist-output.root.37918830,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.hcp_hadhad.2015-08-02_hist-output.root.37922562,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.hcp_hadhad.2015-08-02_hist-output.root.37925900]
+  file_pattern: '*hist-output.root*'
+  id: 361107
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau: !Dataset
+  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau.hcp_hadhad.2015-08-02_hist-output.root.37879047,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau.hcp_hadhad.2015-08-02_hist-output.root.37905201,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau.hcp_hadhad.2015-08-02_hist-output.root.37907741]
+  file_pattern: '*hist-output.root*'
+  id: 361108
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_VBFH125_tautauhh: !Dataset
+  name: PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_VBFH125_tautauhh
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_VBFH125_tautauhh
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.341157.PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_VBFH125_tautauhh.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.341157.PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_VBFH125_tautauhh.hcp_hadhad.2015-08-02_hist-output.root.37852682]
+  file_pattern: '*hist-output.root*'
+  id: 341157
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_ggH125_tautauhh: !Dataset
+  name: PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_ggH125_tautauhh
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_ggH125_tautauhh
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.341124.PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_ggH125_tautauhh.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.341124.PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_ggH125_tautauhh.hcp_hadhad.2015-08-02_hist-output.root.37851773]
+  file_pattern: '*hist-output.root*'
+  id: 341124
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop: !Dataset
+  name: PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.410014.PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.410014.PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop.hcp_hadhad.2015-08-02_hist-output.root.37883024]
+  file_pattern: '*hist-output.root*'
+  id: 410014
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad: !Dataset
+  name: PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad
+  datatype: 1
+  treename: NOMINAL
+  ds: PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.410000.PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.410000.PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad.hcp_hadhad.2015-08-02_hist-output.root.37854898,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.410000.PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad.hcp_hadhad.2015-08-02_hist-output.root.37876983]
+  file_pattern: '*hist-output.root*'
+  id: 410000
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: ''
+  grl: null
+  year: 2015
+  stream: null
+data15-Main: !Dataset
+  name: data15-Main
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main
+  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00270806.physics_Main.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00270806.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37849671,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00270953.physics_Main.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00270953.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37850548,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00270953.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37853411,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271048.physics_Main.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271048.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37851285,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271048.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37886381,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271298.physics_Main.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271298.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37850807,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271421.physics_Main.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271421.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37913155,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271516.physics_Main.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271516.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37879016,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271595.physics_Main.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271595.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37850774,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271744.physics_Main.hcp_hadhad.2015-08-02_hist-output.root,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271744.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37853729,
+    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/hadhad/v1/user.cgrefe.00271744.physics_Main.hcp_hadhad.2015-08-02_hist-output.root.37860002]
+  file_pattern: '*hist-output.root*'
+  id: -1
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: grl/2012/current.xml
+  year: 2015
+  stream: Main
