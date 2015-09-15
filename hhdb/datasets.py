@@ -54,6 +54,22 @@ Namedset = namedtuple('Namedset',
 Dataset = namedtuple('Dataset',
                      Namedset._fields + ('datatype',))
 
+RUNS_50 = [
+    267073, 
+    267167, 
+    267638, 
+    270806,
+    270953,
+    271048,
+    271298,
+    271421,
+    271516,
+    271595,
+    271744,
+    276731,
+]
+
+
 
 class Fileset(namedtuple('Fileset', Dataset._fields + ('files', 'treename'))):
 
@@ -240,6 +256,15 @@ HH_MC_PATTERN15 = re.compile(
     '\_(?P<suffix>\S+)$')
 
 
+DS_PATTERN15 = re.compile(
+    '^(?P<prefix>(group.phys-higgs|user.\w+))'
+    '\.(?P<skim>\w+)'
+    '\.(?P<type>(data|mc))(?P<year>\d+)_(?P<energy>\d+)TeV'
+    '\.(?P<id>(\d+|period[A-Z]))'
+    '\.(?P<name>\w+)'
+    '\.(?P<stream>(D1|D2|D3|AOD))'
+    '\.(?P<tag>\w+)'
+    '\.v(?P<version>\d+)_(?P<suffix>\w+)$')
 
 
 # MC[11|12][a|b|c|...] categories are defined here
@@ -599,21 +624,33 @@ class Database(dict):
                                 file_pattern=mc_pattern,
                                 year=year)
 
-                elif mc_sampletype == 'hh_christian':
-                    # log.info(basename)
-                    match  = re.match(HH_MC_PATTERN15, basename)
-                    data_match = re.match(HH_DATA_PATTERN15, basename)
-                    if match and not data_match:
+                elif mc_sampletype == 'hh_2015':
+                    log.info(basename)
+                    match  = re.match(DS_PATTERN15, basename)
+                    if match: #and not data_match:
+                        if match.group('type') != 'mc':
+                            continue
+
                         name = match.group('name')
-                        cat = 'mc15'
-                        tag = '' #match.group('tag')
-                        log.info((name, cat, tag, match.group('suffix')))
-                        year = 2015
+                        skim = match.group('skim')
+                        datatype = match.group('type')
+                        year = match.group('year')
+                        energy = match.group('energy')
+                        dsid = match.group('id')
+                        stream = match.group('stream')
+                        tag = match.group('tag')
+                        version = match.group('version')
+                        suffix = match.group('suffix')
+                        cat = datatype + year
+                        # tag = '' #match.group('tag')
+                        # year = 2015
+                        log.info((name, skim, datatype, year, energy, dsid, stream, tag, version, suffix))
+                        # log.info((name, cat, tag, match.group('suffix')))
+
                         ## Calculate a version int
                         # version_1 = 1 
                         # version_2 = 2 
                         # version = int(version_1)*1000 + int(version_2)*10
-                        version = 1
 
                         dataset = self.get(name, None)
                         if dataset is not None and version == dataset.version:
@@ -634,7 +671,8 @@ class Database(dict):
                                 tag=tag,
                                 dirs=[dir],
                                 file_pattern=mc_pattern,
-                                year=year)
+                                year=2015,
+                                stream=stream)
 
 
 
@@ -1189,28 +1227,38 @@ class Database(dict):
                         #         year=year)
 
 
-            elif data_sampletype == 'hh_christian':
+            elif data_sampletype == 'hh_2015':
                 # classify dir by stream
                 streams = {}
+                streams['Main25'] = []
+                streams['Main50'] = []
                 for dir in data_dirs:
                     dirname, basename = os.path.split(dir)
-                    match = re.match(HH_DATA_PATTERN15, basename)
+                    match = re.match(DS_PATTERN15, basename)
                     if match:
+                        if match.group('type') != 'data':
+                            continue
                         # if int(match.group('year')) != (year % 1E3):
                         #     continue
                         # if match.group('type') != 'data':
                         #     continue
-                        stream = match.group('stream').split('_')[-1]
+                        stream = match.group('name').split('_')[-1]
+                        run = int(match.group('id'))
+                        if run in RUNS_50:
+                            streams['Main50'].append(dir)
+                        else:
+                            streams['Main25'].append(dir)
                         log.info(stream)
                         if stream not in streams:
                             streams[stream] = []
                         streams[stream].append(dir)
+
                     elif self.verbose:
                         log.warning(
                             "not a valid data dataset name: %s" % basename)
 
                 for stream, dirs in streams.items():
-                    name = 'data%d-%s' % (year % 1000, stream)
+                    name = 'data%d-%s' % (15, stream)
                     self[name] = Dataset(
                         name=name,
                         datatype=DATA,
@@ -1218,11 +1266,11 @@ class Database(dict):
                         ds=name,
                         id=-1,
                         # The GRL is the same for both lephad and hadhad analyses
-                        grl=data_grl,
+                        grl=None,#data_grl,
                         dirs=dirs,
                         stream=stream,
                         file_pattern=data_pattern,
-                        year=year)
+                        year=2015)
 
                     if data_period_containers:
                         # in each stream create a separate dataset for each run
@@ -1232,9 +1280,9 @@ class Database(dict):
                         runs = {}
                         for dir in dirs:
                             dirname, basename = os.path.split(dir)
-                            match = re.match(LH_CLARA_DATA_PATTERN, basename)
+                            match = re.match(DS_PATTERN15, basename)
                             if match:
-                                run = int(match.group('run'))
+                                run = int(match.group('id'))
                                 
                                 tag = match.group('tag')
                                 if run not in runs:
@@ -1251,21 +1299,21 @@ class Database(dict):
                             elif self.verbose:
                                 log.warning(
                                     "not a valid data dataset name: %s" % basename)
-                        # log.info(runs)
+                        log.info(runs)
                         # need to use the actual ds name for ds for validation
-                        # for run, info in runs.items():
-                        #     name = 'data%d-%s-run%d' % (year % 1000, stream, run)
-                        #     self[name] = Dataset(
-                        #         name=name,
-                        #         datatype=DATA,
-                        #         treename=data_treename,
-                        #         ds=name,
-                        #         id=run,
-                        #         grl=data_grl,
-                        #         dirs=info['dirs'],
-                        #         stream=stream,
-                        #         file_pattern=data_pattern,
-                        #         year=year)
+                        for run, info in runs.items():
+                            name = 'data%d-%s-run%d' % (15, stream, run)
+                            self[name] = Dataset(
+                                name=name,
+                                datatype=DATA,
+                                treename=data_treename,
+                                ds=name,
+                                id=run,
+                                grl=None,
+                                dirs=info['dirs'],
+                                stream=stream,
+                                file_pattern=data_pattern,
+                                year=2015)
 
 
             elif data_sampletype == 'lhCN':

@@ -33,13 +33,13 @@ pythia_ztautau:
    latex: '$Z\rightarrow\tau\tau$'
    root: '#font[52]{Z}#rightarrow#tau#tau'
    samples:
-       - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau'
+       - 'PoPy8_Ztautau'
 ewk:
     name: EW
     latex: EW
     root: EW
     samples:
-        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu'
+        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu'
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu'
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu'
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu'
@@ -53,8 +53,8 @@ top:
     latex: Top
     root: Top
     samples:
-        - 'PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop'
-        # - 'PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad'
+        # - 'PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop'
+        - 'PoPy_P2012_ttbar_hdamp172p5_nonallhad'
 
 # diboson:
 #     name: Diboson
@@ -88,16 +88,16 @@ others:
     latex: Others
     root: Others
     samples:
-      # EWK
-        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu'
-        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu'
-        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu'
-        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu'
-        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu'
-        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu'
-        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee'
-        - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu'
+        # EWK
+        # - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu'
+        # - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu'
+        # - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu'
+        # - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu'
+        # - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu'
+        # - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu'
+        # - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee'
+        # - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu'
         # Top
-        - 'PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop'
-        # - 'PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad'
+        # - 'PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop'
+        - 'PoPy_P2012_ttbar_hdamp172p5_nonallhad'
         # Diboson
