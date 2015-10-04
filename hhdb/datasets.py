@@ -442,6 +442,7 @@ class Database(dict):
         ###############################
         # MC
         ###############################
+        log.debug(mc_path)
         if mc_path is not None:
             if deep:
                 mc_dirs = get_all_dirs_under(mc_path, prefix=mc_prefix)
@@ -450,7 +451,9 @@ class Database(dict):
                     mc_dirs = glob.glob(os.path.join(mc_path, mc_prefix) + '*')
                 else:
                     mc_dirs = glob.glob(os.path.join(mc_path, '*'))
+            log.debug(mc_dirs)
             for dir in mc_dirs:
+                log.debug(dir)
                 dirname, basename = os.path.split(dir)
                 if mc_sampletype == 'standard':
                     match  = re.match(DS_PATTERN, basename)
