@@ -97,7 +97,7 @@
         mc_pattern: '*hist-output.root*'
         mc_treename: 'NOMINAL'
         mc_sampletype: 'lh_clara'
-        data_path: '/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/'
+        data_path: '/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/'
         data_prefix: 'group.phys-higgs'
         data_pattern: '*hist-output.root*'
         data_treename: 'NOMINAL'

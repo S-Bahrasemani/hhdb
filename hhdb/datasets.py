@@ -266,6 +266,18 @@ DS_PATTERN15 = re.compile(
     '\.(?P<tag>\w+)'
     '\.v(?P<version>\d+)_(?P<suffix>\w+)$')
 
+LH_DS_PATTERN15 = re.compile(
+    '^(?P<prefix>(group.phys-higgs|user.\w+))'
+    '\.(?P<skim>\w+)'
+    '\.(?P<type>(data|mc))(?P<year>\d+)_(?P<energy>\d+)TeV'
+    '\.(?P<id>(\d+|period[A-Z]))'
+    '\.(?P<name>\w+)'
+    '\.(?P<stream>(D1|D2|D3|AOD))'
+    '\.(?P<tag>\w+)'
+    '\.\d+-v(?P<version>\d+)_hist.\d+$')
+
+
+
 
 # MC[11|12][a|b|c|...] categories are defined here
 # Each MC dataset is automatically classified
@@ -305,22 +317,6 @@ if USE_PYAMI:
 
 class NoMatchingDatasetsFound(Exception):
     pass
-
-
-GLOBAL_BASE = '/global/'
-
-
-def find_global(path):
-
-    if not path.startswith('/global/'):
-        raise ValueError("path must be absolute and rooted at /global")
-
-    path = re.sub('^/global/', '/cluster/data%02d/export/', path)
-
-    for node in range(1, 13):
-        if os.path.exists(path % node):
-            return path % node
-    raise IOError('path %s does not exist' % path)
 
 
 class Database(dict):
@@ -593,13 +589,13 @@ class Database(dict):
                                 file_pattern=mc_pattern,
                                 year=year)
                 elif mc_sampletype == 'lh_clara':
-                    match  = re.match(LH_CLARA_MC_PATTERN, basename)
+                    match  = re.match(LH_DS_PATTERN15, basename)
                     if match:
                         name = match.group('name')
                         cat = 'mc15'
                         tag = match.group('tag')
-                        log.info((name, cat, tag, match.group('suffix')))
-                        year = 2015
+                        year = int(match.group('year'))
+                        log.info((name, cat, tag, year))
                         ## Calculate a version int
                         # version_1 = 1 
                         # version_2 = 2 
@@ -1154,16 +1150,18 @@ class Database(dict):
             elif data_sampletype == 'lh_clara':
                 # classify dir by stream
                 streams = {}
+                log.debug(dir)
                 for dir in data_dirs:
                     dirname, basename = os.path.split(dir)
-                    match = re.match(LH_CLARA_DATA_PATTERN, basename)
+                    match = re.match(LH_DS_PATTERN15, basename)
                     if match:
                         # if int(match.group('year')) != (year % 1E3):
                         #     continue
-                        # if match.group('type') != 'data':
-                        #     continue
-                        stream = match.group('stream').split('_')[-1]
-                        log.info(stream)
+                        if match.group('type') != 'data':
+                            continue
+                        stream = match.group('name').split('_')[-1]
+                        run = int(match.group('id'))
+                        log.info((stream, run))
                         if stream not in streams:
                             streams[stream] = []
                         streams[stream].append(dir)
@@ -1173,6 +1171,7 @@ class Database(dict):
 
                 for stream, dirs in streams.items():
                     name = 'data%d-%s' % (year % 1000, stream)
+                    log.info(name)
                     self[name] = Dataset(
                         name=name,
                         datatype=DATA,
