@@ -264,7 +264,7 @@ DS_PATTERN15 = re.compile(
     '\.(?P<name>\w+)'
     '\.(?P<stream>(D1|D2|D3|AOD))'
     '\.(?P<tag>\w+)'
-    '(.v|\d+-v)(?P<version>\d+)_(?P<suffix>\w+)$')
+    '\.v(?P<version>\d+)_(?P<suffix>\w+)$')
 
 LH_DS_PATTERN15 = re.compile(
     '^(?P<prefix>(group.phys-higgs|user.\w+))'
@@ -483,7 +483,7 @@ class Database(dict):
                                 file_pattern=mc_pattern,
                                 year=year)
 
-                elif (mc_sampletype == 'hh_2015' or mc_sampletype == 'lh_2015'):
+                elif mc_sampletype == 'hh_2015':
                     log.info(basename)
                     match  = re.match(DS_PATTERN15, basename)
                     if match: #and not data_match:
@@ -613,7 +613,7 @@ class Database(dict):
                                     "not a valid data dataset name: %s" % basename)
 
 
-            elif (data_sampletype == 'hh_2015' or data_sampletype == 'lh_2015'):
+            elif data_sampletype == 'hh_2015':
                 # classify dir by stream
                 streams = {}
                 streams['Main25'] = []
