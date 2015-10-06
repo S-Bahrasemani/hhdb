@@ -1,0 +1,913 @@
+PoPy8_VBFH125_tautauhh: !Dataset
+  name: PoPy8_VBFH125_tautauhh
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_VBFH125_tautauhh
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.mc15_13TeV.341157.PoPy8_VBFH125_tautauhh.D3.e3888_s2608_s2183_r6630_r6264_p2375.v2_hist]
+  file_pattern: '*hist-output.root*'
+  id: 341157
+  category: mc15
+  version: '2'
+  tag_pattern: null
+  tag: e3888_s2608_s2183_r6630_r6264_p2375
+  grl: null
+  year: 2015
+  stream: D3
+PoPy8_VBFH125_tautauhh_mix50: !Dataset
+  name: PoPy8_VBFH125_tautauhh_mix50
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_VBFH125_tautauhh_mix50
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.mc15_13TeV.341912.PoPy8_VBFH125_tautauhh_mix50.D3.e4103_s2608_r6765_r6282_p2401.v2_hist]
+  file_pattern: '*hist-output.root*'
+  id: 341912
+  category: mc15
+  version: '2'
+  tag_pattern: null
+  tag: e4103_s2608_r6765_r6282_p2401
+  grl: null
+  year: 2015
+  stream: D3
+PoPy8_VBFH125_tautauhh_unpol: !Dataset
+  name: PoPy8_VBFH125_tautauhh_unpol
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_VBFH125_tautauhh_unpol
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.mc15_13TeV.341913.PoPy8_VBFH125_tautauhh_unpol.D3.e4103_s2608_r6765_r6282_p2401.v2_hist]
+  file_pattern: '*hist-output.root*'
+  id: 341913
+  category: mc15
+  version: '2'
+  tag_pattern: null
+  tag: e4103_s2608_r6765_r6282_p2401
+  grl: null
+  year: 2015
+  stream: D3
+PoPy8_Ztautau: !Dataset
+  name: PoPy8_Ztautau
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Ztautau
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.mc15_13TeV.361108.PoPy8_Ztautau.D3.e3601_s2576_s2132_r6630_r6264_p2375.v2_hist]
+  file_pattern: '*hist-output.root*'
+  id: 361108
+  category: mc15
+  version: '2'
+  tag_pattern: null
+  tag: e3601_s2576_s2132_r6630_r6264_p2375
+  grl: null
+  year: 2015
+  stream: D3
+PoPy8_ggH125_tautauhh: !Dataset
+  name: PoPy8_ggH125_tautauhh
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_ggH125_tautauhh
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.mc15_13TeV.341124.PoPy8_ggH125_tautauhh.D3.e3935_s2608_s2183_r6630_r6264_p2375.v2_hist]
+  file_pattern: '*hist-output.root*'
+  id: 341124
+  category: mc15
+  version: '2'
+  tag_pattern: null
+  tag: e3935_s2608_s2183_r6630_r6264_p2375
+  grl: null
+  year: 2015
+  stream: D3
+PoPy8_ggH125_tautauhh_CPodd: !Dataset
+  name: PoPy8_ggH125_tautauhh_CPodd
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_ggH125_tautauhh_CPodd
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.mc15_13TeV.341905.PoPy8_ggH125_tautauhh_CPodd.D3.e4103_s2608_r6765_r6282_p2401.v2_hist]
+  file_pattern: '*hist-output.root*'
+  id: 341905
+  category: mc15
+  version: '2'
+  tag_pattern: null
+  tag: e4103_s2608_r6765_r6282_p2401
+  grl: null
+  year: 2015
+  stream: D3
+PoPy8_ggH125_tautauhh_mix50: !Dataset
+  name: PoPy8_ggH125_tautauhh_mix50
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_ggH125_tautauhh_mix50
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.mc15_13TeV.341906.PoPy8_ggH125_tautauhh_mix50.D3.e4103_s2608_r6765_r6282_p2401.v2_hist]
+  file_pattern: '*hist-output.root*'
+  id: 341906
+  category: mc15
+  version: '2'
+  tag_pattern: null
+  tag: e4103_s2608_r6765_r6282_p2401
+  grl: null
+  year: 2015
+  stream: D3
+PoPy8_ggH125_tautauhh_unpol: !Dataset
+  name: PoPy8_ggH125_tautauhh_unpol
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_ggH125_tautauhh_unpol
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.mc15_13TeV.341907.PoPy8_ggH125_tautauhh_unpol.D3.e4103_s2608_r6765_r6282_p2401.v2_hist]
+  file_pattern: '*hist-output.root*'
+  id: 341907
+  category: mc15
+  version: '2'
+  tag_pattern: null
+  tag: e4103_s2608_r6765_r6282_p2401
+  grl: null
+  year: 2015
+  stream: D3
+PoPy_P2012_ttbar_hdamp172p5_nonallhad: !Dataset
+  name: PoPy_P2012_ttbar_hdamp172p5_nonallhad
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy_P2012_ttbar_hdamp172p5_nonallhad
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.mc15_13TeV.410000.PoPy_P2012_ttbar_hdamp172p5_nonallhad.D3.e3698_s2608_s2183_r6630_r6264_p2375.v2_hist]
+  file_pattern: '*hist-output.root*'
+  id: 410000
+  category: mc15
+  version: '2'
+  tag_pattern: null
+  tag: e3698_s2608_s2183_r6630_r6264_p2375
+  grl: null
+  year: 2015
+  stream: D3
+data15-Main: !Dataset
+  name: data15-Main
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267073.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267167.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267638.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267639.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00270806.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00270953.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271048.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271298.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271421.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271516.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271595.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271744.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276262.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276329.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276336.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276416.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276511.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276689.physics_Main.D3.f623_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276731.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276778.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276790.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276952.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276954.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: -1
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run267073: !Dataset
+  name: data15-Main-run267073
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run267073
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267073.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 267073
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run267167: !Dataset
+  name: data15-Main-run267167
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run267167
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267167.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 267167
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run267638: !Dataset
+  name: data15-Main-run267638
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run267638
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267638.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 267638
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run267639: !Dataset
+  name: data15-Main-run267639
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run267639
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267639.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 267639
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run270806: !Dataset
+  name: data15-Main-run270806
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run270806
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00270806.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 270806
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run270953: !Dataset
+  name: data15-Main-run270953
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run270953
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00270953.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 270953
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run271048: !Dataset
+  name: data15-Main-run271048
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run271048
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271048.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271048
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run271298: !Dataset
+  name: data15-Main-run271298
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run271298
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271298.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271298
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run271421: !Dataset
+  name: data15-Main-run271421
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run271421
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271421.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271421
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run271516: !Dataset
+  name: data15-Main-run271516
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run271516
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271516.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271516
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run271595: !Dataset
+  name: data15-Main-run271595
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run271595
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271595.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271595
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run271744: !Dataset
+  name: data15-Main-run271744
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run271744
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271744.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271744
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276262: !Dataset
+  name: data15-Main-run276262
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276262
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276262.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276262
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276329: !Dataset
+  name: data15-Main-run276329
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276329
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276329.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276329
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276336: !Dataset
+  name: data15-Main-run276336
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276336
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276336.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276336
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276416: !Dataset
+  name: data15-Main-run276416
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276416
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276416.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276416
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276511: !Dataset
+  name: data15-Main-run276511
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276511
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276511.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276511
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276689: !Dataset
+  name: data15-Main-run276689
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276689
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276689.physics_Main.D3.f623_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276689
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276731: !Dataset
+  name: data15-Main-run276731
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276731
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276731.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276731
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276778: !Dataset
+  name: data15-Main-run276778
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276778
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276778.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276778
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276790: !Dataset
+  name: data15-Main-run276790
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276790
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276790.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276790
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276952: !Dataset
+  name: data15-Main-run276952
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276952
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276952.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276952
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main-run276954: !Dataset
+  name: data15-Main-run276954
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main-run276954
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276954.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276954
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main
+data15-Main25: !Dataset
+  name: data15-Main25
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267639.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276262.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276329.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276336.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276416.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276511.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276689.physics_Main.D3.f623_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276778.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276790.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276952.physics_Main.D3.f620_m1480_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276954.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: -1
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run267639: !Dataset
+  name: data15-Main25-run267639
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run267639
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267639.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 267639
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276262: !Dataset
+  name: data15-Main25-run276262
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276262
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276262.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276262
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276329: !Dataset
+  name: data15-Main25-run276329
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276329
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276329.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276329
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276336: !Dataset
+  name: data15-Main25-run276336
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276336
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276336.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276336
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276416: !Dataset
+  name: data15-Main25-run276416
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276416
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276416.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276416
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276511: !Dataset
+  name: data15-Main25-run276511
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276511
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276511.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276511
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276689: !Dataset
+  name: data15-Main25-run276689
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276689
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276689.physics_Main.D3.f623_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276689
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276778: !Dataset
+  name: data15-Main25-run276778
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276778
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276778.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276778
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276790: !Dataset
+  name: data15-Main25-run276790
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276790
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276790.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276790
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276952: !Dataset
+  name: data15-Main25-run276952
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276952
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276952.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276952
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main25-run276954: !Dataset
+  name: data15-Main25-run276954
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main25-run276954
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276954.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276954
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main25
+data15-Main50: !Dataset
+  name: data15-Main50
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267073.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267167.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267638.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00270806.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00270953.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271048.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271298.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271421.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271516.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271595.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271744.physics_Main.D3.r6943_p2410_p2411.v2_hist,
+    /cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276731.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: -1
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run267073: !Dataset
+  name: data15-Main50-run267073
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run267073
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267073.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 267073
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run267167: !Dataset
+  name: data15-Main50-run267167
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run267167
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267167.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 267167
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run267638: !Dataset
+  name: data15-Main50-run267638
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run267638
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00267638.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 267638
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run270806: !Dataset
+  name: data15-Main50-run270806
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run270806
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00270806.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 270806
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run270953: !Dataset
+  name: data15-Main50-run270953
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run270953
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00270953.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 270953
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run271048: !Dataset
+  name: data15-Main50-run271048
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run271048
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271048.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271048
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run271298: !Dataset
+  name: data15-Main50-run271298
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run271298
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271298.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271298
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run271421: !Dataset
+  name: data15-Main50-run271421
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run271421
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271421.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271421
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run271516: !Dataset
+  name: data15-Main50-run271516
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run271516
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271516.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271516
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run271595: !Dataset
+  name: data15-Main50-run271595
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run271595
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271595.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271595
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run271744: !Dataset
+  name: data15-Main50-run271744
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run271744
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00271744.physics_Main.D3.r6943_p2410_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 271744
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50
+data15-Main50-run276731: !Dataset
+  name: data15-Main50-run276731
+  datatype: 0
+  treename: NOMINAL
+  ds: data15-Main50-run276731
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v2/hhskim_50/group.phys-higgs.hhsm_50.data15_13TeV.00276731.physics_Main.D3.f620_m1480_p2411.v2_hist]
+  file_pattern: extended.*hist-output.root*
+  id: 276731
+  category: null
+  version: null
+  tag_pattern: null
+  tag: null
+  grl: null
+  year: 2015
+  stream: Main50

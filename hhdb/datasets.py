@@ -54,6 +54,22 @@ Namedset = namedtuple('Namedset',
 Dataset = namedtuple('Dataset',
                      Namedset._fields + ('datatype',))
 
+RUNS_50 = [
+    267073, 
+    267167, 
+    267638, 
+    270806,
+    270953,
+    271048,
+    271298,
+    271421,
+    271516,
+    271595,
+    271744,
+    276731,
+]
+
+
 
 class Fileset(namedtuple('Fileset', Dataset._fields + ('files', 'treename'))):
 
@@ -225,6 +241,44 @@ LH_CLARA_DATA_PATTERN = re.compile(
     '(?P<tag>\w+)'
     '\_(?P<suffix>\S+)$')
 
+HH_DATA_PATTERN15 = re.compile(
+    '^(?P<prefix>\S+\.)?'
+    '(?P<run>\d+)'
+    '\.(?P<stream>physics_Main)'
+    '\.(?P<project>hcp_hadhad.2015-08-02)'
+    '\_(?P<suffix>\S+)$')
+
+HH_MC_PATTERN15 = re.compile(
+    '^(?P<prefix>\S+\.)?'
+    '(?P<id>\d+)'
+    '\.(?P<name>\w+)'
+    '\.(?P<project>hcp_hadhad.2015-08-02)'
+    '\_(?P<suffix>\S+)$')
+
+
+DS_PATTERN15 = re.compile(
+    '^(?P<prefix>(group.phys-higgs|user.\w+))'
+    '\.(?P<skim>\w+)'
+    '\.(?P<type>(data|mc))(?P<year>\d+)_(?P<energy>\d+)TeV'
+    '\.(?P<id>(\d+|period[A-Z]))'
+    '\.(?P<name>\w+)'
+    '\.(?P<stream>(D1|D2|D3|AOD))'
+    '\.(?P<tag>\w+)'
+    '\.v(?P<version>\d+)_(?P<suffix>\w+)$')
+
+LH_DS_PATTERN15 = re.compile(
+    '^(?P<prefix>(group.phys-higgs|user.\w+))'
+    '\.(?P<skim>\w+)'
+    '\.(?P<type>(data|mc))(?P<year>\d+)_(?P<energy>\d+)TeV'
+    '\.(?P<id>(\d+|period[A-Z]))'
+    '\.(?P<name>\w+)'
+    '\.(?P<stream>(D1|D2|D3|AOD))'
+    '\.(?P<tag>\w+)'
+    '\.\d+-v(?P<version>\d+)_hist.\d+$')
+
+
+
+
 # MC[11|12][a|b|c|...] categories are defined here
 # Each MC dataset is automatically classified
 # acccording to these categories by matching the reco
@@ -263,22 +317,6 @@ if USE_PYAMI:
 
 class NoMatchingDatasetsFound(Exception):
     pass
-
-
-GLOBAL_BASE = '/global/'
-
-
-def find_global(path):
-
-    if not path.startswith('/global/'):
-        raise ValueError("path must be absolute and rooted at /global")
-
-    path = re.sub('^/global/', '/cluster/data%02d/export/', path)
-
-    for node in range(1, 13):
-        if os.path.exists(path % node):
-            return path % node
-    raise IOError('path %s does not exist' % path)
 
 
 class Database(dict):
@@ -400,6 +438,7 @@ class Database(dict):
         ###############################
         # MC
         ###############################
+        log.debug(mc_path)
         if mc_path is not None:
             if deep:
                 mc_dirs = get_all_dirs_under(mc_path, prefix=mc_prefix)
@@ -408,157 +447,19 @@ class Database(dict):
                     mc_dirs = glob.glob(os.path.join(mc_path, mc_prefix) + '*')
                 else:
                     mc_dirs = glob.glob(os.path.join(mc_path, '*'))
+            log.debug(mc_dirs)
             for dir in mc_dirs:
+                log.debug(dir)
                 dirname, basename = os.path.split(dir)
-                if mc_sampletype == 'standard':
-                    match  = re.match(DS_PATTERN, basename)
-                    if match:
-                        if int(match.group('year')) != (year % 1E3):
-                            continue
-                        if match.group('type') != 'mc':
-                            continue
-                        ds_name = Database.match_to_ds(match)
-                        name = match.group('name')
-                        tag = match.group('tag')
-                        try:
-                            version = int(match.group('version'))
-                        except IndexError:
-                            version = 0
-                        except:
-                            log.warning(basename)
-                            raise
-                        tag_match = re.match(MC_TAG_PATTERN1, tag)
-                        tag_match2 = re.match(MC_TAG_PATTERN2, tag)
-                        MC_TAG_PATTERN = MC_TAG_PATTERN1
-
-                        if (tag_match2 and not tag_match) :
-                            tag_match = tag_match2
-                            MC_TAG_PATTERN = MC_TAG_PATTERN2
-
-                        if not tag_match:
-                            log.warning("not tag-matched: %s" % basename)
-                            continue
-                        cat = None
-                        for cat_name, cat_params in MC_CATEGORIES.items():
-                            if int(tag_match.group('reco')) in cat_params['reco']:
-                                cat = cat_name
-                                break
-                        if cat is None:
-                            log.warning(
-                                "does not match a category: %s" % basename)
-                            continue
-                        name += '.' + cat
-                        dataset = self.get(name, None)
-                        if dataset is not None and version == dataset.version:
-                            if tag != dataset.tag:
-                                this_reco = int(tag_match.group('reco'))
-                                other_reco = int(
-
-                                    re.match(dataset.tag_pattern,
-                                             dataset.tag).group('reco'))
-                                use_mergetag = True
-                                try:
-                                    this_merge = int(tag_match.group('recomerge'))
-                                    other_merge = int(
-                                        re.match(dataset.tag_pattern,
-                                                 dataset.tag).group('recomerge'))
-                                except IndexError:
-                                    use_mergetag = False
-
-                                cat_params = MC_CATEGORIES[cat]
-                                reco_tags = list(cat_params['reco'])
-                                merge_tags = list(cat_params['merge'])
-                                assert(this_reco in reco_tags and other_reco in reco_tags)
-                                take_this = False
-                                if reco_tags.index(this_reco) < reco_tags.index(other_reco):
-                                    take_this = True
-                                elif (use_mergetag and this_reco == other_reco and
-                                      (merge_tags.index(this_merge) <
-                                       merge_tags.index(other_merge))):
-                                    take_this = True
-
-                                if take_this:
-                                    log.warning("taking %s over %s" % (
-                                        basename, dataset.ds))
-                                    self[name] = Dataset(
-                                        name=name,
-                                        datatype=MC,
-                                        treename=mc_treename,
-                                        ds=ds_name,
-                                        id=int(match.group('id')),
-                                        category=cat,
-                                        version=version,
-                                        tag_pattern=MC_TAG_PATTERN.pattern,
-                                        tag=tag,
-                                        dirs=[dir],
-                                        file_pattern=mc_pattern,
-                                        year=year)
-                            elif dir not in dataset.dirs:
-                                dataset.dirs.append(dir)
-                        elif dataset is None or (
-                                dataset is not None and version > dataset.version):
-                            self[name] = Dataset(
-                                name=name,
-                                datatype=MC,
-                                treename=mc_treename,
-                                ds=ds_name,
-                                id=int(match.group('id')),
-                                category=cat,
-                                version=version,
-                                tag_pattern=MC_TAG_PATTERN.pattern,
-                                tag=tag,
-                                dirs=[dir],
-                                file_pattern=mc_pattern,
-                                year=year)
-                    elif self.verbose:
-                        log.warning("not a valid mc dataset name: %s" % basename)
-
-                elif mc_sampletype == 'lhCN':
-                    match  = re.match(CN_MC_PATTERN12, basename)
-                    if match:
-
-                        name = match.group('name')
-                        cat = 'mc12a'
-                        tag = match.group('tag')
-                        year = 2012
-
-                        ## Calculate a version int
-                        version_1 = match.group('version1')
-                        version_2 = match.group('version2')
-                        version = int(version_1)*1000 + int(version_2)*10
-
-                        dataset = self.get(name, None)
-                        if dataset is not None and version == dataset.version:
-                            if dir not in dataset.dirs:
-                                dataset.dirs.append(dir)
-                        else:
-
-                            log.info('\'%s\',' % name)
-                            self[name] = Dataset(
-                                name=name,
-                                datatype=MC,
-                                treename=mc_treename,
-                                ds=name,
-                                id=int(match.group('id')),
-                                category=cat,
-                                version=version,
-                                tag_pattern=None,
-                                tag=tag,
-                                dirs=[dir],
-                                file_pattern=mc_pattern,
-                                year=year)
-                elif mc_sampletype == 'lh_clara':
-                    match  = re.match(LH_CLARA_MC_PATTERN, basename)
+                if mc_sampletype == 'lh_clara':
+                    match  = re.match(LH_DS_PATTERN15, basename)
                     if match:
                         name = match.group('name')
                         cat = 'mc15'
                         tag = match.group('tag')
-                        log.info((name, cat, tag, match.group('suffix')))
-                        year = 2015
-                        ## Calculate a version int
-                        # version_1 = 1 
-                        # version_2 = 2 
-                        # version = int(version_1)*1000 + int(version_2)*10
+                        year = int(match.group('year'))
+                        log.info((name, cat, tag, year))
+                        # hardcoded version for now
                         version = 1
 
                         dataset = self.get(name, None)
@@ -582,313 +483,54 @@ class Database(dict):
                                 file_pattern=mc_pattern,
                                 year=year)
 
+                elif mc_sampletype == 'hh_2015':
+                    log.info(basename)
+                    match  = re.match(DS_PATTERN15, basename)
+                    if match: #and not data_match:
+                        if match.group('type') != 'mc':
+                            continue
+
+                        name = match.group('name')
+                        skim = match.group('skim')
+                        datatype = match.group('type')
+                        year = match.group('year')
+                        energy = match.group('energy')
+                        dsid = match.group('id')
+                        stream = match.group('stream')
+                        tag = match.group('tag')
+                        version = match.group('version')
+                        suffix = match.group('suffix')
+                        cat = datatype + year
+                        log.info((name, skim, datatype, year, energy, dsid, stream, tag, version, suffix))
+
+                        dataset = self.get(name, None)
+                        if dataset is not None and version == dataset.version:
+                            if dir not in dataset.dirs:
+                                dataset.dirs.append(dir)
+                        else:
+                            log.info('\'%s\',' % name)
+                            self[name] = Dataset(
+                                name=name,
+                                datatype=MC,
+                                treename=mc_treename,
+                                ds=name,
+                                id=int(match.group('id')),
+                                category=cat,
+                                version=version,
+                                tag_pattern=None,
+                                tag=tag,
+                                dirs=[dir],
+                                file_pattern=mc_pattern,
+                                year=2015,
+                                stream=stream)
+
+
 
         #####################################
         # EMBEDDING
         #####################################
         if embed_path is not None:
-
-            if deep:
-                embed_dirs = get_all_dirs_under(embed_path, prefix=embed_prefix)
-            else:
-                if embed_prefix:
-                    embed_dirs = glob.glob(
-                        os.path.join(embed_path, embed_prefix) + '*')
-                else:
-                    embed_dirs = glob.glob(
-                        os.path.join(embed_path, '*'))
-
-            if embed_sampletype == 'new':
-
-                EMBED_PATTERN = EMBED_PATTERN12_NEW
-
-                # determine what channels are available
-                channels = {}
-                for dir in embed_dirs:
-                    if os.path.isdir(dir):
-                        dirname, basename = os.path.split(dir)
-                        match = re.match(EMBED_PATTERN, basename)
-                        if match:
-                            channel = match.group('channel')
-                            if channel not in channels:
-                                channels[channel] = []
-                            channels[channel].append(dir)
-                        elif self.verbose:
-                            log.warning(
-                                "not a valid embedding dataset name: %s"
-                                % basename)
-                    elif self.verbose:
-                        log.warning("skipping file: %s" % dir)
-
-                for channel, channel_dirs in channels.items():
-                    syst = {}
-                    for dir in channel_dirs:
-                        dirname, basename = os.path.split(dir)
-                        match = re.match(EMBED_PATTERN, basename)
-                        if match:
-                            isol = match.group('sys')
-                            if isol not in syst:
-                                syst[isol] = []
-                            syst[isol].append(dir)
-                        elif self.verbose:
-                            log.warning(
-                                "not a valid embedding dataset name: %s"
-                                % basename)
-
-                    for syst_type, dirs in syst.items():
-                        name = 'embed%d-%s-%s' % (
-                                year % 1000, channel, syst_type)
-                        self[name] = Dataset(
-                            name,
-                            datatype=EMBED,
-                            treename=embed_treename,
-                            ds=name,
-                            id=1,
-                            grl=data_grl,
-                            dirs=dirs,
-                            file_pattern=embed_pattern,
-                            year=year)
-
-            elif embed_sampletype == 'standard':
-                if year == 2011:
-                    EMBED_PATTERN = EMBED_PATTERN11
-                else:
-                    EMBED_PATTERN = EMBED_PATTERN12
-
-                # determine what channels are available
-                channels = {}
-                for dir in embed_dirs:
-                    if os.path.isdir(dir):
-                        dirname, basename = os.path.split(dir)
-                        match = re.match(EMBED_PATTERN, basename)
-                        if match:
-                            channel = match.group('channel')
-                            if channel not in channels:
-                                channels[channel] = []
-                            channels[channel].append(dir)
-                        elif self.verbose:
-                            log.warning(
-                                "not a valid embedding dataset name: %s"
-                                % basename)
-                    elif self.verbose:
-                        log.warning("skipping file: %s" % dir)
-
-                for channel, channel_dirs in channels.items():
-                    if year == 2011:
-                        # group dirs by isolation
-                        isols = {}
-                        for dir in channel_dirs:
-                            dirname, basename = os.path.split(dir)
-                            match = re.match(EMBED_PATTERN, basename)
-                            if match:
-                                isol = match.group('isol')
-                                if isol not in isols:
-                                    isols[isol] = []
-                                isols[isol].append(dir)
-                            elif self.verbose:
-                                log.warning(
-                                    "not a valid embedding dataset name: %s"
-                                    % basename)
-
-                        for isol, isol_dirs in isols.items():
-                            # group dirs by mfs
-                            mfss = {}
-                            for dir in isol_dirs:
-                                dirname, basename = os.path.split(dir)
-                                match = re.match(EMBED_PATTERN, basename)
-                                if match:
-                                    mfs = match.group('mfs')
-                                    if mfs not in mfss:
-                                        mfss[mfs] = []
-                                    mfss[mfs].append(dir)
-                                elif self.verbose:
-                                    log.warning(
-                                        "not a valid embedding dataset name: %s"
-                                        % basename)
-
-                            for mfs, mfs_dirs in mfss.items():
-                                name = 'embed%d-%s-%s-%s' % (
-                                    year % 1000, channel, isol, mfs)
-
-                                self[name] = Dataset(
-                                    name,
-                                    datatype=EMBED,
-                                    treename=embed_treename,
-                                    ds=name,
-                                    id=1,
-                                    grl=data_grl,
-                                    dirs=mfs_dirs,
-                                    file_pattern=embed_pattern,
-                                    year=year)
-
-                                periods = {}
-                                for dir in mfs_dirs:
-                                    dirname, basename = os.path.split(dir)
-                                    match = re.match(EMBED_PATTERN, basename)
-                                    if match:
-                                        period = match.group('period')
-                                        tag = match.group('tag')
-                                        if period not in periods:
-                                            periods[period] = {'tag': tag, 'dirs': [dir]}
-                                        else:
-                                            periods[period]['dirs'].append(dir)
-                                            if tag != periods[period]['tag']:
-                                                log.warning(
-                                                    'multiple copies of run with '
-                                                    'different tags: %s' %
-                                                    periods[period]['dirs'])
-                                    elif self.verbose:
-                                        log.warning(
-                                            "not a valid embeding dataset name: %s"
-                                            % basename)
-
-                                for period, info in periods.items():
-                                    period_name = '%s-%s' % (name, period)
-
-                                    self[period_name] = Dataset(
-                                        name=period_name,
-                                        datatype=EMBED,
-                                        treename=embed_treename,
-                                        ds=period_name,
-                                        id=1,
-                                        grl=data_grl,
-                                        dirs=info['dirs'],
-                                        file_pattern=embed_pattern,
-                                        year=year)
-
-                    else:
-                        # group dirs by mfs
-                        mfss = {}
-                        for dir in channel_dirs:
-                            dirname, basename = os.path.split(dir)
-                            match = re.match(EMBED_PATTERN, basename)
-                            if match:
-                                mfs = match.group('mfs')
-                                if mfs not in mfss:
-                                    mfss[mfs] = []
-                                mfss[mfs].append(dir)
-                            elif self.verbose:
-                                log.warning(
-                                    "not a valid embedding dataset name: %s"
-                                    % basename)
-
-                        for mfs, mfs_dirs in mfss.items():
-                            name = 'embed%d-%s-%s' % (
-                                year % 1000, channel, mfs)
-                            self[name] = Dataset(
-                                name,
-                                datatype=EMBED,
-                                treename=embed_treename,
-                                ds=name,
-                                id=1,
-                                grl=data_grl,
-                                dirs=mfs_dirs,
-                                file_pattern=embed_pattern,
-                                year=year)
-
-                            periods = {}
-                            for dir in mfs_dirs:
-                                dirname, basename = os.path.split(dir)
-                                match = re.match(EMBED_PATTERN, basename)
-                                if match:
-                                    period = match.group('period')
-                                    tag = match.group('tag')
-                                    if period not in periods:
-                                        periods[period] = {'tag': tag, 'dirs': [dir]}
-                                    else:
-                                        periods[period]['dirs'].append(dir)
-                                        if tag != periods[period]['tag']:
-                                            log.warning(
-                                                'multiple copies of run with '
-                                                'different tags: %s' %
-                                                periods[period]['dirs'])
-                                elif self.verbose:
-                                    log.warning(
-                                        "not a valid embedding dataset name: %s"
-                                        % basename)
-
-                            for period, info in periods.items():
-                                period_name = '%s-%s' % (name, period)
-                                self[period_name] = Dataset(
-                                    name=period_name,
-                                    datatype=EMBED,
-                                    treename=embed_treename,
-                                    ds=period_name,
-                                    id=1,
-                                    grl=data_grl,
-                                    dirs=info['dirs'],
-                                    file_pattern=embed_pattern,
-                                    year=year)
-
-            elif embed_sampletype == 'lhCN':
-                year = 2012
-                channels = {}
-                for dir in embed_dirs:
-                    if os.path.isdir(dir):
-                        dirname, basename = os.path.split(dir)
-                        match = re.match(CN_EMBED_PATTERN12, basename)
-                        if match:
-                            channel = match.group('channel')
-                            if channel not in channels:
-                                channels[channel] = []
-                            channels[channel].append(dir)
-                        elif self.verbose:
-                            log.warning(
-                                "not a valid embedding dataset name: %s"
-                                % basename)
-                    elif self.verbose:
-                        log.warning("skipping file: %s" % dir)
-
-                for channel, channel_dirs in channels.items():
-                    # group dirs by mfs
-                    mfss = {}
-                    for dir in channel_dirs:
-                        dirname, basename = os.path.split(dir)
-                        match = re.match(CN_EMBED_PATTERN12, basename)
-                        if match:
-                            mfs = match.group('mfs')
-                            if mfs not in mfss:
-                                mfss[mfs] = []
-                            mfss[mfs].append(dir)
-                        elif self.verbose:
-                            log.warning(
-                                "not a valid embedding dataset name: %s"
-                                % basename)
-
-                    for mfs, mfs_dirs in mfss.items():
-                        name = 'embed%d-%s-%s' % (
-                            year % 1000, channel, mfs)
-                        self[name] = Dataset(
-                            name,
-                            datatype=EMBED,
-                            treename=embed_treename,
-                            ds=name,
-                            id=1,
-                            grl=data_grl,
-                            dirs=mfs_dirs,
-                            file_pattern=embed_pattern,
-                            year=year)
-
-            # MC EMBEDDING
-            variations = {}
-            for dir in embed_dirs:
-                dirname, basename = os.path.split(dir)
-                match = re.match(MC_EMBED_PATTERN, basename)
-                if not match:
-                    continue
-                syst = match.group('sys') or ''
-                variations.setdefault(syst, []).append(dir)
-            for variation, dirs in variations.items():
-                name = 'mcembed12-hh%s' % variation
-                self[name] = Dataset(
-                    name,
-                    datatype=MCEMBED,
-                    treename=embed_treename,
-                    ds=name,
-                    id=1,
-                    dirs=dirs,
-                    file_pattern=embed_pattern,
-                    year=2012)
+            log.warning('Not ready yet!')
 
         ##############################
         # DATA
@@ -905,169 +547,20 @@ class Database(dict):
                     data_dirs = glob.glob(
                         os.path.join(data_path, '*'))
 
-            if data_sampletype == 'standard':
+            if data_sampletype == 'lh_clara':
                 # classify dir by stream
                 streams = {}
                 for dir in data_dirs:
                     dirname, basename = os.path.split(dir)
-                    match = re.match(DS_PATTERN, basename)
-                    if match:
-                        if int(match.group('year')) != (year % 1E3):
-                            continue
-                        if match.group('type') != 'data':
-                            continue
-                        stream = match.group('name').split('_')[-1]
-                        if stream not in streams:
-                            streams[stream] = []
-                        streams[stream].append(dir)
-                    elif self.verbose:
-                        log.warning(
-                            "not a valid data dataset name: %s" % basename)
-
-                for stream, dirs in streams.items():
-                    name = 'data%d-%s' % (year % 1000, stream)
-                    self[name] = Dataset(
-                        name=name,
-                        datatype=DATA,
-                        treename=data_treename,
-                        ds=name,
-                        id=-1,
-                        # The GRL is the same for both lephad and hadhad analyses
-                        grl=data_grl,
-                        dirs=dirs,
-                        stream=stream,
-                        file_pattern=data_pattern,
-                        year=year)
-
-                    if data_period_containers:
-                        # in each stream create a separate dataset for each run
-                        periods = {}
-                        for dir in dirs:
-                            dirname, basename = os.path.split(dir)
-                            match = re.match(DS_PATTERN, basename)
-                            if match:
-                                period = match.group('id')
-                                if not period.startswith('period'):
-                                    continue
-                                tag = match.group('tag')
-                                if period not in periods:
-                                    periods[period] = {
-                                        'tag': tag,
-                                        'dirs': [dir],
-                                        'ds': Database.match_to_ds(match)}
-                                else:
-                                    periods[period]['dirs'].append(dir)
-                                    if tag != periods[period]['tag']:
-                                        log.warning(
-                                            'multiple copies of period with different '
-                                            'tags: \n%s' %
-                                            ('\n'.join(periods[period]['dirs'])))
-                            elif self.verbose:
-                                log.warning(
-                                    "not a valid data dataset name: %s" % basename)
-                        # need to use the actual ds name for ds for validation
-                        for period, info in periods.items():
-                            name = 'data%d-%s-%s' % (year % 1000, stream, period[-1])
-                            self[name] = Dataset(
-                                name=name,
-                                datatype=DATA,
-                                treename=data_treename,
-                                ds=name,
-                                id=period,
-                                grl=data_grl,
-                                dirs=info['dirs'],
-                                stream=stream,
-                                file_pattern=data_pattern,
-                                year=year)
-                    else:
-                        # in each stream create a separate dataset for each run
-                        runs = {}
-                        for dir in dirs:
-                            dirname, basename = os.path.split(dir)
-                            match = re.match(DS_PATTERN, basename)
-                            if match:
-                                run = int(match.group('id'))
-                                tag = match.group('tag')
-                                if run not in runs:
-                                    runs[run] = {
-                                        'tag': tag,
-                                        'dirs': [dir],
-                                        'ds': Database.match_to_ds(match)}
-                                else:
-                                    runs[run]['dirs'].append(dir)
-                                    if tag != runs[run]['tag']:
-                                        log.warning(
-                                            'multiple copies of run with different '
-                                            'tags: %s' % runs[run]['dirs'])
-                            elif self.verbose:
-                                log.warning(
-                                    "not a valid data dataset name: %s" % basename)
-                        # need to use the actual ds name for ds for validation
-                        for run, info in runs.items():
-                            name = 'data%d-%s-%d' % (year % 1000, stream, run)
-                            self[name] = Dataset(
-                                name=name,
-                                datatype=DATA,
-                                treename=data_treename,
-                                ds=name,
-                                id=run,
-                                grl=data_grl,
-                                dirs=info['dirs'],
-                                stream=stream,
-                                file_pattern=data_pattern,
-                                year=year)
-
-                        if USE_PYAMI:
-                            # in each stream create a separate dataset for each period
-                            run_periods = get_periods(amiclient, year=year, level=2)
-                            # ignore subset periods like Ba in 2012
-                            run_periods = [
-                                p.name for p in run_periods if len(p.name) == 1]
-                            period_runs = {}
-                            for period in run_periods:
-                                if period == 'VdM':
-                                    continue
-                                _runs = get_runs(amiclient, periods=period, year=year)
-                                for run in _runs:
-                                    period_runs[run] = period
-                            periods = {}
-                            for run, info in runs.items():
-                                if run in period_runs:
-                                    _period = period_runs[run]
-                                else:
-                                    # ignore spurious runs
-                                    continue
-                                if _period in periods:
-                                    periods[_period] += info['dirs']
-                                else:
-                                    periods[_period] = info['dirs'][:]
-                            for period, dirs in periods.items():
-                                name = 'data%d-%s-%s' % (year % 1000, stream, period)
-                                self[name] = Dataset(
-                                    name=name,
-                                    datatype=DATA,
-                                    treename=data_treename,
-                                    ds=name,
-                                    id=-1,
-                                    grl=data_grl,
-                                    dirs=dirs,
-                                    stream=stream,
-                                    file_pattern=data_pattern,
-                                    year=year)
-
-            elif data_sampletype == 'lh_clara':
-                # classify dir by stream
-                streams = {}
-                for dir in data_dirs:
-                    dirname, basename = os.path.split(dir)
-                    match = re.match(LH_CLARA_DATA_PATTERN, basename)
+                    match = re.match(LH_DS_PATTERN15, basename)
                     if match:
                         # if int(match.group('year')) != (year % 1E3):
                         #     continue
-                        # if match.group('type') != 'data':
-                        #     continue
-                        stream = match.group('stream').split('_')[-1]
-                        log.info(stream)
+                        if match.group('type') != 'data':
+                            continue
+                        stream = match.group('name').split('_')[-1]
+                        run = int(match.group('id'))
+                        log.info((stream, run))
                         if stream not in streams:
                             streams[stream] = []
                         streams[stream].append(dir)
@@ -1077,6 +570,7 @@ class Database(dict):
 
                 for stream, dirs in streams.items():
                     name = 'data%d-%s' % (year % 1000, stream)
+                    log.info(name)
                     self[name] = Dataset(
                         name=name,
                         datatype=DATA,
@@ -1117,39 +611,40 @@ class Database(dict):
                             elif self.verbose:
                                 log.warning(
                                     "not a valid data dataset name: %s" % basename)
-                        log.info(runs)
-                        # need to use the actual ds name for ds for validation
-                        for run, info in runs.items():
-                            name = 'data%d-%s-run%d' % (year % 1000, stream, run)
-                            self[name] = Dataset(
-                                name=name,
-                                datatype=DATA,
-                                treename=data_treename,
-                                ds=name,
-                                id=run,
-                                grl=data_grl,
-                                dirs=info['dirs'],
-                                stream=stream,
-                                file_pattern=data_pattern,
-                                year=year)
 
 
-            elif data_sampletype == 'lhCN':
-                year = 2012
+            elif data_sampletype == 'hh_2015':
+                # classify dir by stream
                 streams = {}
+                streams['Main25'] = []
+                streams['Main50'] = []
                 for dir in data_dirs:
-                    match = re.match(CN_DATA_PATTERN12, dir)
+                    dirname, basename = os.path.split(dir)
+                    match = re.match(DS_PATTERN15, basename)
                     if match:
-                        stream = match.group('name')
+                        if match.group('type') != 'data':
+                            continue
+                        # if int(match.group('year')) != (year % 1E3):
+                        #     continue
+                        # if match.group('type') != 'data':
+                        #     continue
+                        stream = match.group('name').split('_')[-1]
+                        run = int(match.group('id'))
+                        if run in RUNS_50:
+                            streams['Main50'].append(dir)
+                        else:
+                            streams['Main25'].append(dir)
+                        log.info(stream)
                         if stream not in streams:
                             streams[stream] = []
                         streams[stream].append(dir)
+
                     elif self.verbose:
-                        log.warning("not a valid data dataset name: %s" % dir)
+                        log.warning(
+                            "not a valid data dataset name: %s" % basename)
 
                 for stream, dirs in streams.items():
-                    name = 'data%d-%s' % (year % 1000, stream)
-                    log.info('\'%s\',' % name)
+                    name = 'data%d-%s' % (15, stream)
                     self[name] = Dataset(
                         name=name,
                         datatype=DATA,
@@ -1157,48 +652,56 @@ class Database(dict):
                         ds=name,
                         id=-1,
                         # The GRL is the same for both lephad and hadhad analyses
-                        grl=data_grl,
+                        grl=None,#data_grl,
                         dirs=dirs,
                         stream=stream,
                         file_pattern=data_pattern,
-                        year=year)
+                        year=2015)
 
-                    # in each stream create a separate dataset for each period
-                    periods = {}
-                    for dir in dirs:
-                        match = re.match(CN_DATA_PATTERN12, dir)
-                        if match:
-                            period = match.group('id')
-                            tag = match.group('tag')
-                            if period not in periods:
-                                periods[period] = {
-                                    'tag': tag,
-                                    'dirs': [dir],
-                                    'ds': -1}
-                            else:
-                                periods[period]['dirs'].append(dir)
-                                if tag != periods[period]['tag']:
-                                    log.warning(
-                                        'multiple copies of period with different '
-                                        'tags: %s' % periods[period]['dirs'])
-                        elif self.verbose:
-                            log.warning(
-                                "not a valid data dataset name: %s" % dir)
-                    # need to use the actual ds name for ds for validation
-                    for period, info in periods.items():
-                        name = 'data%d-%s-%s' % (year % 1000, stream, period)
-                        log.info('\'%s\',' % name)
-                        self[name] = Dataset(
-                            name=name,
-                            datatype=DATA,
-                            treename=data_treename,
-                            ds=info['ds'],
-                            id=period,
-                            grl=data_grl,
-                            dirs=info['dirs'],
-                            stream=stream,
-                            file_pattern=data_pattern,
-                            year=year)
+                    if data_period_containers:
+                        # in each stream create a separate dataset for each run
+                        pass
+                    else:
+                        # in each stream create a separate dataset for each run
+                        runs = {}
+                        for dir in dirs:
+                            dirname, basename = os.path.split(dir)
+                            match = re.match(DS_PATTERN15, basename)
+                            if match:
+                                run = int(match.group('id'))
+                                
+                                tag = match.group('tag')
+                                if run not in runs:
+                                    runs[run] = {
+                                        'tag': tag,
+                                        'dirs': [dir],
+                                        'ds': ''}#Database.match_to_ds(match)}
+                                else:
+                                    runs[run]['dirs'].append(dir)
+                                    if tag != runs[run]['tag']:
+                                        log.warning(
+                                            'multiple copies of run with different '
+                                            'tags: %s' % runs[run]['dirs'])
+                            elif self.verbose:
+                                log.warning(
+                                    "not a valid data dataset name: %s" % basename)
+                        log.info(runs)
+                        # need to use the actual ds name for ds for validation
+                        for run, info in runs.items():
+                            name = 'data%d-%s-run%d' % (15, stream, run)
+                            self[name] = Dataset(
+                                name=name,
+                                datatype=DATA,
+                                treename=data_treename,
+                                ds=name,
+                                id=run,
+                                grl=None,
+                                dirs=info['dirs'],
+                                stream=stream,
+                                file_pattern=data_pattern,
+                                year=2015)
+
+
 
     def __setitem__(self, name, ds):
         if self.verbose:

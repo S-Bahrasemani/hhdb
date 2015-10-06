@@ -3,21 +3,30 @@ mc_ztautau:
     latex: '$Z\rightarrow\tau\tau$'
     root: '#font[52]{Z}#rightarrow#tau#tau'
     samples:
-        - 'Sherpa_CT10_ZtautauMassiveCBPt0_CFilterBVeto'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt0_CVetoBVeto'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt0_BFilter'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt70_140_CFilterBVeto'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt70_140_CVetoBVeto'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt70_140_BFilter'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt140_280_CFilterBVeto'
-        # - 'Sherpa_CT10_ZtautauMassiveCBPt140_280_CVetoBVeto'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt140_280_BFilter'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt280_500_CFilterBVeto'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt280_500_CVetoBVeto'
-        # - 'Sherpa_CT10_ZtautauMassiveCBPt280_500_BFilter'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt500_CFilterBVeto'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt500_CVetoBVeto'
-        - 'Sherpa_CT10_ZtautauMassiveCBPt500_BFilter'
+        - 'Sh_Ztt_Pt0_70_CFilterBVeto'
+        - 'Sh_Ztt_Pt0_70_CVetoBVeto'
+        - 'Sh_Ztt_Pt0_70_BFilter'
+        - 'Sh_Ztt_Pt70_140_CFilterBVeto'
+        - 'Sh_Ztt_Pt70_140_CVetoBVeto'
+        - 'Sh_Ztt_Pt70_140_BFilter'
+        - 'Sh_Ztt_Pt140_280_CFilterBVeto'
+        - 'Sh_Ztt_Pt140_280_CVetoBVeto'
+        - 'Sh_Ztt_Pt140_280_BFilter'
+        - 'Sh_Ztt_Pt280_500_CFilterBVeto'
+        - 'Sh_Ztt_Pt280_500_CVetoBVeto'
+        - 'Sh_Ztt_Pt280_500_BFilter'
+        - 'Sh_Ztt_Pt500_700_CFilterBVeto'
+        - 'Sh_Ztt_Pt500_700_CVetoBVeto'
+        - 'Sh_Ztt_Pt500_700_BFilter'
+        - 'Sh_Ztt_Pt700_1000_CFilterBVeto'
+        - 'Sh_Ztt_Pt700_1000_CVetoBVeto'
+        - 'Sh_Ztt_Pt700_1000_BFilter'
+        - 'Sh_Ztt_Pt1000_2000_CFilterBVeto'
+        - 'Sh_Ztt_Pt1000_2000_CVetoBVeto'
+        - 'Sh_Ztt_Pt1000_2000_BFilter'
+        - 'Sh_Ztt_Pt2000_E_CMS_CFilterBVeto'
+        - 'Sh_Ztt_Pt2000_E_CMS_CVetoBVeto'
+        - 'Sh_Ztt_Pt2000_E_CMS_BFilter'
 
 mc_wtaunu:
     name: Wtaunu
@@ -144,10 +153,6 @@ mc_zee_dy:
         - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1250M1500'
 
 
-
-
-
-
 # embedded_ztautau:
 #     name: Ztautau
 #     latex: '$Z\rightarrow\tau\tau$'
@@ -165,7 +170,7 @@ pythia_ztautau:
    latex: '$Z\rightarrow\tau\tau$'
    root: '#font[52]{Z}#rightarrow#tau#tau'
    samples:
-       - 'PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau'
+       - 'PoPy8_Ztt'
 
 pythia_zmumu:
    name: Zmumu

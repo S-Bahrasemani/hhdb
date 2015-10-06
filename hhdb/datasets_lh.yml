@@ -1,1193 +1,1395 @@
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1000M1250: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1000M1250
+PoPy8_VBFH125_tautaulh: !Dataset
+  name: PoPy8_VBFH125_tautaulh
   datatype: 1
   treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1000M1250
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301006.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1000M1250.hsm_lephad.MC15_Zll_p2352_hist-output.root.33898758]
+  ds: PoPy8_VBFH125_tautaulh
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.common_lephad_higgs.mc15_13TeV.341156.PoPy8_VBFH125_tautaulh.D2.e3888_s2608_s2183_r6765_r6282_p2401.201509-v2_hist.43093497]
   file_pattern: '*hist-output.root*'
-  id: 301006
+  id: 341156
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Zll_p2352
+  tag: e3888_s2608_s2183_r6765_r6282_p2401
   grl: null
-  year: 2015
+  year: 15
   stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_120M180: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_120M180
+PoPy8_Wplusenu: !Dataset
+  name: PoPy8_Wplusenu
   datatype: 1
   treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_120M180
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301000.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_120M180.hsm_lephad.MC15_Zll_p2352_hist-output.root.33902920]
-  file_pattern: '*hist-output.root*'
-  id: 301000
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1250M1500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1250M1500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1250M1500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301007.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1250M1500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33899323]
-  file_pattern: '*hist-output.root*'
-  id: 301007
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1500M1750: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1500M1750
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1500M1750
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301008.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1500M1750.hsm_lephad.MC15_Zll_p2352_hist-output.root.33902148]
-  file_pattern: '*hist-output.root*'
-  id: 301008
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1750M2000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1750M2000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1750M2000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301009.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_1750M2000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33896768]
-  file_pattern: '*hist-output.root*'
-  id: 301009
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_180M250: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_180M250
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_180M250
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301001.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_180M250.hsm_lephad.MC15_Zll_p2352_hist-output.root.33905366]
-  file_pattern: '*hist-output.root*'
-  id: 301001
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2000M2250: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2000M2250
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2000M2250
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301010.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2000M2250.hsm_lephad.MC15_Zll_p2352_hist-output.root.33899412]
-  file_pattern: '*hist-output.root*'
-  id: 301010
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2250M2500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2250M2500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2250M2500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301011.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2250M2500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33898066]
-  file_pattern: '*hist-output.root*'
-  id: 301011
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2500M2750: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2500M2750
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2500M2750
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301012.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2500M2750.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897257]
-  file_pattern: '*hist-output.root*'
-  id: 301012
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_250M400: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_250M400
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_250M400
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301002.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_250M400.hsm_lephad.MC15_Zll_p2352_hist-output.root.33899314]
-  file_pattern: '*hist-output.root*'
-  id: 301002
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2750M3000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2750M3000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2750M3000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301013.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_2750M3000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897100]
-  file_pattern: '*hist-output.root*'
-  id: 301013
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_3000M3500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_3000M3500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_3000M3500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301014.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_3000M3500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33908135]
-  file_pattern: '*hist-output.root*'
-  id: 301014
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_3500M4000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_3500M4000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_3500M4000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301015.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_3500M4000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33944579]
-  file_pattern: '*hist-output.root*'
-  id: 301015
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_4000M4500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_4000M4500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_4000M4500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301016.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_4000M4500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33900235]
-  file_pattern: '*hist-output.root*'
-  id: 301016
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_400M600: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_400M600
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_400M600
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301003.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_400M600.hsm_lephad.MC15_Zll_p2352_hist-output.root.33901137]
-  file_pattern: '*hist-output.root*'
-  id: 301003
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_4500M5000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_4500M5000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_4500M5000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301017.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_4500M5000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33944596]
-  file_pattern: '*hist-output.root*'
-  id: 301017
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_5000M: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_5000M
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_5000M
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301018.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_5000M.hsm_lephad.MC15_Zll_p2352_hist-output.root.33933587]
-  file_pattern: '*hist-output.root*'
-  id: 301018
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_600M800: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_600M800
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_600M800
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301004.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_600M800.hsm_lephad.MC15_Zll_p2352_hist-output.root.33945829]
-  file_pattern: '*hist-output.root*'
-  id: 301004
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_800M1000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_800M1000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_800M1000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301005.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYee_800M1000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33944576]
-  file_pattern: '*hist-output.root*'
-  id: 301005
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1000M1250: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1000M1250
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1000M1250
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301026.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1000M1250.hsm_lephad.MC15_Zll_p2352_hist-output.root.33900418]
-  file_pattern: '*hist-output.root*'
-  id: 301026
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_120M180: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_120M180
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_120M180
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301020.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_120M180.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897593]
-  file_pattern: '*hist-output.root*'
-  id: 301020
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1250M1500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1250M1500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1250M1500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301027.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1250M1500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897089]
-  file_pattern: '*hist-output.root*'
-  id: 301027
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1500M1750: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1500M1750
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1500M1750
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301028.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1500M1750.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897023]
-  file_pattern: '*hist-output.root*'
-  id: 301028
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1750M2000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1750M2000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1750M2000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301029.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_1750M2000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33901037]
-  file_pattern: '*hist-output.root*'
-  id: 301029
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_180M250: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_180M250
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_180M250
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301021.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_180M250.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897387]
-  file_pattern: '*hist-output.root*'
-  id: 301021
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2000M2250: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2000M2250
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2000M2250
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301030.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2000M2250.hsm_lephad.MC15_Zll_p2352_hist-output.root.33895376]
-  file_pattern: '*hist-output.root*'
-  id: 301030
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2250M2500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2250M2500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2250M2500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301031.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2250M2500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897620]
-  file_pattern: '*hist-output.root*'
-  id: 301031
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2500M2750: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2500M2750
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2500M2750
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301032.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2500M2750.hsm_lephad.MC15_Zll_p2352_hist-output.root.33900734]
-  file_pattern: '*hist-output.root*'
-  id: 301032
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_250M400: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_250M400
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_250M400
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301022.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_250M400.hsm_lephad.MC15_Zll_p2352_hist-output.root.33896227]
-  file_pattern: '*hist-output.root*'
-  id: 301022
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2750M3000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2750M3000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2750M3000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301033.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_2750M3000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33895716]
-  file_pattern: '*hist-output.root*'
-  id: 301033
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_3000M3500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_3000M3500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_3000M3500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301034.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_3000M3500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897195]
-  file_pattern: '*hist-output.root*'
-  id: 301034
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_3500M4000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_3500M4000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_3500M4000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301035.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_3500M4000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33900406]
-  file_pattern: '*hist-output.root*'
-  id: 301035
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_4000M4500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_4000M4500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_4000M4500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301036.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_4000M4500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33913126]
-  file_pattern: '*hist-output.root*'
-  id: 301036
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_400M600: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_400M600
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_400M600
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301023.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_400M600.hsm_lephad.MC15_Zll_p2352_hist-output.root.33900762]
-  file_pattern: '*hist-output.root*'
-  id: 301023
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_4500M5000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_4500M5000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_4500M5000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301037.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_4500M5000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33896195]
-  file_pattern: '*hist-output.root*'
-  id: 301037
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_5000M: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_5000M
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_5000M
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301038.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_5000M.hsm_lephad.MC15_Zll_p2352_hist-output.root.33913334]
-  file_pattern: '*hist-output.root*'
-  id: 301038
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_600M800: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_600M800
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_600M800
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301024.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_600M800.hsm_lephad.MC15_Zll_p2352_hist-output.root.33896771]
-  file_pattern: '*hist-output.root*'
-  id: 301024
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_800M1000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_800M1000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_800M1000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301025.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYmumu_800M1000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33895205]
-  file_pattern: '*hist-output.root*'
-  id: 301025
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1000M1250: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1000M1250
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1000M1250
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301046.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1000M1250.hsm_lephad.MC15_Zll_p2352_hist-output.root.33900991,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301046.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1000M1250.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33904439]
-  file_pattern: '*hist-output.root*'
-  id: 301046
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Ztt_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_120M180: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_120M180
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_120M180
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301040.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_120M180.hsm_lephad.MC15_Zll_p2352_hist-output.root.33944067,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301040.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_120M180.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33896864]
-  file_pattern: '*hist-output.root*'
-  id: 301040
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Ztt_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1250M1500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1250M1500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1250M1500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301047.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1250M1500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33898860,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301047.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1250M1500.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33899382]
-  file_pattern: '*hist-output.root*'
-  id: 301047
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1500M1750: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1500M1750
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1500M1750
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301048.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1500M1750.hsm_lephad.MC15_Zll_p2352_hist-output.root.33898141,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301048.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1500M1750.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33898165]
-  file_pattern: '*hist-output.root*'
-  id: 301048
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1750M2000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1750M2000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1750M2000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301049.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1750M2000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33914595,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301049.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_1750M2000.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33913782]
-  file_pattern: '*hist-output.root*'
-  id: 301049
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301041.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250.hsm_lephad.MC15_Zll_p2352_hist-output.root.33945195,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301041.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_180M250.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33897733]
-  file_pattern: '*hist-output.root*'
-  id: 301041
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Ztt_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2000M2250: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2000M2250
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2000M2250
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301050.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2000M2250.hsm_lephad.MC15_Zll_p2352_hist-output.root.33913515,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301050.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2000M2250.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33913521]
-  file_pattern: '*hist-output.root*'
-  id: 301050
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2250M2500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2250M2500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2250M2500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301051.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2250M2500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33898761,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301051.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2250M2500.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33904246]
-  file_pattern: '*hist-output.root*'
-  id: 301051
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2500M2750: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2500M2750
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2500M2750
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301052.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2500M2750.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897611,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301052.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2500M2750.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33898032]
-  file_pattern: '*hist-output.root*'
-  id: 301052
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Ztt_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301042.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400.hsm_lephad.MC15_Zll_p2352_hist-output.root.33900178,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301042.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_250M400.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33899322]
-  file_pattern: '*hist-output.root*'
-  id: 301042
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Ztt_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2750M3000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2750M3000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2750M3000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301053.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2750M3000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897610,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301053.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_2750M3000.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33900434]
-  file_pattern: '*hist-output.root*'
-  id: 301053
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3000M3500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3000M3500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3000M3500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301054.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3000M3500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33898217,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301054.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3000M3500.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33900666]
-  file_pattern: '*hist-output.root*'
-  id: 301054
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3500M4000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3500M4000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3500M4000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301055.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3500M4000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33898035,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301055.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_3500M4000.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33899336]
-  file_pattern: '*hist-output.root*'
-  id: 301055
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4000M4500: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4000M4500
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4000M4500
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301056.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4000M4500.hsm_lephad.MC15_Zll_p2352_hist-output.root.33914452,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301056.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4000M4500.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33914763]
-  file_pattern: '*hist-output.root*'
-  id: 301056
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Ztt_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_400M600: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_400M600
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_400M600
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301043.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_400M600.hsm_lephad.MC15_Zll_p2352_hist-output.root.33902952,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301043.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_400M600.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33926664]
-  file_pattern: '*hist-output.root*'
-  id: 301043
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4500M5000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4500M5000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4500M5000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301057.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4500M5000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897570,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301057.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_4500M5000.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33897950]
-  file_pattern: '*hist-output.root*'
-  id: 301057
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_5000M: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_5000M
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_5000M
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301058.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_5000M.hsm_lephad.MC15_Zll_p2352_hist-output.root.33897598,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301058.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_5000M.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33898277]
-  file_pattern: '*hist-output.root*'
-  id: 301058
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_600M800: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_600M800
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_600M800
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301044.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_600M800.hsm_lephad.MC15_Zll_p2352_hist-output.root.33900652,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301044.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_600M800.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33900653]
-  file_pattern: '*hist-output.root*'
-  id: 301044
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_800M1000: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_800M1000
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_800M1000
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301045.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_800M1000.hsm_lephad.MC15_Zll_p2352_hist-output.root.33900640,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.301045.PowhegPythia8EvtGen_AZNLOCTEQ6L1_DYtautau_800M1000.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33916025]
-  file_pattern: '*hist-output.root*'
-  id: 301045
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Zll_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33896521,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33911903,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33912320,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33913021,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33925858]
-  file_pattern: '*hist-output.root*'
-  id: 361103
-  category: mc15
-  version: 1
-  tag_pattern: null
-  tag: Wplusjets_p2352
-  grl: null
-  year: 2015
-  stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu
-  datatype: 1
-  treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33901722,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33911378,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33911381,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33914488,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33944684]
+  ds: PoPy8_Wplusenu
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43420074,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43431893,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43433811,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43437066,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43440466,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43441552,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43441697,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43442547,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43444081,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43444497,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43444505,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361100.PoPy8_Wplusenu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43445016]
   file_pattern: '*hist-output.root*'
   id: 361100
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3601_s2576_s2132_r6630_r6264_p2411
   grl: null
-  year: 2015
+  year: 15
   stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee
+PoPy8_Wplusenu_1000M1250: !Dataset
+  name: PoPy8_Wplusenu_1000M1250
   datatype: 1
   treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hsm_lephad.MC15_Zll_p2352_hist-output.root.33898220,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hsm_lephad.MC15_Zll_p2352_hist-output.root.33905646,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hsm_lephad.MC15_Zll_p2352_hist-output.root.33906393,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hsm_lephad.MC15_Zll_p2352_hist-output.root.33909070,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hsm_lephad.MC15_Zll_p2352_hist-output.root.33910492,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hsm_lephad.MC15_Zll_p2352_hist-output.root.33930279,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee.hsm_lephad.MC15_Zll_p2352_hist-output.root.33932828]
+  ds: PoPy8_Wplusenu_1000M1250
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301066.PoPy8_Wplusenu_1000M1250.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43424210]
   file_pattern: '*hist-output.root*'
-  id: 361106
+  id: 301066
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Zll_p2352
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
   grl: null
-  year: 2015
+  year: 15
   stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu
+PoPy8_Wplusenu_120M180: !Dataset
+  name: PoPy8_Wplusenu_120M180
   datatype: 1
   treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.hsm_lephad.MC15_Zll_p2352_hist-output.root.33896765,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.hsm_lephad.MC15_Zll_p2352_hist-output.root.33909833,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.hsm_lephad.MC15_Zll_p2352_hist-output.root.33950651,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.hsm_lephad.MC15_Zll_p2352_hist-output.root.33958546,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.hsm_lephad.MC15_Zll_p2352_hist-output.root.33959242]
+  ds: PoPy8_Wplusenu_120M180
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301060.PoPy8_Wplusenu_120M180.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43422046]
   file_pattern: '*hist-output.root*'
-  id: 361107
+  id: 301060
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Zll_p2352
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
   grl: null
-  year: 2015
+  year: 15
   stream: null
-PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau: !Dataset
-  name: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau
+PoPy8_Wplusenu_1250M1500: !Dataset
+  name: PoPy8_Wplusenu_1250M1500
   datatype: 1
   treename: NOMINAL
-  ds: PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau.hsm_lephad.MC15_Zll_p2352_hist-output.root.33944619,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau.hsm_lephad.MC15_Zll_p2352_hist-output.root.33947572,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau.hsm_lephad.MC15_Zll_p2352_hist-output.root.33958066,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33897191,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau.hsm_lephad.MC15_Ztt_p2352_hist-output.root.33905895]
+  ds: PoPy8_Wplusenu_1250M1500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301067.PoPy8_Wplusenu_1250M1500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43419350]
+  file_pattern: '*hist-output.root*'
+  id: 301067
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_1500M1750: !Dataset
+  name: PoPy8_Wplusenu_1500M1750
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_1500M1750
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301068.PoPy8_Wplusenu_1500M1750.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43423682]
+  file_pattern: '*hist-output.root*'
+  id: 301068
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_1750M2000: !Dataset
+  name: PoPy8_Wplusenu_1750M2000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_1750M2000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301069.PoPy8_Wplusenu_1750M2000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43424190]
+  file_pattern: '*hist-output.root*'
+  id: 301069
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_180M250: !Dataset
+  name: PoPy8_Wplusenu_180M250
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_180M250
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301061.PoPy8_Wplusenu_180M250.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43418829]
+  file_pattern: '*hist-output.root*'
+  id: 301061
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_2000M2250: !Dataset
+  name: PoPy8_Wplusenu_2000M2250
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_2000M2250
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301070.PoPy8_Wplusenu_2000M2250.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415518]
+  file_pattern: '*hist-output.root*'
+  id: 301070
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_2250M2500: !Dataset
+  name: PoPy8_Wplusenu_2250M2500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_2250M2500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301071.PoPy8_Wplusenu_2250M2500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43418629]
+  file_pattern: '*hist-output.root*'
+  id: 301071
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_2500M2750: !Dataset
+  name: PoPy8_Wplusenu_2500M2750
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_2500M2750
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301072.PoPy8_Wplusenu_2500M2750.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43420281]
+  file_pattern: '*hist-output.root*'
+  id: 301072
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_250M400: !Dataset
+  name: PoPy8_Wplusenu_250M400
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_250M400
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301062.PoPy8_Wplusenu_250M400.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43417050]
+  file_pattern: '*hist-output.root*'
+  id: 301062
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_2750M3000: !Dataset
+  name: PoPy8_Wplusenu_2750M3000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_2750M3000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301073.PoPy8_Wplusenu_2750M3000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43418578]
+  file_pattern: '*hist-output.root*'
+  id: 301073
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_3000M3500: !Dataset
+  name: PoPy8_Wplusenu_3000M3500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_3000M3500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301074.PoPy8_Wplusenu_3000M3500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43418761]
+  file_pattern: '*hist-output.root*'
+  id: 301074
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_3500M4000: !Dataset
+  name: PoPy8_Wplusenu_3500M4000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_3500M4000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301075.PoPy8_Wplusenu_3500M4000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43416510]
+  file_pattern: '*hist-output.root*'
+  id: 301075
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_4000M4500: !Dataset
+  name: PoPy8_Wplusenu_4000M4500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_4000M4500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301076.PoPy8_Wplusenu_4000M4500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43421349]
+  file_pattern: '*hist-output.root*'
+  id: 301076
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_400M600: !Dataset
+  name: PoPy8_Wplusenu_400M600
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_400M600
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301063.PoPy8_Wplusenu_400M600.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43418740]
+  file_pattern: '*hist-output.root*'
+  id: 301063
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_4500M5000: !Dataset
+  name: PoPy8_Wplusenu_4500M5000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_4500M5000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301077.PoPy8_Wplusenu_4500M5000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43414664]
+  file_pattern: '*hist-output.root*'
+  id: 301077
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_5000M: !Dataset
+  name: PoPy8_Wplusenu_5000M
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_5000M
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301078.PoPy8_Wplusenu_5000M.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43421248]
+  file_pattern: '*hist-output.root*'
+  id: 301078
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_600M800: !Dataset
+  name: PoPy8_Wplusenu_600M800
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_600M800
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301064.PoPy8_Wplusenu_600M800.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43419691]
+  file_pattern: '*hist-output.root*'
+  id: 301064
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusenu_800M1000: !Dataset
+  name: PoPy8_Wplusenu_800M1000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusenu_800M1000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301065.PoPy8_Wplusenu_800M1000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43419660]
+  file_pattern: '*hist-output.root*'
+  id: 301065
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu: !Dataset
+  name: PoPy8_Wplusmunu
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43416300,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43419735,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43422862,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43424728,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43426663,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43426691,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43428312,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43430610,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43430674,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43432938,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43435201,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43436911,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361101.PoPy8_Wplusmunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43438012]
+  file_pattern: '*hist-output.root*'
+  id: 361101
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3601_s2576_s2132_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_1000M1250: !Dataset
+  name: PoPy8_Wplusmunu_1000M1250
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_1000M1250
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301106.PoPy8_Wplusmunu_1000M1250.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43419095]
+  file_pattern: '*hist-output.root*'
+  id: 301106
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_120M180: !Dataset
+  name: PoPy8_Wplusmunu_120M180
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_120M180
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301100.PoPy8_Wplusmunu_120M180.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43420787]
+  file_pattern: '*hist-output.root*'
+  id: 301100
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_1250M1500: !Dataset
+  name: PoPy8_Wplusmunu_1250M1500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_1250M1500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301107.PoPy8_Wplusmunu_1250M1500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43416493]
+  file_pattern: '*hist-output.root*'
+  id: 301107
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_1500M1750: !Dataset
+  name: PoPy8_Wplusmunu_1500M1750
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_1500M1750
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301108.PoPy8_Wplusmunu_1500M1750.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43446277]
+  file_pattern: '*hist-output.root*'
+  id: 301108
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_1750M2000: !Dataset
+  name: PoPy8_Wplusmunu_1750M2000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_1750M2000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301109.PoPy8_Wplusmunu_1750M2000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43419165]
+  file_pattern: '*hist-output.root*'
+  id: 301109
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_180M250: !Dataset
+  name: PoPy8_Wplusmunu_180M250
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_180M250
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301101.PoPy8_Wplusmunu_180M250.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43419490]
+  file_pattern: '*hist-output.root*'
+  id: 301101
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_2000M2250: !Dataset
+  name: PoPy8_Wplusmunu_2000M2250
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_2000M2250
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301110.PoPy8_Wplusmunu_2000M2250.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43418727]
+  file_pattern: '*hist-output.root*'
+  id: 301110
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_2250M2500: !Dataset
+  name: PoPy8_Wplusmunu_2250M2500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_2250M2500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301111.PoPy8_Wplusmunu_2250M2500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415738]
+  file_pattern: '*hist-output.root*'
+  id: 301111
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_2500M2750: !Dataset
+  name: PoPy8_Wplusmunu_2500M2750
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_2500M2750
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301112.PoPy8_Wplusmunu_2500M2750.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43421825]
+  file_pattern: '*hist-output.root*'
+  id: 301112
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_250M400: !Dataset
+  name: PoPy8_Wplusmunu_250M400
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_250M400
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301102.PoPy8_Wplusmunu_250M400.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415121]
+  file_pattern: '*hist-output.root*'
+  id: 301102
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_2750M3000: !Dataset
+  name: PoPy8_Wplusmunu_2750M3000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_2750M3000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301113.PoPy8_Wplusmunu_2750M3000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415397]
+  file_pattern: '*hist-output.root*'
+  id: 301113
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_3000M3500: !Dataset
+  name: PoPy8_Wplusmunu_3000M3500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_3000M3500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301114.PoPy8_Wplusmunu_3000M3500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43414463]
+  file_pattern: '*hist-output.root*'
+  id: 301114
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_3500M4000: !Dataset
+  name: PoPy8_Wplusmunu_3500M4000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_3500M4000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301115.PoPy8_Wplusmunu_3500M4000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415124]
+  file_pattern: '*hist-output.root*'
+  id: 301115
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_4000M4500: !Dataset
+  name: PoPy8_Wplusmunu_4000M4500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_4000M4500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301116.PoPy8_Wplusmunu_4000M4500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43420357]
+  file_pattern: '*hist-output.root*'
+  id: 301116
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_400M600: !Dataset
+  name: PoPy8_Wplusmunu_400M600
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_400M600
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301103.PoPy8_Wplusmunu_400M600.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43418743]
+  file_pattern: '*hist-output.root*'
+  id: 301103
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_4500M5000: !Dataset
+  name: PoPy8_Wplusmunu_4500M5000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_4500M5000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301117.PoPy8_Wplusmunu_4500M5000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415685]
+  file_pattern: '*hist-output.root*'
+  id: 301117
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_5000M: !Dataset
+  name: PoPy8_Wplusmunu_5000M
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_5000M
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301118.PoPy8_Wplusmunu_5000M.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43416151]
+  file_pattern: '*hist-output.root*'
+  id: 301118
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_600M800: !Dataset
+  name: PoPy8_Wplusmunu_600M800
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_600M800
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301104.PoPy8_Wplusmunu_600M800.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43416161]
+  file_pattern: '*hist-output.root*'
+  id: 301104
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplusmunu_800M1000: !Dataset
+  name: PoPy8_Wplusmunu_800M1000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplusmunu_800M1000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301105.PoPy8_Wplusmunu_800M1000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43421403]
+  file_pattern: '*hist-output.root*'
+  id: 301105
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu: !Dataset
+  name: PoPy8_Wplustaunu
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43424849,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43436811,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43438476,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43439368,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43440158,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43440987,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43441025,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43441145,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43442147,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43442902,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361102.PoPy8_Wplustaunu.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43448009]
+  file_pattern: '*hist-output.root*'
+  id: 361102
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3601_s2576_s2132_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_1000M1250: !Dataset
+  name: PoPy8_Wplustaunu_1000M1250
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_1000M1250
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301146.PoPy8_Wplustaunu_1000M1250.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415050]
+  file_pattern: '*hist-output.root*'
+  id: 301146
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_120M180: !Dataset
+  name: PoPy8_Wplustaunu_120M180
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_120M180
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301140.PoPy8_Wplustaunu_120M180.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43421276]
+  file_pattern: '*hist-output.root*'
+  id: 301140
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_1250M1500: !Dataset
+  name: PoPy8_Wplustaunu_1250M1500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_1250M1500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301147.PoPy8_Wplustaunu_1250M1500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43416500]
+  file_pattern: '*hist-output.root*'
+  id: 301147
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_1500M1750: !Dataset
+  name: PoPy8_Wplustaunu_1500M1750
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_1500M1750
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301148.PoPy8_Wplustaunu_1500M1750.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415241]
+  file_pattern: '*hist-output.root*'
+  id: 301148
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_1750M2000: !Dataset
+  name: PoPy8_Wplustaunu_1750M2000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_1750M2000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301149.PoPy8_Wplustaunu_1750M2000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415242]
+  file_pattern: '*hist-output.root*'
+  id: 301149
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_180M250: !Dataset
+  name: PoPy8_Wplustaunu_180M250
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_180M250
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301141.PoPy8_Wplustaunu_180M250.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43419075]
+  file_pattern: '*hist-output.root*'
+  id: 301141
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_2000M2250: !Dataset
+  name: PoPy8_Wplustaunu_2000M2250
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_2000M2250
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301150.PoPy8_Wplustaunu_2000M2250.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415809]
+  file_pattern: '*hist-output.root*'
+  id: 301150
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_2250M2500: !Dataset
+  name: PoPy8_Wplustaunu_2250M2500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_2250M2500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301151.PoPy8_Wplustaunu_2250M2500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415663]
+  file_pattern: '*hist-output.root*'
+  id: 301151
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_2500M2750: !Dataset
+  name: PoPy8_Wplustaunu_2500M2750
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_2500M2750
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301152.PoPy8_Wplustaunu_2500M2750.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415666]
+  file_pattern: '*hist-output.root*'
+  id: 301152
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_250M400: !Dataset
+  name: PoPy8_Wplustaunu_250M400
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_250M400
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301142.PoPy8_Wplustaunu_250M400.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43416513]
+  file_pattern: '*hist-output.root*'
+  id: 301142
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_2750M3000: !Dataset
+  name: PoPy8_Wplustaunu_2750M3000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_2750M3000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301153.PoPy8_Wplustaunu_2750M3000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43418857]
+  file_pattern: '*hist-output.root*'
+  id: 301153
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_3000M3500: !Dataset
+  name: PoPy8_Wplustaunu_3000M3500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_3000M3500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301154.PoPy8_Wplustaunu_3000M3500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43421312]
+  file_pattern: '*hist-output.root*'
+  id: 301154
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_3500M4000: !Dataset
+  name: PoPy8_Wplustaunu_3500M4000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_3500M4000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301155.PoPy8_Wplustaunu_3500M4000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43416487]
+  file_pattern: '*hist-output.root*'
+  id: 301155
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_4000M4500: !Dataset
+  name: PoPy8_Wplustaunu_4000M4500
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_4000M4500
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301156.PoPy8_Wplustaunu_4000M4500.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43418905]
+  file_pattern: '*hist-output.root*'
+  id: 301156
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_400M600: !Dataset
+  name: PoPy8_Wplustaunu_400M600
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_400M600
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301143.PoPy8_Wplustaunu_400M600.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43420085]
+  file_pattern: '*hist-output.root*'
+  id: 301143
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_4500M5000: !Dataset
+  name: PoPy8_Wplustaunu_4500M5000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_4500M5000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301157.PoPy8_Wplustaunu_4500M5000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43414348]
+  file_pattern: '*hist-output.root*'
+  id: 301157
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_5000M: !Dataset
+  name: PoPy8_Wplustaunu_5000M
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_5000M
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301158.PoPy8_Wplustaunu_5000M.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415405]
+  file_pattern: '*hist-output.root*'
+  id: 301158
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_600M800: !Dataset
+  name: PoPy8_Wplustaunu_600M800
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_600M800
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301144.PoPy8_Wplustaunu_600M800.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43419686]
+  file_pattern: '*hist-output.root*'
+  id: 301144
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Wplustaunu_800M1000: !Dataset
+  name: PoPy8_Wplustaunu_800M1000
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Wplustaunu_800M1000
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.301145.PoPy8_Wplustaunu_800M1000.D2.e3663_s2608_s2183_r6630_r6264_p2411.201509-v2_hist.43415396]
+  file_pattern: '*hist-output.root*'
+  id: 301145
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3663_s2608_s2183_r6630_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+PoPy8_Ztt: !Dataset
+  name: PoPy8_Ztt
+  datatype: 1
+  treename: NOMINAL
+  ds: PoPy8_Ztt
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2375.201509-v2_hist.43263187,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2375.201509-v2_hist.43269123,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2375.201509-v2_hist.43270028,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2375.201509-v2_hist.43270942,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2375.201509-v2_hist.43271117,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2375.201509-v2_hist.43271922,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43262440,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43269553,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43269890,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43270333,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43270845,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43271001,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361108.PoPy8_Ztt.D2.e3601_s2576_s2132_r6630_r6264_p2411.201509-v2_hist.43271332]
   file_pattern: '*hist-output.root*'
   id: 361108
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Zll_p2352
+  tag: e3601_s2576_s2132_r6630_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop: !Dataset
-  name: PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop
+Sh_Ztt_Pt0_70_BFilter: !Dataset
+  name: Sh_Ztt_Pt0_70_BFilter
   datatype: 1
   treename: NOMINAL
-  ds: PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.410014.PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop.hsm_lephad.MC15_top_p2352_hist-output.root.33881736]
+  ds: Sh_Ztt_Pt0_70_BFilter
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361422.Sh_Ztt_Pt0_70_BFilter.D2.e3733_s2608_s2183_r6767_r6264_p2375.201509-v2_hist.43267938,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361422.Sh_Ztt_Pt0_70_BFilter.D2.e3733_s2608_s2183_r6767_r6264_p2411.201509-v2_hist.43262167]
   file_pattern: '*hist-output.root*'
-  id: 410014
+  id: 361422
   category: mc15
   version: 1
   tag_pattern: null
-  tag: top_p2352
+  tag: e3733_s2608_s2183_r6767_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad: !Dataset
-  name: PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad
+Sh_Ztt_Pt0_70_CFilterBVeto: !Dataset
+  name: Sh_Ztt_Pt0_70_CFilterBVeto
   datatype: 1
   treename: NOMINAL
-  ds: PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.410000.PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad.hsm_lephad.MC15_top_p2352_hist-output.root.33885033]
+  ds: Sh_Ztt_Pt0_70_CFilterBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361421.Sh_Ztt_Pt0_70_CFilterBVeto.D2.e3733_s2608_s2183_r6767_r6264_p2411.201509-v2_hist.43263128,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361421.Sh_Ztt_Pt0_70_CFilterBVeto.D2.e3733_s2608_s2183_r6853_r6264_p2375.201509-v2_hist.43261056]
   file_pattern: '*hist-output.root*'
-  id: 410000
+  id: 361421
   category: mc15
   version: 1
   tag_pattern: null
-  tag: top_p2352
+  tag: e3733_s2608_s2183_r6767_r6264_p2411
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt0_70_CVetoBVeto: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt0_70_CVetoBVeto
+Sh_Ztt_Pt0_70_CVetoBVeto: !Dataset
+  name: Sh_Ztt_Pt0_70_CVetoBVeto
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt0_70_CVetoBVeto
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361324.Sherpa_CT10_Wmunu_Pt0_70_CVetoBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33898242]
+  ds: Sh_Ztt_Pt0_70_CVetoBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361420.Sh_Ztt_Pt0_70_CVetoBVeto.D2.e3733_s2608_s2183_r6767_r6264_p2375.201509-v2_hist.43262726,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361420.Sh_Ztt_Pt0_70_CVetoBVeto.D2.e3733_s2608_s2183_r6767_r6264_p2411.201509-v2_hist.43263492]
   file_pattern: '*hist-output.root*'
-  id: 361324
+  id: 361420
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3733_s2608_s2183_r6767_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt140_280_BFilter: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt140_280_BFilter
+Sh_Ztt_Pt1000_2000_BFilter: !Dataset
+  name: Sh_Ztt_Pt1000_2000_BFilter
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt140_280_BFilter
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361332.Sherpa_CT10_Wmunu_Pt140_280_BFilter.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33898349]
+  ds: Sh_Ztt_Pt1000_2000_BFilter
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361440.Sh_Ztt_Pt1000_2000_BFilter.D2.e3741_s2608_s2183_r6802_r6264_p2375.201509-v2_hist.43285001,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361440.Sh_Ztt_Pt1000_2000_BFilter.D2.e3741_s2608_s2183_r6802_r6264_p2411.201509-v2_hist.43261059]
   file_pattern: '*hist-output.root*'
-  id: 361332
+  id: 361440
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3741_s2608_s2183_r6802_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt140_280_CVetoBVeto: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt140_280_CVetoBVeto
+Sh_Ztt_Pt1000_2000_CFilterBVeto: !Dataset
+  name: Sh_Ztt_Pt1000_2000_CFilterBVeto
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt140_280_CVetoBVeto
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361330.Sherpa_CT10_Wmunu_Pt140_280_CVetoBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33895208,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361330.Sherpa_CT10_Wmunu_Pt140_280_CVetoBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33898154]
+  ds: Sh_Ztt_Pt1000_2000_CFilterBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361439.Sh_Ztt_Pt1000_2000_CFilterBVeto.D2.e3741_s2608_s2183_r6802_r6264_p2375.201509-v2_hist.43258854,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361439.Sh_Ztt_Pt1000_2000_CFilterBVeto.D2.e3741_s2608_s2183_r6802_r6264_p2411.201509-v2_hist.43260574]
   file_pattern: '*hist-output.root*'
-  id: 361330
+  id: 361439
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3741_s2608_s2183_r6802_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt280_500_CFilterBVeto: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt280_500_CFilterBVeto
+Sh_Ztt_Pt1000_2000_CVetoBVeto: !Dataset
+  name: Sh_Ztt_Pt1000_2000_CVetoBVeto
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt280_500_CFilterBVeto
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361334.Sherpa_CT10_Wmunu_Pt280_500_CFilterBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33897277]
+  ds: Sh_Ztt_Pt1000_2000_CVetoBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361438.Sh_Ztt_Pt1000_2000_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43261620,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361438.Sh_Ztt_Pt1000_2000_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43263138]
   file_pattern: '*hist-output.root*'
-  id: 361334
+  id: 361438
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3741_s2608_s2183_r6793_r6264_p2411
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt280_500_CVetoBVeto: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt280_500_CVetoBVeto
+Sh_Ztt_Pt140_280_BFilter: !Dataset
+  name: Sh_Ztt_Pt140_280_BFilter
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt280_500_CVetoBVeto
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361333.Sherpa_CT10_Wmunu_Pt280_500_CVetoBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33895829]
+  ds: Sh_Ztt_Pt140_280_BFilter
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361428.Sh_Ztt_Pt140_280_BFilter.D2.e3733_s2608_s2183_r6767_r6264_p2375.201509-v2_hist.43262305,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361428.Sh_Ztt_Pt140_280_BFilter.D2.e3733_s2608_s2183_r6767_r6264_p2411.201509-v2_hist.43262281]
   file_pattern: '*hist-output.root*'
-  id: 361333
+  id: 361428
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3733_s2608_s2183_r6767_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt500_700_BFilter: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt500_700_BFilter
+Sh_Ztt_Pt140_280_CFilterBVeto: !Dataset
+  name: Sh_Ztt_Pt140_280_CFilterBVeto
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt500_700_BFilter
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361338.Sherpa_CT10_Wmunu_Pt500_700_BFilter.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33896734]
+  ds: Sh_Ztt_Pt140_280_CFilterBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361427.Sh_Ztt_Pt140_280_CFilterBVeto.D2.e3733_s2608_s2183_r6767_r6264_p2411.201509-v2_hist.43262632,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361427.Sh_Ztt_Pt140_280_CFilterBVeto.D2.e3733_s2608_s2183_r6853_r6264_p2375.201509-v2_hist.43261137]
   file_pattern: '*hist-output.root*'
-  id: 361338
+  id: 361427
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3733_s2608_s2183_r6767_r6264_p2411
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt500_700_CFilterBVeto: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt500_700_CFilterBVeto
+Sh_Ztt_Pt140_280_CVetoBVeto: !Dataset
+  name: Sh_Ztt_Pt140_280_CVetoBVeto
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt500_700_CFilterBVeto
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361337.Sherpa_CT10_Wmunu_Pt500_700_CFilterBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33896797]
+  ds: Sh_Ztt_Pt140_280_CVetoBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361426.Sh_Ztt_Pt140_280_CVetoBVeto.D2.e3733_s2608_s2183_r6767_r6264_p2375.201509-v2_hist.43263706,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361426.Sh_Ztt_Pt140_280_CVetoBVeto.D2.e3733_s2608_s2183_r6767_r6264_p2411.201509-v2_hist.43262353]
   file_pattern: '*hist-output.root*'
-  id: 361337
+  id: 361426
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3733_s2608_s2183_r6767_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt500_700_CVetoBVeto: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt500_700_CVetoBVeto
+Sh_Ztt_Pt2000_E_CMS_BFilter: !Dataset
+  name: Sh_Ztt_Pt2000_E_CMS_BFilter
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt500_700_CVetoBVeto
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361336.Sherpa_CT10_Wmunu_Pt500_700_CVetoBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33895452]
+  ds: Sh_Ztt_Pt2000_E_CMS_BFilter
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361443.Sh_Ztt_Pt2000_E_CMS_BFilter.D2.e3741_s2608_s2183_r6802_r6264_p2375.201509-v2_hist.43262793]
   file_pattern: '*hist-output.root*'
-  id: 361336
+  id: 361443
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3741_s2608_s2183_r6802_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt700_1000_CVetoBVeto: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt700_1000_CVetoBVeto
+Sh_Ztt_Pt2000_E_CMS_CFilterBVeto: !Dataset
+  name: Sh_Ztt_Pt2000_E_CMS_CFilterBVeto
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt700_1000_CVetoBVeto
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361339.Sherpa_CT10_Wmunu_Pt700_1000_CVetoBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33896731]
+  ds: Sh_Ztt_Pt2000_E_CMS_CFilterBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361442.Sh_Ztt_Pt2000_E_CMS_CFilterBVeto.D2.e3741_s2608_s2183_r6802_r6264_p2375.201509-v2_hist.43377774,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361442.Sh_Ztt_Pt2000_E_CMS_CFilterBVeto.D2.e3741_s2608_s2183_r6802_r6264_p2411.201509-v2_hist.43260867]
   file_pattern: '*hist-output.root*'
-  id: 361339
+  id: 361442
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3741_s2608_s2183_r6802_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt70_140_CFilterBVeto: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt70_140_CFilterBVeto
+Sh_Ztt_Pt2000_E_CMS_CVetoBVeto: !Dataset
+  name: Sh_Ztt_Pt2000_E_CMS_CVetoBVeto
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt70_140_CFilterBVeto
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361328.Sherpa_CT10_Wmunu_Pt70_140_CFilterBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33936835]
+  ds: Sh_Ztt_Pt2000_E_CMS_CVetoBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361441.Sh_Ztt_Pt2000_E_CMS_CVetoBVeto.D2.e3741_s2608_s2183_r6802_r6264_p2375.201509-v2_hist.43262099,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361441.Sh_Ztt_Pt2000_E_CMS_CVetoBVeto.D2.e3741_s2608_s2183_r6802_r6264_p2411.201509-v2_hist.43263440]
   file_pattern: '*hist-output.root*'
-  id: 361328
+  id: 361441
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3741_s2608_s2183_r6802_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
   stream: null
-Sherpa_CT10_Wmunu_Pt70_140_CVetoBVeto: !Dataset
-  name: Sherpa_CT10_Wmunu_Pt70_140_CVetoBVeto
+Sh_Ztt_Pt280_500_BFilter: !Dataset
+  name: Sh_Ztt_Pt280_500_BFilter
   datatype: 1
   treename: NOMINAL
-  ds: Sherpa_CT10_Wmunu_Pt70_140_CVetoBVeto
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.361327.Sherpa_CT10_Wmunu_Pt70_140_CVetoBVeto.hsm_lephad.MC15_Wplusjets_p2352_hist-output.root.33898916]
+  ds: Sh_Ztt_Pt280_500_BFilter
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361431.Sh_Ztt_Pt280_500_BFilter.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43260406,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361431.Sh_Ztt_Pt280_500_BFilter.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43261312,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361431.Sh_Ztt_Pt280_500_BFilter.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43258816,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361431.Sh_Ztt_Pt280_500_BFilter.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43260836]
   file_pattern: '*hist-output.root*'
-  id: 361327
+  id: 361431
   category: mc15
   version: 1
   tag_pattern: null
-  tag: Wplusjets_p2352
+  tag: e3741_s2608_s2183_r6793_r6264_p2375
   grl: null
-  year: 2015
+  year: 15
+  stream: null
+Sh_Ztt_Pt280_500_CFilterBVeto: !Dataset
+  name: Sh_Ztt_Pt280_500_CFilterBVeto
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt280_500_CFilterBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361430.Sh_Ztt_Pt280_500_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43260543,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361430.Sh_Ztt_Pt280_500_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43265071,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361430.Sh_Ztt_Pt280_500_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43261501,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361430.Sh_Ztt_Pt280_500_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43267109]
+  file_pattern: '*hist-output.root*'
+  id: 361430
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3741_s2608_s2183_r6793_r6264_p2375
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt280_500_CVetoBVeto: !Dataset
+  name: Sh_Ztt_Pt280_500_CVetoBVeto
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt280_500_CVetoBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361429.Sh_Ztt_Pt280_500_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43266370,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361429.Sh_Ztt_Pt280_500_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43267436,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361429.Sh_Ztt_Pt280_500_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43261414,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361429.Sh_Ztt_Pt280_500_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43266408]
+  file_pattern: '*hist-output.root*'
+  id: 361429
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3741_s2608_s2183_r6793_r6264_p2375
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt500_700_BFilter: !Dataset
+  name: Sh_Ztt_Pt500_700_BFilter
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt500_700_BFilter
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361434.Sh_Ztt_Pt500_700_BFilter.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43261388,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361434.Sh_Ztt_Pt500_700_BFilter.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43264783]
+  file_pattern: '*hist-output.root*'
+  id: 361434
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3741_s2608_s2183_r6793_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt500_700_CFilterBVeto: !Dataset
+  name: Sh_Ztt_Pt500_700_CFilterBVeto
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt500_700_CFilterBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361433.Sh_Ztt_Pt500_700_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43262005,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361433.Sh_Ztt_Pt500_700_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43262813,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361433.Sh_Ztt_Pt500_700_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43263488,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361433.Sh_Ztt_Pt500_700_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43264371]
+  file_pattern: '*hist-output.root*'
+  id: 361433
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3741_s2608_s2183_r6793_r6264_p2375
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt500_700_CVetoBVeto: !Dataset
+  name: Sh_Ztt_Pt500_700_CVetoBVeto
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt500_700_CVetoBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361432.Sh_Ztt_Pt500_700_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43260738,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361432.Sh_Ztt_Pt500_700_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2375.201509-v2_hist.43261683,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361432.Sh_Ztt_Pt500_700_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43262724,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361432.Sh_Ztt_Pt500_700_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43264964]
+  file_pattern: '*hist-output.root*'
+  id: 361432
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3741_s2608_s2183_r6793_r6264_p2375
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt700_1000_BFilter: !Dataset
+  name: Sh_Ztt_Pt700_1000_BFilter
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt700_1000_BFilter
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361437.Sh_Ztt_Pt700_1000_BFilter.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43261067,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361437.Sh_Ztt_Pt700_1000_BFilter.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43263535]
+  file_pattern: '*hist-output.root*'
+  id: 361437
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3741_s2608_s2183_r6793_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt700_1000_CFilterBVeto: !Dataset
+  name: Sh_Ztt_Pt700_1000_CFilterBVeto
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt700_1000_CFilterBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361436.Sh_Ztt_Pt700_1000_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43260871,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361436.Sh_Ztt_Pt700_1000_CFilterBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43262950]
+  file_pattern: '*hist-output.root*'
+  id: 361436
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3741_s2608_s2183_r6793_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt700_1000_CVetoBVeto: !Dataset
+  name: Sh_Ztt_Pt700_1000_CVetoBVeto
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt700_1000_CVetoBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361435.Sh_Ztt_Pt700_1000_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43259209,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361435.Sh_Ztt_Pt700_1000_CVetoBVeto.D2.e3741_s2608_s2183_r6793_r6264_p2411.201509-v2_hist.43266460]
+  file_pattern: '*hist-output.root*'
+  id: 361435
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3741_s2608_s2183_r6793_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt70_140_BFilter: !Dataset
+  name: Sh_Ztt_Pt70_140_BFilter
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt70_140_BFilter
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361425.Sh_Ztt_Pt70_140_BFilter.D2.e3733_s2608_s2183_r6767_r6264_p2411.201509-v2_hist.43263141,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361425.Sh_Ztt_Pt70_140_BFilter.D2.e3733_s2608_s2183_r6853_r6264_p2375.201509-v2_hist.43260882]
+  file_pattern: '*hist-output.root*'
+  id: 361425
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3733_s2608_s2183_r6767_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt70_140_CFilterBVeto: !Dataset
+  name: Sh_Ztt_Pt70_140_CFilterBVeto
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt70_140_CFilterBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361424.Sh_Ztt_Pt70_140_CFilterBVeto.D2.e3733_s2608_s2183_r6767_r6264_p2411.201509-v2_hist.43262592,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361424.Sh_Ztt_Pt70_140_CFilterBVeto.D2.e3733_s2608_s2183_r6853_r6264_p2375.201509-v2_hist.43265180]
+  file_pattern: '*hist-output.root*'
+  id: 361424
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3733_s2608_s2183_r6767_r6264_p2411
+  grl: null
+  year: 15
+  stream: null
+Sh_Ztt_Pt70_140_CVetoBVeto: !Dataset
+  name: Sh_Ztt_Pt70_140_CVetoBVeto
+  datatype: 1
+  treename: NOMINAL
+  ds: Sh_Ztt_Pt70_140_CVetoBVeto
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361423.Sh_Ztt_Pt70_140_CVetoBVeto.D2.e3733_s2608_s2183_r6767_r6264_p2411.201509-v2_hist.43267429,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/mc15/group.phys-higgs.ClhH.mc15_13TeV.361423.Sh_Ztt_Pt70_140_CVetoBVeto.D2.e3733_s2608_s2183_r6853_r6264_p2375.201509-v2_hist.43262102]
+  file_pattern: '*hist-output.root*'
+  id: 361423
+  category: mc15
+  version: 1
+  tag_pattern: null
+  tag: e3733_s2608_s2183_r6767_r6264_p2411
+  grl: null
+  year: 15
   stream: null
 data15-Main: !Dataset
   name: data15-Main
   datatype: 0
   treename: NOMINAL
   ds: data15-Main
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00266904.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33881447,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00266919.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33884236,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267073.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879177,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267148.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33878790,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267152.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33882640,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267152.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33889871,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267162.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879251,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267162.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33884221,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267167.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879507,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267167.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33929617,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267358.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33882769,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267359.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879202,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267360.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33884110,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267367.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879098,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267385.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879163,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267599.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33880083,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267638.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33886444,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267638.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33892077]
+  dirs: [/afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00270441.physics_Main.D2.f610_m1458_p2375.201509-v3_hist.43917195,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00270448.physics_Main.D2.f610_m1458_p2375.201509-v3_hist.43912344,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00270588.physics_Main.D2.f610_m1458_p2375.201509-v3_hist.43922661,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00270806.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43914279,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00270816.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43908168,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00270949.physics_Main.D2.f612_m1463_p2375.201509-v3_hist.43909214,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00270953.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43921783,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00270953.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43934132,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00271048.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43908620,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00271048.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43940930,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00271298.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43913756,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00271298.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43953317,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00271388.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43909255,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00271421.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43908523,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00271516.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43909278,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00271595.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43913549,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.ClhH.data15_13TeV.00271595.physics_Main.D2.f611_m1463_p2375.201509-v3_hist.43958376,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.common_lephad_higgs.data15_13TeV.00266904.physics_Main.D2.r6944_p2410_p2411.201509-v2_hist.43085696,
+    /afs/cern.ch/user/q/qbuat/eos/atlas/user/c/cnellist/HLeptons/lephad/2015-09-22/group.phys-higgs.common_lephad_higgs.data15_13TeV.00266904.physics_Main.D2.r6944_p2410_p2411.201509-v2_hist.43098885]
   file_pattern: '*hist-output.root*'
   id: -1
   category: null
@@ -1195,219 +1397,5 @@ data15-Main: !Dataset
   tag_pattern: null
   tag: null
   grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run266904: !Dataset
-  name: data15-Main-run266904
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run266904
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00266904.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33881447]
-  file_pattern: '*hist-output.root*'
-  id: 266904
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run266919: !Dataset
-  name: data15-Main-run266919
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run266919
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00266919.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33884236]
-  file_pattern: '*hist-output.root*'
-  id: 266919
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267073: !Dataset
-  name: data15-Main-run267073
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267073
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267073.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879177]
-  file_pattern: '*hist-output.root*'
-  id: 267073
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267148: !Dataset
-  name: data15-Main-run267148
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267148
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267148.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33878790]
-  file_pattern: '*hist-output.root*'
-  id: 267148
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267152: !Dataset
-  name: data15-Main-run267152
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267152
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267152.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33882640,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267152.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33889871]
-  file_pattern: '*hist-output.root*'
-  id: 267152
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267162: !Dataset
-  name: data15-Main-run267162
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267162
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267162.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879251,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267162.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33884221]
-  file_pattern: '*hist-output.root*'
-  id: 267162
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267167: !Dataset
-  name: data15-Main-run267167
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267167
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267167.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879507,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267167.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33929617]
-  file_pattern: '*hist-output.root*'
-  id: 267167
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267358: !Dataset
-  name: data15-Main-run267358
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267358
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267358.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33882769]
-  file_pattern: '*hist-output.root*'
-  id: 267358
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267359: !Dataset
-  name: data15-Main-run267359
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267359
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267359.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879202]
-  file_pattern: '*hist-output.root*'
-  id: 267359
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267360: !Dataset
-  name: data15-Main-run267360
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267360
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267360.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33884110]
-  file_pattern: '*hist-output.root*'
-  id: 267360
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267367: !Dataset
-  name: data15-Main-run267367
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267367
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267367.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879098]
-  file_pattern: '*hist-output.root*'
-  id: 267367
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267385: !Dataset
-  name: data15-Main-run267385
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267385
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267385.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33879163]
-  file_pattern: '*hist-output.root*'
-  id: 267385
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267599: !Dataset
-  name: data15-Main-run267599
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267599
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267599.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33880083]
-  file_pattern: '*hist-output.root*'
-  id: 267599
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
-  stream: Main
-data15-Main-run267638: !Dataset
-  name: data15-Main-run267638
-  datatype: 0
-  treename: NOMINAL
-  ds: data15-Main-run267638
-  dirs: [/afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267638.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33886444,
-    /afs/cern.ch/user/q/qbuat/work/public/xtau_output/lephad/v1_1/user.cnellist.00267638.physics_Main.hsm_lephad.Data15_p2361_hist-output.root.33892077]
-  file_pattern: '*hist-output.root*'
-  id: 267638
-  category: null
-  version: null
-  tag_pattern: null
-  tag: null
-  grl: grl/2012/current.xml
-  year: 2015
+  year: 15
   stream: Main

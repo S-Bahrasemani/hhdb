@@ -1,0 +1,26 @@
+gg:
+    name: gghtautau
+    latex: '$ggH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'ggH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_ggH125_tautauhh'
+
+vbf:
+    name: vbfhtautau
+    latex: 'VBF $H\rightarrow\tau_{h}\tau_{h}$'
+    root: 'VBF H#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        - 'PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_VBFH125_tautauhh'
+
+wh:
+    name: whtautau
+    latex: '$WH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'WH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        # - 'Pyth8_AU2CTEQ6L1_WH100_tautauhh.mc12a'
+zh:
+    name: zhtautau
+    latex: '$ZH\rightarrow\tau_{h}\tau_{h}$'
+    root: 'ZH#rightarrow#tau_{h}#tau_{h}'
+    samples:
+        # - 'Pyth8_AU2CTEQ6L1_ZH100_tautauhh.mc12a'
