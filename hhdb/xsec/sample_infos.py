@@ -9,13 +9,13 @@ AtlasAPI.init()
 if __name__ == '__main__':
 
     Ids = []
-    for a in open('dataset_13TeV_v2'):
+    for a in open('dataset_13TeV_new'):
         b = a.strip().replace('/','')
         if len(b) == 0: 
             continue
         #Take AOD instead of DAOD (not the same original number of events)
         b = b.replace('DAOD_HIGG4D2', 'AOD')
-        b = b.replace('_p2411', '')
+        b = b.replace('_p2419', '')
 #        b = b.rstrip(b[-6:])
 #        print b
         id = b.split('.')[1]
@@ -27,7 +27,13 @@ if __name__ == '__main__':
 
         infos = AtlasAPI.get_dataset_info(client, b)[0]
         xsec = float(infos['crossSection']) * 1000
-        filt = float(infos['approx_GenFiltEff'])
+        filtstr = infos['approx_GenFiltEff']
+        if filtstr.find('N/A')>=0:
+         #   print 'No filter efficiency available'
+          #  print infos
+            filt = 1 
+        else:
+            filt = float(filtstr)
         kfac = 1.0
         nevts = float(infos['totalEvents'])
         lumi = nevts/ 1000. / (xsec * kfac * filt)
