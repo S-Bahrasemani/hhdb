@@ -274,7 +274,7 @@ LH_DS_PATTERN15 = re.compile(
     '\.(?P<name>\w+)'
     '\.(?P<stream>(D1|D2|D3|AOD))'
     '\.(?P<tag>\w+)'
-    '\.\d+-v(?P<version>\d+)_hist.\d+$')
+    '\.(?P<version>\d+)_hist(.\d+)?$')
 
 
 
@@ -592,9 +592,9 @@ class Database(dict):
                         runs = {}
                         for dir in dirs:
                             dirname, basename = os.path.split(dir)
-                            match = re.match(LH_CLARA_DATA_PATTERN, basename)
+                            match = re.match(LH_DS_PATTERN15, basename)
                             if match:
-                                run = int(match.group('run'))
+                                run = int(match.group('id'))
                                 
                                 tag = match.group('tag')
                                 if run not in runs:
