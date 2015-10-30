@@ -274,7 +274,7 @@ LH_DS_PATTERN15 = re.compile(
     '\.(?P<name>\w+)'
     '\.(?P<stream>(D1|D2|D3|AOD))'
     '\.(?P<tag>\w+)'
-    '\.(?P<version>\d+)_hist(.\d+)?$')
+    '\.(?P<version>\d+)_hist$')
 
 
 
@@ -454,7 +454,7 @@ class Database(dict):
                 if mc_sampletype == 'lh_clara':
                     match  = re.match(LH_DS_PATTERN15, basename)
                     if match:
-                        name = match.group('name')
+                        name = match.group('name') + '_' + match.group('tag') 
                         cat = 'mc15'
                         tag = match.group('tag')
                         year = int(match.group('year'))
