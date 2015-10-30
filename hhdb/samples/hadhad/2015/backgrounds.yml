@@ -45,7 +45,7 @@ pythia_ztautau:
    latex: '$Z\rightarrow\tau\tau$'
    root: '#font[52]{Z}#rightarrow#tau#tau'
    samples:
-       - 'PoPy8_Ztautau'
+       - 'PoPy8_Ztt'
 ewk:
     name: EW
     latex: EW
