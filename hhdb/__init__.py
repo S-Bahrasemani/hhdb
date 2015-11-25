@@ -1,8 +1,11 @@
-import rootpy
 import logging
 import os
 
-rootpy.log.basic_config_colorized()
+try:
+    import rootpy
+    rootpy.log.basic_config_colorized()
+except ImportError:
+    pass
 
 log = logging.getLogger('hhdb')
 if not os.environ.get("DEBUG", False):

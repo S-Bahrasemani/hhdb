@@ -1,8 +1,10 @@
 """
 This module generates a database of all MC and data datasets
 """
-from rootpy.io import root_open, DoesNotExist
-
+try:
+    from rootpy.io import root_open, DoesNotExist
+except:
+    log.warning('rootpy is not installed or setup properly')
 #from multiprocessing import Pool, cpu_count
 
 import sys
