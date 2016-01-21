@@ -81,12 +81,12 @@
     common:
         grl: 'grl/2012/current.xml'
     hh_c:
-       mc_path: '/cluster/warehouse/qbuat/skims_run2/v6/'
+       mc_path: '/cluster/warehouse/qbuat/skims_run2/v8/'
        mc_prefix: 'group.phys-higgs'
        mc_pattern: '*hist-output.root*'
        mc_treename: 'NOMINAL'
        mc_sampletype: 'hh_2015'
-       data_path: '/cluster/warehouse/qbuat/skims_run2/v6/'
+       data_path: '/cluster/warehouse/qbuat/skims_run2/v8/'
        data_prefix: 'group.phys-higgs'
        data_pattern: '*hist-output.root*'
        data_treename: 'NOMINAL'
