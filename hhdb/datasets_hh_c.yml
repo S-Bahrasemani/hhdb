@@ -2688,8 +2688,7 @@ PoPy8_Ztt: !Dataset
   datatype: 1
   treename: NOMINAL
   ds: PoPy8_Ztt
-  dirs: [/cluster/warehouse/qbuat/skims_run2/v8/group.phys-higgs.hhsm_25.mc15_13TeV.361108.PoPy8_Ztt.D3.e3601_s2576_s2132_r6765_r6282_p2419.v8_hist,
-    /cluster/warehouse/qbuat/skims_run2/v8/group.phys-higgs.hhsm_25.mc15_13TeV.361108.PoPy8_Ztt.D3.e3601_s2606_s2183_r6785_r6282_p2419.v8_hist]
+  dirs: [/cluster/warehouse/qbuat/skims_run2/v8/group.phys-higgs.hhsm_25.mc15_13TeV.361108.PoPy8_Ztt.D3.e3601_s2576_s2132_r6765_r6282_p2419.v8_hist]
   file_pattern: '*hist-output.root*'
   id: 361108
   category: mc15
