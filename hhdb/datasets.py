@@ -72,7 +72,6 @@ RUNS_50 = [
 ]
 
 
-
 class Fileset(namedtuple('Fileset', Dataset._fields + ('files', 'treename'))):
 
     def split(self, partitions):
@@ -210,6 +209,33 @@ CN_DATA_PATTERN12 = re.compile(
     '(-(?P<version2>\d+))?'
     '\.(?P<suffix>\S+)$')
 
+## 15
+LH_MC_PATTERN15 = re.compile(
+    '^(?P<prefix>\S+)?'
+    '\.(?P<type>[a-z]+)'
+    '(?P<year>\d+)'
+    '_'
+    '(?P<energy>\d+)'
+    'TeV'
+    '\.(?P<id>\d+)'
+    '\.(?P<name>\w+)'
+    '\.D2'
+    '\.(?P<tag>\w+)'
+    '\.(?P<suffix>\S+)$')
+ 
+LH_DATA_PATTERN15 = re.compile(
+    '^(?P<prefix>\S+)?'
+    '\.(?P<type>[a-z]+)'
+    '(?P<year>\d+)'
+    '_'
+    '(?P<energy>\d+)'
+    'TeV'
+    '\.(?P<id>\d+)'
+    '\.(?P<name>\w+)'
+    '\.D2'
+    '\.(?P<tag>\w+)'
+    '\.(?P<suffix>\S+)$')
+ 
 CN_EMBED_PATTERN12 = re.compile(
     '^(?P<prefix>\S+\.)?'
     'data12_8TeV\.'
@@ -453,8 +479,8 @@ class Database(dict):
             for dir in mc_dirs:
                 log.debug(dir)
                 dirname, basename = os.path.split(dir)
-                if mc_sampletype == 'lh_clara':
-                    match  = re.match(LH_DS_PATTERN15, basename)
+                if mc_sampletype == 'lh_2015':
+                    match  = re.match(LH_MC_PATTERN15, basename)
                     if match:
                         name = match.group('name') + '_' + match.group('tag') 
                         cat = 'mc15'
@@ -549,12 +575,12 @@ class Database(dict):
                     data_dirs = glob.glob(
                         os.path.join(data_path, '*'))
 
-            if data_sampletype == 'lh_clara':
+            if data_sampletype == 'lh_2015':
                 # classify dir by stream
                 streams = {}
                 for dir in data_dirs:
                     dirname, basename = os.path.split(dir)
-                    match = re.match(LH_DS_PATTERN15, basename)
+                    match = re.match(LH_DATA_PATTERN15, basename)
                     if match:
                         # if int(match.group('year')) != (year % 1E3):
                         #     continue
@@ -562,7 +588,7 @@ class Database(dict):
                             continue
                         stream = match.group('name').split('_')[-1]
                         run = int(match.group('id'))
-                        log.info((stream, run))
+                        log.info(("Stream: %s "%stream, "Run: %s" %run ))
                         if stream not in streams:
                             streams[stream] = []
                         streams[stream].append(dir)
