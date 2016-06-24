@@ -278,7 +278,20 @@ LH_DS_PATTERN15 = re.compile(
     '\.(?P<tag>\w+)'
     '\.(?P<version>\d+)_hist$')
 
+AOD_TAG_PATTERN = re.compile(
+    '^e(?P<evnt>\d+)_'
+    's(?P<digi>\d+)_'
+    's(?P<digimerge>\d+)_'
+    'r(?P<reco>\d+)_'
+    'r(?P<recomerge>\d+)$')
 
+DAOD_TAG_PATTERN = re.compile(
+    '^e(?P<evnt>\d+)_'
+    's(?P<digi>\d+)_'
+    's(?P<digimerge>\d+)_'
+    'r(?P<reco>\d+)_'
+    'r(?P<recomerge>\d+)_'
+    'p(?P<derivation>\d+)$')
 
 
 # MC[11|12][a|b|c|...] categories are defined here
@@ -296,7 +309,11 @@ MC_CATEGORIES = {
     'mc12a': {'reco':  (3753, 3752, 3658, 3605, 3553, 3542, 3549),
               'merge': (3549,)},
     'mc12b': {'reco':  (4485, 5470,),
-              'merge': (4540,)}}
+              'merge': (4540,)},
+    'mc15a': {'reco': (6768, 6765, 6725, 6771, 7042, 7049, 7051, 6869, 7509),
+              'merge': (6282,)},
+    'mc15b': {'reco': (7267, 7326, 7360),
+              'merge': (6282,)}}
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -457,8 +474,18 @@ class Database(dict):
                     match  = re.match(LH_DS_PATTERN15, basename)
                     if match:
                         name = match.group('name') + '_' + match.group('tag') 
-                        cat = 'mc15'
                         tag = match.group('tag')
+                        tag_match = re.match(DAOD_TAG_PATTERN, tag)
+                        if tag_match:
+                            reco_tag = tag_match.group('reco')
+                            if int(reco_tag) in MC_CATEGORIES['mc15a']['reco']:
+                                cat = 'mc15a'
+                            elif int(reco_tag) in MC_CATEGORIES['mc15b']['reco']:
+                                cat = 'mc15b'
+                            else:
+                                cat = 'mc15'
+                        else:
+                            cat = 'mc15'
                         year = int(match.group('year'))
                         log.info((name, cat, tag, year))
                         # hardcoded version for now
@@ -492,7 +519,8 @@ class Database(dict):
                         if match.group('type') != 'mc':
                             continue
 
-                        name = match.group('name')
+                        name = match.group('name') + '_' + match.group('tag') 
+                        # name = match.group('name')
                         skim = match.group('skim')
                         datatype = match.group('type')
                         year = match.group('year')
@@ -502,9 +530,21 @@ class Database(dict):
                         tag = match.group('tag')
                         version = match.group('version')
                         suffix = match.group('suffix')
-                        cat = datatype + year
-                        log.info((name, skim, datatype, year, energy, dsid, stream, tag, version, suffix))
-
+                        name = match.group('name') + '_' + match.group('tag') 
+                        log.info(tag)
+                        tag_match = re.match(DAOD_TAG_PATTERN, tag)
+                        if tag_match:
+                            reco_tag = int(tag_match.group('reco'))
+                            log.info('match!: {0}'.format(reco_tag))
+                            if reco_tag in MC_CATEGORIES['mc15a']['reco']:
+                                cat = 'mc15a'
+                            elif reco_tag in MC_CATEGORIES['mc15b']['reco']:
+                                cat = 'mc15b'
+                            else:
+                                cat = 'mc15'
+                        else:
+                            cat = 'mc15'
+                        log.info((name, skim, datatype, year, energy, dsid, stream, tag, cat, version, suffix))
                         dataset = self.get(name, None)
                         if dataset is not None and version == dataset.version:
                             if dir not in dataset.dirs:

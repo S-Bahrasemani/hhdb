@@ -155,6 +155,16 @@ def get_systematics(channel, year, sample):
         return terms, sys_samples
     raise ValueError("sample %s is not listed in samples.yml" % sample)
 
+def get_systematics_mc(channel, year):
+    channel = channel.lower()
+    year = year % 1000
+    for sample_type, sample_info in SAMPLES[channel][year].items():
+        if sample_type == 'mc':
+            terms = [tuple(term.split(',')) for term in
+                     sample_info['systematics']]
+            return terms
+        else:
+            continue
 
 def get_sample(channel, year, sample_class, name):
 
