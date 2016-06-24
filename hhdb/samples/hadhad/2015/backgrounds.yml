@@ -26,6 +26,19 @@ mc_ztautau:
         - 'Sh_Ztt_Pt1000_2000_BFilter'
         - 'Sh_Ztt_Pt2000_E_CMS_CVetoBVeto'
         # missing 2 2000-inf slices
+mg_ztautau:
+    name: Ztautau
+    latex: '$Z\rightarrow\tau\tau$'
+    root: '#font[52]{Z}#rightarrow#tau#tau'
+    samples:
+        - 'MadPy8_Ztt_Np0_e3898_s2608_s2183_r7326_r6282_p2524'
+        - 'MadPy8_Ztt_Np1_e3898_s2608_s2183_r7326_r6282_p2524'
+        - 'MadPy8_Ztt_Np2_e3898_s2608_s2183_r7326_r6282_p2524'
+        - 'MadPy8_Ztt_Np3_e3898_s2608_s2183_r7326_r6282_p2524'
+        - 'MadPy8_Ztt_Np4_e3898_s2608_s2183_r7326_r6282_p2524'
+
+
+
 
 # embedded_ztautau:
 #     name: Ztautau
