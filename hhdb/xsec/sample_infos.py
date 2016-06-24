@@ -9,7 +9,7 @@ AtlasAPI.init()
 if __name__ == '__main__':
 
     Ids = []
-    for a in open('dataset_13TeV_new'):
+    for a in open('stupid.txt'):
         b = a.strip().replace('/','')
         if len(b) == 0: 
             continue

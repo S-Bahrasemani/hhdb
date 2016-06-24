@@ -107,25 +107,25 @@ others:
     samples:
       # EWK
       # W -> tau nu
-      - 'PoPy8_Wplustaunu'
-      - 'PoPy8_Wminustaunu'
-      # W -> mu nu
-      - 'PoPy8_Wplusmunu'
-      - 'PoPy8_Wminusmunu'
-      # W -> e nu
-      - 'PoPy8_Wplusenu'
-      - 'PoPy8_Wminusenu'
-      # Z->ee
-      - 'PoPy8_Zee'
-      # Z-> mu mu
-      - 'PoPy8_Zmumu'
-      # Top
-      - 'PoPy_P2012_ttb_nonallh'
-      - 'PoPy_P2012_ttb_allh'
-      - 'PoPy_P2012_Wt_dilepton_top'
-      - 'PoPy_P2012_Wt_dilepton_antitop'
-      - 'PoPy_P2012_Wt_inclusive_top'
-      - 'PoPy_P2012_Wt_inclusive_antitop'
-      - 'PoPy_P2012_st_tchan_lept_antitop'
-      - 'PoPy_P2012_st_tchan_lept_top'
+      - 'PoPy8_Wplustaunu_e3601_s2576_s2132_r6725_r6282_p2524'
+      - 'PoPy8_Wminustaunu_e3601_s2576_s2132_r6725_r6282_p2524'
+      # # W -> mu nu
+      # - 'PoPy8_Wplusmunu'
+      # - 'PoPy8_Wminusmunu'
+      # # W -> e nu
+      # - 'PoPy8_Wplusenu'
+      # - 'PoPy8_Wminusenu'
+      # # Z->ee
+      # - 'PoPy8_Zee'
+      # # Z-> mu mu
+      # - 'PoPy8_Zmumu'
+      # # Top
+      # - 'PoPy_P2012_ttb_nonallh'
+      # - 'PoPy_P2012_ttb_allh'
+      # - 'PoPy_P2012_Wt_dilepton_top'
+      # - 'PoPy_P2012_Wt_dilepton_antitop'
+      # - 'PoPy_P2012_Wt_inclusive_top'
+      # - 'PoPy_P2012_Wt_inclusive_antitop'
+      # - 'PoPy_P2012_st_tchan_lept_antitop'
+      # - 'PoPy_P2012_st_tchan_lept_top'
       # Diboson

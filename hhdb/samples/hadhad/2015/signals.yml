@@ -3,14 +3,14 @@ gg:
     latex: '$ggH\rightarrow\tau_{h}\tau_{h}$'
     root: 'ggH#rightarrow#tau_{h}#tau_{h}'
     samples:
-        - 'PoPy8_ggH125_tautauhh'
+        - 'PoPy8_ggH125_tautauhh_e3935_s2608_s2183_r6765_r6282_p2524'
 
 vbf:
     name: vbfhtautau
     latex: 'VBF $H\rightarrow\tau_{h}\tau_{h}$'
     root: 'VBF H#rightarrow#tau_{h}#tau_{h}'
     samples:
-        - 'PoPy8_VBFH125_tautauhh'
+        - 'PoPy8_VBFH125_tautauhh_e3888_s2608_s2183_r6765_r6282_p2524'
 
 wh:
     name: whtautau
