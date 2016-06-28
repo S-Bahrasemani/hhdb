@@ -1,0 +1,7 @@
+| DSID |  Sample  | Total events | Sample Lumi [fb-1] | AMIXsec [pb] | BR  | FiltEff | Total higher order xsec [pb] | K-factor | Higher order xsec sample [pb] | 
+| 361100 | mc15_13TeV.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu | 29979000 | 2.65 | 11306.0  | 1.0 | 1.0 | 11500.9154  | 1.0172 | 11500.9154 | 
+| 361101 | mc15_13TeV.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu | 29972000 | 2.65 | 11306.0  | 1.0 | 1.0 | 11500.9154  | 1.0172 | 11500.9154 | 
+| 361102 | mc15_13TeV.361102.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu | 29980000 | 2.65 | 11306.0  | 1.0 | 1.0 | 11500.9154  | 1.0172 | 11500.9154 | 
+| 361103 | mc15_13TeV.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu | 39974000 | 4.83 | 8282.6  | 1.0 | 1.0 | 8579.0011  | 1.0358 | 8579.0011 | 
+| 361104 | mc15_13TeV.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu | 19984000 | 2.41 | 8282.6  | 1.0 | 1.0 | 8579.0011  | 1.0358 | 8579.0011 | 
+| 361105 | mc15_13TeV.361105.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu | 19961000 | 2.41 | 8282.6  | 1.0 | 1.0 | 8579.0011  | 1.0358 | 8579.0011 | 

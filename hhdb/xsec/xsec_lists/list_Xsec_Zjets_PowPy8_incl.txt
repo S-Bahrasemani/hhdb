@@ -1,0 +1,13 @@
+| DSID |  Sample  | Total events | Sample Lumi [fb-1] | AMIXsec [pb] | BR  | FiltEff | Total higher order xsec [pb] | K-factor | Higher order xsec sample [pb] | 
+| 361106 | mc15_13TeV.361106.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee | 19993000 | 10.52 | 1901.2  | 1.0 | 1.0 | 1950.6321  | 1.026 | 1950.6321 | 
+| 361107 | mc15_13TeV.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu | 19981000 | 10.51 | 1901.2  | 1.0 | 1.0 | 1950.6321  | 1.026 | 1950.6321 | 
+| 361108 | mc15_13TeV.361108.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau | 39497000 | 20.77 | 1901.2  | 1.0 | 1.0 | 1950.6321  | 1.026 | 1950.6321 | 
+| 425001 | mc15_13TeV.425001.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Var1Up_Ztautau | 148000 | 0.08 | 1900.8  | 1.0 | 1.0 | Undefined  | 1.0 | 1900.8 | 
+| 425002 | mc15_13TeV.425002.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Var2Up_Ztautau | 148000 | 0.08 | 1900.8  | 1.0 | 1.0 | Undefined  | 1.0 | 1900.8 | 
+| 425003 | mc15_13TeV.425003.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Var1Down_Ztautau | 149000 | 0.08 | 1900.7  | 1.0 | 1.0 | Undefined  | 1.0 | 1900.7 | 
+| 425004 | mc15_13TeV.425004.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Var2Down_Ztautau | 147000 | 0.08 | 1900.8  | 1.0 | 1.0 | Undefined  | 1.0 | 1900.8 | 
+| 425005 | mc15_13TeV.425005.PowhegPythia8EvtGen_AZNLOCTEQ6L1_RenUp_Ztautau | 148000 | 0.08 | 1900.8  | 1.0 | 1.0 | Undefined  | 1.0 | 1900.8 | 
+| 425006 | mc15_13TeV.425006.PowhegPythia8EvtGen_AZNLOCTEQ6L1_RenDown_Ztautau | 145000 | 0.08 | 1900.5  | 1.0 | 1.0 | Undefined  | 1.0 | 1900.5 | 
+| 425007 | mc15_13TeV.425007.PowhegPythia8EvtGen_AZNLOCTEQ6L1_MPIUp_Ztautau | 149000 | 0.08 | 1900.7  | 1.0 | 1.0 | Undefined  | 1.0 | 1900.7 | 
+| 425008 | mc15_13TeV.425008.PowhegPythia8EvtGen_AZNLOCTEQ6L1_MPIDown_Ztautau | 149000 | 0.08 | 1900.8  | 1.0 | 1.0 | Undefined  | 1.0 | 1900.8 | 
+| 429011 | mc15_13TeV.429011.PowhegPythia8_AZNLOCTEQ6L1_Ztautau | 1000000 | 0.53 | 1900.8  | 1.0 | 1.0 | Undefined  | 1.0 | 1900.8 | 

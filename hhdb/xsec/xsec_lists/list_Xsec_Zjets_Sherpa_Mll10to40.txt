@@ -1,0 +1,25 @@
+| DSID |  Sample  | Total events | Sample Lumi [fb-1] | AMIXsec [pb] | BR  | FiltEff | Total higher order xsec [pb] | K-factor | Higher order xsec sample [pb] | 
+| 361468 | mc15_13TeV.361468.Sherpa_CT10_Zee_Mll10to40_Pt0_70_BVeto | 2500000 | 1.16 | 2256.1  | 1.0 | 0.95157 | Undefined  | 0.9013 | 1934.9442575 | 
+| 361469 | mc15_13TeV.361469.Sherpa_CT10_Zee_Mll10to40_Pt0_70_BFilter | 500000 | 4.71 | 2252.9  | 1.0 | 0.047153 | Undefined  | 0.9013 | 95.745994622 | 
+| 361470 | mc15_13TeV.361470.Sherpa_CT10_Zee_Mll10to40_Pt70_140_BVeto | 600000 | 86.21 | 7.7821  | 1.0 | 0.89435 | Undefined  | 0.9013 | 6.272976919 | 
+| 361471 | mc15_13TeV.361471.Sherpa_CT10_Zee_Mll10to40_Pt70_140_BFilter | 100000 | 129.17 | 7.8015  | 1.0 | 0.099233 | Undefined  | 0.9013 | 0.697756041 | 
+| 361472 | mc15_13TeV.361472.Sherpa_CT10_Zee_Mll10to40_Pt140_400_BVeto | 300000 | 485.87 | 0.71014  | 1.0 | 0.86947 | Undefined  | 0.9013 | 0.556503562 | 
+| 361473 | mc15_13TeV.361473.Sherpa_CT10_Zee_Mll10to40_Pt140_400_BFilter | 100000 | 1347.52 | 0.7067  | 1.0 | 0.10501 | Undefined  | 0.9013 | 0.066885984 | 
+| 361474 | mc15_13TeV.361474.Sherpa_CT10_Zee_Mll10to40_Pt400_E_CMS_BVeto | 100000 | 16511.14 | 0.0073149  | 1.0 | 0.82797 | Undefined  | 0.9013 | 0.005458739 | 
+| 361475 | mc15_13TeV.361475.Sherpa_CT10_Zee_Mll10to40_Pt400_E_CMS_BFilter | 49940 | 33337.29 | 0.0074547  | 1.0 | 0.20095 | Undefined  | 0.9013 | 0.001350167 | 
+| 361476 | mc15_13TeV.361476.Sherpa_CT10_Zmumu_Mll10to40_Pt0_70_BVeto | 2500000 | 1.17 | 2251.1  | 1.0 | 0.95124 | Undefined  | 0.9013 | 1929.98646487 | 
+| 361477 | mc15_13TeV.361477.Sherpa_CT10_Zmumu_Mll10to40_Pt0_70_BFilter | 500000 | 4.7 | 2250.0  | 1.0 | 0.047277 | Undefined  | 0.9013 | 95.874210225 | 
+| 361478 | mc15_13TeV.361478.Sherpa_CT10_Zmumu_Mll10to40_Pt70_140_BVeto | 600000 | 86.48 | 7.7867  | 1.0 | 0.89102 | Undefined  | 0.9013 | 6.253314428 | 
+| 361479 | mc15_13TeV.361479.Sherpa_CT10_Zmumu_Mll10to40_Pt70_140_BFilter | 100000 | 126.02 | 7.784  | 1.0 | 0.10194 | Undefined  | 0.9013 | 0.715182415 | 
+| 361480 | mc15_13TeV.361480.Sherpa_CT10_Zmumu_Mll10to40_Pt140_400_BVeto | 300000 | 482.67 | 0.71424  | 1.0 | 0.87022 | Undefined  | 0.9013 | 0.560199349 | 
+| 361481 | mc15_13TeV.361481.Sherpa_CT10_Zmumu_Mll10to40_Pt140_400_BFilter | 100000 | 1211.54 | 0.70704  | 1.0 | 0.11674 | Undefined  | 0.9013 | 0.074393166 | 
+| 361482 | mc15_13TeV.361482.Sherpa_CT10_Zmumu_Mll10to40_Pt400_E_CMS_BVeto | 100000 | 15918.71 | 0.00745  | 1.0 | 0.84321 | Undefined  | 0.9013 | 0.00566189 | 
+| 361483 | mc15_13TeV.361483.Sherpa_CT10_Zmumu_Mll10to40_Pt400_E_CMS_BFilter | 49920 | 33072.33 | 0.0075032  | 1.0 | 0.20117 | Undefined  | 0.9013 | 0.001360439 | 
+| 361484 | mc15_13TeV.361484.Sherpa_CT10_Ztautau_Mll10to40_Pt0_70_BVeto | 2500000 | 1.16 | 2268.6  | 1.0 | 0.95169 | Undefined  | 0.9013 | 1945.91024571 | 
+| 361485 | mc15_13TeV.361485.Sherpa_CT10_Ztautau_Mll10to40_Pt0_70_BFilter | 500000 | 4.72 | 2254.2  | 1.0 | 0.046987 | Undefined  | 0.9013 | 95.463979384 | 
+| 361486 | mc15_13TeV.361486.Sherpa_CT10_Ztautau_Mll10to40_Pt70_140_BVeto | 600000 | 86.56 | 7.7699  | 1.0 | 0.8921 | Undefined  | 0.9013 | 6.247385997 | 
+| 361487 | mc15_13TeV.361487.Sherpa_CT10_Ztautau_Mll10to40_Pt70_140_BFilter | 100000 | 123.28 | 7.8242  | 1.0 | 0.10367 | Undefined  | 0.9013 | 0.731075808 | 
+| 361488 | mc15_13TeV.361488.Sherpa_CT10_Ztautau_Mll10to40_Pt140_400_BVeto | 300000 | 485.79 | 0.70972  | 1.0 | 0.87013 | Undefined  | 0.9013 | 0.556596611 | 
+| 361489 | mc15_13TeV.361489.Sherpa_CT10_Ztautau_Mll10to40_Pt140_400_BFilter | 100000 | 1200.29 | 0.70682  | 1.0 | 0.11787 | Undefined  | 0.9013 | 0.075089893 | 
+| 361490 | mc15_13TeV.361490.Sherpa_CT10_Ztautau_Mll10to40_Pt400_E_CMS_BVeto | 100000 | 15945.27 | 0.0074353  | 1.0 | 0.84347 | Undefined  | 0.9013 | 0.00565246 | 
+| 361491 | mc15_13TeV.361491.Sherpa_CT10_Ztautau_Mll10to40_Pt400_E_CMS_BFilter | 49980 | 34790.77 | 0.0074346  | 1.0 | 0.19323 | Undefined  | 0.9013 | 0.001294797 | 

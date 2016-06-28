@@ -1,0 +1,17 @@
+| DSID |  Sample  | Total events | Sample Lumi [fb-1] | AMIXsec [pb] | BR  | FiltEff | Total higher order xsec [pb] | K-factor | Higher order xsec sample [pb] | 
+| 342556 | mc15_13TeV.342556.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZllll_mll4_m4l_100_150 | 9989000 | 240126.6 | 1.2791  | 1.0 | 0.032522 | Undefined  | 1.0 | 0.04159889 | 
+| 342558 | mc15_13TeV.342558.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZmmmm_mmm2mplus025 | 955000 | 181.61 | 5.2586  | 1.0 | 1.0 | Undefined  | 1.0 | 5.2586 | 
+| 342559 | mc15_13TeV.342559.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZtttt_mtt2tplus025 | 985000 | 7175.64 | 0.13727  | 1.0 | 1.0 | Undefined  | 1.0 | 0.13727 | 
+| 343232 | mc15_13TeV.343232.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZllll_mll4_m4l_500_13000 | 993000 | 213138.69 | 1.2655  | 1.0 | 0.003682 | Undefined  | 1.0 | 0.004658938 | 
+| 361600 | mc15_13TeV.361600.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_WWlvlv | 1000000 | 94.06 | 10.631  | 1.0 | 1.0 | Undefined  | 1.0 | 10.631 | 
+| 361601 | mc15_13TeV.361601.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_WZlvll_mll4 | 4955000 | 1100.55 | 4.5023  | 1.0 | 1.0 | Undefined  | 1.0 | 4.5023 | 
+| 361602 | mc15_13TeV.361602.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_WZlvvv_mll4 | 985000 | 354.6 | 2.7778  | 1.0 | 1.0 | Undefined  | 1.0 | 2.7778 | 
+| 361603 | mc15_13TeV.361603.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZllll_mll4 | 3980000 | 3140.53 | 1.2673  | 1.0 | 1.0 | Undefined  | 1.0 | 1.2673 | 
+| 361604 | mc15_13TeV.361604.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZvvll_mll4 | 995000 | 1083.94 | 0.91795  | 1.0 | 1.0 | Undefined  | 1.0 | 0.91795 | 
+| 361605 | mc15_13TeV.361605.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZvvvv_mll4 | 200000 | 364.29 | 0.54901  | 1.0 | 1.0 | Undefined  | 1.0 | 0.54901 | 
+| 361606 | mc15_13TeV.361606.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_WWlvqq | 4400000 | 99.59 | 44.18  | 1.0 | 1.0 | Undefined  | 1.0 | 44.18 | 
+| 361607 | mc15_13TeV.361607.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_WZqqll_mll20 | 1490000 | 454.59 | 3.2777  | 1.0 | 1.0 | Undefined  | 1.0 | 3.2777 | 
+| 361608 | mc15_13TeV.361608.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_WZqqvv | 2970000 | 515.84 | 5.7576  | 1.0 | 1.0 | Undefined  | 1.0 | 5.7576 | 
+| 361609 | mc15_13TeV.361609.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_WZlvqq_mqq20 | 9825000 | 974.12 | 10.086  | 1.0 | 1.0 | Undefined  | 1.0 | 10.086 | 
+| 361610 | mc15_13TeV.361610.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZqqll_mqq20mll20 | 3990000 | 1757.79 | 2.2699  | 1.0 | 1.0 | Undefined  | 1.0 | 2.2699 | 
+| 361611 | mc15_13TeV.361611.PowhegPy8EG_CT10nloME_AZNLOCTEQ6L1_ZZvvqq_mqq20 | 9965000 | 2527.78 | 3.9422  | 1.0 | 1.0 | Undefined  | 1.0 | 3.9422 | 
