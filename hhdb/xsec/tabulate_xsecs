@@ -1,0 +1,56 @@
+#! /usr/bin/env python
+
+##stdlib imports
+import os, logging
+from tabulate import tabulate
+
+#from .. import log; log = log[__name__]
+ 
+PATH='./xsec_lists/'
+all_xsec_files = os.listdir(PATH)
+all_xsec=[os.path.join(PATH, x) for x in all_xsec_files]
+print all_xsec
+#log.info('List of xSecs available: {0}'.format(all_xsec))
+year = 2015
+headers = ['## DSID', 'events',  'xsec[pb]*kfac*filter' , 'lumi[fb-1]', 'name']
+table_rows = []
+SAMPLES={}
+SAMPLES[year]={}    
+for xsec in all_xsec:
+    with open(xsec) as f:
+        d, name = os.path.split(f.name)
+        name = name.replace('list_Xsec_', '').replace('.txt','')        
+        table_rows.append(['##','##', '='*len(name), '##', '##'])
+        table_rows.append(['##','##', name, '##', '##'])
+        table_rows.append(['##','##', '='*len(name), '##', '##'])
+        
+        for line in f.readlines():
+            line = line.strip()
+            if not line or line.startswith('#') or line.startswith('DSID') or line.startswith('| DSID'):
+                continue
+            line = line.split()
+            
+            new_line=[]
+            for l in line:
+                if l != '|':
+                    new_line.append(l)
+            
+            sampleid = int(new_line[0])
+            if year == 14 or year == 15:
+                nevt = int(new_line[1])
+            else:
+                nevt = -9999
+            if sampleid not in SAMPLES[year]:
+                SAMPLES[year][sampleid] = {}
+                vals = [new_line[0],new_line[2],new_line[4]+'*'+new_line[8]+'*'+new_line[6], new_line[3], new_line[1]]
+                table_rows.append(vals)
+            
+            else:
+                print "duplicate sample {0} in {1}".format(
+                    new_line, f.name)
+            ## | DSID |  Sample  | Total events | Sample Lumi [fb-1] | AMIXsec [pb] | BR  | FiltEff | Total higher order xsec [pb] | K-factor | Higher order xsec sample [pb] |
+            ## # DSID  events  xsec[pb]*kfac*filter    lumi((xsec[pb]*kfac*filter)/(events))            name
+
+with open ('xsections.txt', 'w') as out:
+    out.write(tabulate(table_rows, headers))
+    out.close()
