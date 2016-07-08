@@ -266,7 +266,7 @@ DS_PATTERN15 = re.compile(
     '\.(?P<name>\w+)'
     '\.(?P<stream>(D1|D2|D3|AOD))'
     '\.(?P<tag>\w+)'
-    '\.v(?P<version>\d+)_(?P<suffix>\w+)$')
+    '\.v(?P<version>\w+)_(?P<suffix>\w+)$')
 
 LH_DS_PATTERN15 = re.compile(
     '^(?P<prefix>(group.phys-higgs|user.\w+))'
