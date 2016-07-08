@@ -3,24 +3,22 @@ gg:
     latex: '$ggH\rightarrow\tau_{h}\tau_{h}$'
     root: 'ggH#rightarrow#tau_{h}#tau_{h}'
     samples:
-        - 'PoPy8_ggH125_tautauhh_e3935_s2608_s2183_r6765_r6282_p2524'
-
+        - 'PoPy8_ggH125_tautauhh_e3935_s2608_s2183_r7772_r7676_p2666'
 vbf:
     name: vbfhtautau
     latex: 'VBF $H\rightarrow\tau_{h}\tau_{h}$'
     root: 'VBF H#rightarrow#tau_{h}#tau_{h}'
     samples:
-        - 'PoPy8_VBFH125_tautauhh_e3888_s2608_s2183_r6765_r6282_p2524'
-
+        - 'PoPy8_VBFH125_tautauhh_e3888_s2608_s2183_r7772_r7676_p2666' 
 wh:
     name: whtautau
     latex: '$WH\rightarrow\tau_{h}\tau_{h}$'
     root: 'WH#rightarrow#tau_{h}#tau_{h}'
     samples:
-        # - 'Pyth8_AU2CTEQ6L1_WH100_tautauhh.mc12a'
+        - 'Pythia8EvtGen_WH125_inc_e4246_s2608_s2183_r7772_r7676_p2666'
 zh:
     name: zhtautau
     latex: '$ZH\rightarrow\tau_{h}\tau_{h}$'
     root: 'ZH#rightarrow#tau_{h}#tau_{h}'
     samples:
-        # - 'Pyth8_AU2CTEQ6L1_ZH100_tautauhh.mc12a'
+        - 'Pythia8EvtGen_ZH125_inc_e4246_s2608_s2183_r7772_r7676_p2666'
