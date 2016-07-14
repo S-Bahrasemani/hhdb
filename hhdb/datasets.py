@@ -56,20 +56,6 @@ Namedset = namedtuple('Namedset',
 Dataset = namedtuple('Dataset',
                      Namedset._fields + ('datatype',))
 
-RUNS_50 = [
-    267073, 
-    267167, 
-    267638, 
-    270806,
-    270953,
-    271048,
-    271298,
-    271421,
-    271516,
-    271595,
-    271744,
-    276731,
-]
 
 
 
@@ -111,137 +97,6 @@ class Treeset(namedtuple('Treeset', Dataset._fields + ('trees',))):
 
 ATLASFileset = namedtuple('ATLASFileset', Fileset._fields + ('year', 'grl',))
 
-DS_PATTERN = re.compile(
-    '^(?P<prefix>\S+\.)?'
-    '(?P<type>(data|mc))(?P<year>\d+)_(?P<energy>\d+)TeV'
-    '\.(?P<id>(\d+|period[A-Z]))'
-    '\.(?P<name>\w+)'
-    '(\.PhysCont)?'
-    '(\.(?P<ntup>merge\.NTUP_TAU(MEDIUM)?))?'
-    '\.(?P<tag>\w+)'
-    '(\.small)?'
-    '(\.v(?P<version>\d+))?'
-    '\.(?P<suffix>\S+)$')
-
-MC_TAG_PATTERN1 = re.compile(
-    '^e(?P<evnt>\d+)_'
-    's(?P<digi>\d+)_'
-    's(?P<digimerge>\d+)_'
-    'r(?P<reco>\d+)_'
-    'r(?P<recomerge>\d+)_'
-    'p(?P<ntup>\d+)$')
-
-# not all valid samples have a recomerge tag:
-MC_TAG_PATTERN2 = re.compile(
-    '^e(?P<evnt>\d+)_'
-    '[sa](?P<digi>\d+)_'
-    '[sa](?P<digimerge>\d+)_'
-    'r(?P<reco>\d+)_'
-    'p(?P<ntup>\d+)$')
-
-# Embedded sample pattern
-EMBED_PATTERN11 = re.compile(
-    '^(?P<prefix>\S+)?'
-    'period(?P<period>[A-Z])'
-    '\.DESD_SGLMU'
-    '\.pro(?P<prod>\d+)'
-    '\.embedding-(?P<embedtag>\S+)?'
-    '\.Ztautau_'
-    '(?P<channel>(lh)|(hh))_'
-    '(?P<isol>[a-z]+)_'
-    '(?P<mfs>[a-z]+)_'
-    'rereco_'
-    'p(?P<tag>\d+)_'
-    'EXT0'
-    '(\.(?P<suffix>\S+))?$')
-
-EMBED_PATTERN12 = re.compile(
-    '^(?P<prefix>\S+)?'
-    'period(?P<period>[A-Z])'
-    '\.DESD_ZMUMU'
-    '\.pro(?P<prod>\d+)'
-    '\.embedding-(?P<embedtag>\S+)?'
-    '\.Ztautau_'
-    '(?P<channel>(lh)|(hh))_'
-    '(((high)|(low))pt_)?'
-    '(?P<mfs>[a-z]+)_'
-    'filter_'
-    'taureco_'
-    'p(?P<tag>\d+)_'
-    'EXT0'
-    '(\.(?P<suffix>\S+))?$')
-
-EMBED_PATTERN12_NEW = re.compile(
-    '^(?P<prefix>\S+)?'
-    'data12_8TeV\.'
-    'period(?P<period>[A-Z])\.'
-    'physics_Muons\.PhysCont\.'
-    'NTUP_EMB(?P<channel>(LH)|(HH))'
-    '(?P<sys>(DN)|(IM)|(UP))\.'
-    '(?P<suffix>\S+)')
-
-MC_EMBED_PATTERN = re.compile(
-    '^(?P<prefix>\S+)?'
-    'Pyth8.DESD_SGLMU.pro14.embedding-01-01-10.'
-    'Ztautau_MCEmbedding[\d]*_hh(?P<sys>(dn)|(up))?_p1344_EXT0'
-    '(\.(?P<suffix>\S+))?$')
-
-## Common lephad ntuple pattern
-CN_MC_PATTERN12 = re.compile(
-    '^(?P<prefix>\S+\.)?'
-    '(?P<id>\d+)'
-    '\.(?P<name>\w+)'
-    '\.(?P<tag>\w+)'
-    '_lhCN'
-    '(v(?P<version1>\d+))?'
-    '(-(?P<version2>\d+))?'
-    '(-(?P<version3>\d+))?'
-    '\.(?P<suffix>\S+)$')
-
-CN_DATA_PATTERN12 = re.compile(
-    '^(?P<prefix>\S+\.)?'
-    'data12_8TeV\.'
-    '(?P<id>\S+)'
-    '\.(?P<name>\w+)'
-    '((\.TunaCont.2013-March-29.v03)?)'
-    '\.(?P<tag>\w+)'
-    '_lhCN'
-    '(v(?P<version1>\d+))?'
-    '(-(?P<version2>\d+))?'
-    '\.(?P<suffix>\S+)$')
-
-CN_EMBED_PATTERN12 = re.compile(
-    '^(?P<prefix>\S+\.)?'
-    'data12_8TeV\.'
-    '(?P<id>\S+)'
-    '\.(?P<name>\w+)'
-    '\.PhysCont'
-    '((\.NTUP_EMB)?)'
-    '(?P<channel>(LH)|(HH))'
-    '(?P<mfs>(IM)|(UP)|(DN))'
-    '\.grp14_v02'
-    '\_(?P<tag>\w+)'
-    '_lhCN'
-    '(v(?P<version1>\d+))?'
-    '(-(?P<version2>\d+))?'
-    '(-(?P<version3>\d+))?'
-    '\.(?P<suffix>\S+)$')
-
-LH_CLARA_MC_PATTERN = re.compile(
-    '^(?P<prefix>\S+\.)?'
-    '(?P<id>\d+)'
-    '\.(?P<name>\w+)'
-    '\.(?P<project>hsm_lephad.MC\d+)_'
-    '(?P<tag>\w+)'
-    '\_(?P<suffix>\S+)$')
-
-LH_CLARA_DATA_PATTERN = re.compile(
-    '^(?P<prefix>\S+\.)?'
-    '(?P<run>\d+)'
-    '\.(?P<stream>physics_Main)'
-    '\.((?P<project>hsm_lephad.Data\d+)_?)'
-    '(?P<tag>\w+)'
-    '\_(?P<suffix>\S+)$')
 
 HH_DATA_PATTERN15 = re.compile(
     '^(?P<prefix>\S+\.)?'
@@ -268,16 +123,6 @@ DS_PATTERN15 = re.compile(
     '\.(?P<tag>\w+)'
     '\.v(?P<version>\w+)_(?P<suffix>\w+)$')
 
-LH_DS_PATTERN15 = re.compile(
-    '^(?P<prefix>(group.phys-higgs|user.\w+))'
-    '\.(?P<skim>\w+)'
-    '\.(?P<type>(data|mc))(?P<year>\d+)_(?P<energy>\d+)TeV'
-    '\.(?P<id>(\d+|period[A-Z]))'
-    '\.(?P<name>\w+)'
-    '\.(?P<stream>(D1|D2|D3|AOD))'
-    '\.(?P<tag>\w+)'
-    '\.(?P<version>\d+)_hist$')
-
 AOD_TAG_PATTERN = re.compile(
     '^e(?P<evnt>\d+)_'
     's(?P<digi>\d+)_'
@@ -293,27 +138,18 @@ DAOD_TAG_PATTERN = re.compile(
     'r(?P<recomerge>\d+)_'
     'p(?P<derivation>\d+)$')
 
-
 # MC[11|12][a|b|c|...] categories are defined here
 # Each MC dataset is automatically classified
 # acccording to these categories by matching the reco
 # and merge tags of the dataset name.
 # Order by decreasing preference:
 MC_CATEGORIES = {
-    'mc11a': {'reco':  (2730, 2731),
-              'merge': (2780, 2700)},
-    'mc11b': {'reco':  (2920, 2923),
-              'merge': (3063, 2993, 2900)},
-    'mc11c': {'reco':  (3043, 3060, 3108),
-              'merge': (3109, 3063, 2993)},
-    'mc12a': {'reco':  (3753, 3752, 3658, 3605, 3553, 3542, 3549),
-              'merge': (3549,)},
-    'mc12b': {'reco':  (4485, 5470,),
-              'merge': (4540,)},
     'mc15a': {'reco': (6768, 6765, 6725, 6771, 7042, 7049, 7051, 6869, 7509),
               'merge': (6282,)},
     'mc15b': {'reco': (7267, 7326, 7360),
-              'merge': (6282,)}}
+              'merge': (6282,)},
+    'mc15c': {'reco': (7772, 7725),
+              'merge': (7676,)}}
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -471,56 +307,14 @@ class Database(dict):
                 log.debug(dir)
                 dirname, basename = os.path.split(dir)
                 if mc_sampletype == 'lh_clara':
-                    match  = re.match(LH_DS_PATTERN15, basename)
-                    if match:
-                        name = match.group('name') + '_' + match.group('tag') 
-                        tag = match.group('tag')
-                        tag_match = re.match(DAOD_TAG_PATTERN, tag)
-                        if tag_match:
-                            reco_tag = tag_match.group('reco')
-                            if int(reco_tag) in MC_CATEGORIES['mc15a']['reco']:
-                                cat = 'mc15a'
-                            elif int(reco_tag) in MC_CATEGORIES['mc15b']['reco']:
-                                cat = 'mc15b'
-                            else:
-                                cat = 'mc15'
-                        else:
-                            cat = 'mc15'
-                        year = int(match.group('year'))
-                        log.info((name, cat, tag, year))
-                        # hardcoded version for now
-                        version = 1
-
-                        dataset = self.get(name, None)
-                        if dataset is not None and version == dataset.version:
-                            if dir not in dataset.dirs:
-                                dataset.dirs.append(dir)
-                        else:
-
-                            log.info('\'%s\',' % name)
-                            self[name] = Dataset(
-                                name=name,
-                                datatype=MC,
-                                treename=mc_treename,
-                                ds=name,
-                                id=int(match.group('id')),
-                                category=cat,
-                                version=version,
-                                tag_pattern=None,
-                                tag=tag,
-                                dirs=[dir],
-                                file_pattern=mc_pattern,
-                                year=year)
-
+                    pass
                 elif mc_sampletype == 'hh_2015':
-                    log.info(basename)
                     match  = re.match(DS_PATTERN15, basename)
                     if match: #and not data_match:
                         if match.group('type') != 'mc':
                             continue
 
-                        name = match.group('name') + '_' + match.group('tag') 
-                        # name = match.group('name')
+                        name = match.group('name')
                         skim = match.group('skim')
                         datatype = match.group('type')
                         year = match.group('year')
@@ -530,12 +324,9 @@ class Database(dict):
                         tag = match.group('tag')
                         version = match.group('version')
                         suffix = match.group('suffix')
-                        name = match.group('name') + '_' + match.group('tag') 
-                        log.info(tag)
                         tag_match = re.match(DAOD_TAG_PATTERN, tag)
                         if tag_match:
                             reco_tag = int(tag_match.group('reco'))
-                            log.info('match!: {0}'.format(reco_tag))
                             if reco_tag in MC_CATEGORIES['mc15a']['reco']:
                                 cat = 'mc15a'
                             elif reco_tag in MC_CATEGORIES['mc15b']['reco']:
@@ -550,7 +341,6 @@ class Database(dict):
                             if dir not in dataset.dirs:
                                 dataset.dirs.append(dir)
                         else:
-                            log.info('\'%s\',' % name)
                             self[name] = Dataset(
                                 name=name,
                                 datatype=MC,
@@ -567,7 +357,6 @@ class Database(dict):
                                 stream=stream)
 
 
-
         #####################################
         # EMBEDDING
         #####################################
@@ -577,6 +366,7 @@ class Database(dict):
         ##############################
         # DATA
         ##############################
+        log.info('--------------> DATA')
         if data_path is not None:
 
             if deep:
@@ -590,159 +380,49 @@ class Database(dict):
                         os.path.join(data_path, '*'))
 
             if data_sampletype == 'lh_clara':
-                # classify dir by stream
-                streams = {}
-                for dir in data_dirs:
-                    dirname, basename = os.path.split(dir)
-                    match = re.match(LH_DS_PATTERN15, basename)
-                    if match:
-                        # if int(match.group('year')) != (year % 1E3):
-                        #     continue
-                        if match.group('type') != 'data':
-                            continue
-                        stream = match.group('name').split('_')[-1]
-                        run = int(match.group('id'))
-                        log.info((stream, run))
-                        if stream not in streams:
-                            streams[stream] = []
-                        streams[stream].append(dir)
-                    elif self.verbose:
-                        log.warning(
-                            "not a valid data dataset name: %s" % basename)
-
-                for stream, dirs in streams.items():
-                    name = 'data%d-%s' % (year % 1000, stream)
-                    log.info(name)
-                    self[name] = Dataset(
-                        name=name,
-                        datatype=DATA,
-                        treename=data_treename,
-                        ds=name,
-                        id=-1,
-                        # The GRL is the same for both lephad and hadhad analyses
-                        grl=data_grl,
-                        dirs=dirs,
-                        stream=stream,
-                        file_pattern=data_pattern,
-                        year=year)
-
-                    if data_period_containers:
-                        # in each stream create a separate dataset for each run
-                        pass
-                    else:
-                        # in each stream create a separate dataset for each run
-                        runs = {}
-                        for dir in dirs:
-                            dirname, basename = os.path.split(dir)
-                            match = re.match(LH_DS_PATTERN15, basename)
-                            if match:
-                                run = int(match.group('id'))
-                                
-                                tag = match.group('tag')
-                                if run not in runs:
-                                    runs[run] = {
-                                        'tag': tag,
-                                        'dirs': [dir],
-                                        'ds': ''}#Database.match_to_ds(match)}
-                                else:
-                                    runs[run]['dirs'].append(dir)
-                                    if tag != runs[run]['tag']:
-                                        log.warning(
-                                            'multiple copies of run with different '
-                                            'tags: %s' % runs[run]['dirs'])
-                            elif self.verbose:
-                                log.warning(
-                                    "not a valid data dataset name: %s" % basename)
-
-
+                pass
             elif data_sampletype == 'hh_2015':
                 # classify dir by stream
                 streams = {}
-                streams['Main25'] = []
-                streams['Main50'] = []
+                streams['-Main'] = []
+                streams['15-Main'] = []
+                streams['16-Main'] = []
                 for dir in data_dirs:
                     dirname, basename = os.path.split(dir)
                     match = re.match(DS_PATTERN15, basename)
                     if match:
                         if match.group('type') != 'data':
                             continue
-                        # if int(match.group('year')) != (year % 1E3):
-                        #     continue
-                        # if match.group('type') != 'data':
-                        #     continue
                         stream = match.group('name').split('_')[-1]
                         run = int(match.group('id'))
-                        if run in RUNS_50:
-                            streams['Main50'].append(dir)
+                        year = match.group('year')
+                        streams['-Main'].append(dir)
+                        if year == '15':
+                            streams['15-Main'].append(dir)
+                            year = 2015
+                        elif year == '16':
+                            streams['16-Main'].append(dir)
+                            year = 2016
                         else:
-                            streams['Main25'].append(dir)
-                        log.info(stream)
-                        if stream not in streams:
-                            streams[stream] = []
-                        streams[stream].append(dir)
+                            raise ValueError('wrong year')
 
                     elif self.verbose:
                         log.warning(
                             "not a valid data dataset name: %s" % basename)
 
                 for stream, dirs in streams.items():
-                    name = 'data%d-%s' % (15, stream)
+                    name = 'data%s' % (stream)
                     self[name] = Dataset(
                         name=name,
                         datatype=DATA,
                         treename=data_treename,
                         ds=name,
                         id=-1,
-                        # The GRL is the same for both lephad and hadhad analyses
                         grl=None,#data_grl,
                         dirs=dirs,
                         stream=stream,
                         file_pattern=data_pattern,
-                        year=2015)
-
-                    if data_period_containers:
-                        # in each stream create a separate dataset for each run
-                        pass
-                    else:
-                        # in each stream create a separate dataset for each run
-                        runs = {}
-                        for dir in dirs:
-                            dirname, basename = os.path.split(dir)
-                            match = re.match(DS_PATTERN15, basename)
-                            if match:
-                                run = int(match.group('id'))
-                                
-                                tag = match.group('tag')
-                                if run not in runs:
-                                    runs[run] = {
-                                        'tag': tag,
-                                        'dirs': [dir],
-                                        'ds': ''}#Database.match_to_ds(match)}
-                                else:
-                                    runs[run]['dirs'].append(dir)
-                                    if tag != runs[run]['tag']:
-                                        log.warning(
-                                            'multiple copies of run with different '
-                                            'tags: %s' % runs[run]['dirs'])
-                            elif self.verbose:
-                                log.warning(
-                                    "not a valid data dataset name: %s" % basename)
-                        log.info(runs)
-                        # need to use the actual ds name for ds for validation
-                        for run, info in runs.items():
-                            name = 'data%d-%s-run%d' % (15, stream, run)
-                            self[name] = Dataset(
-                                name=name,
-                                datatype=DATA,
-                                treename=data_treename,
-                                ds=name,
-                                id=run,
-                                grl=None,
-                                dirs=info['dirs'],
-                                stream=stream,
-                                file_pattern=data_pattern,
-                                year=2015)
-
+                        year=year)
 
 
     def __setitem__(self, name, ds):
