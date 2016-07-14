@@ -31,11 +31,11 @@ mg_ztautau:
     latex: '$Z\rightarrow\tau\tau$'
     root: '#font[52]{Z}#rightarrow#tau#tau'
     samples:
-        - 'MadPy8_Ztt_Np0_e3898_s2608_s2183_r7326_r6282_p2524'
-        - 'MadPy8_Ztt_Np1_e3898_s2608_s2183_r7326_r6282_p2524'
-        - 'MadPy8_Ztt_Np2_e3898_s2608_s2183_r7326_r6282_p2524'
-        - 'MadPy8_Ztt_Np3_e3898_s2608_s2183_r7326_r6282_p2524'
-        - 'MadPy8_Ztt_Np4_e3898_s2608_s2183_r7326_r6282_p2524'
+        - 'MadPy8_Ztt_Np0'
+        - 'MadPy8_Ztt_Np1'
+        - 'MadPy8_Ztt_Np2'
+        - 'MadPy8_Ztt_Np3'
+        - 'MadPy8_Ztt_Np4'
 
 
 
